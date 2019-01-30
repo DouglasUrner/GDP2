@@ -21,6 +21,11 @@
 1. Pair Program - build and test
 1. Create GitHub accounts
 1. Read / analyze Game Lab version that is close to the Unity tutorial
+1. C# vs. JavaScript
+   - Types
+   - Objects
+   - Storage
+   JavaScript was designed to make it writing programs relatively easy, C# was designed to make it easy (well easier) to write *reliable* programs.
 1. Meet Unity
    - Match UI to the layout being used in the tutorial
 1. Commit regularly
