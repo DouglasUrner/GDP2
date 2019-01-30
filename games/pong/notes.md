@@ -26,7 +26,8 @@ JavaScript was designed to make it writing programs relatively easy, C# was desi
    - Types
    - Objects
    - Storage  
-1. Meet Unity
+1. Meet Unity  
+Unity is an *integration tool* for assembling the pieces necessary to create 2D and 3D interactive experiences like games, and also simultators, visualizations (building interiors), etc. To get started we want to become familiar with:
    - Match UI to the layout being used in the tutorial
 1. Commit regularly
 
