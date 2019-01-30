@@ -16,6 +16,14 @@
 ## Stages
 
 0. Design
+   - Identify elements & mechanics
+   - Plan structure of the code - identify little pieces to build and test.
+1. Pair Program - build and test
+1. Create GitHub accounts
+1. Read / analyze Game Lab version that is close to the Unity tutorial
+1. Meet Unity
+   - Match UI to the layout being used in the tutorial
+1. Commit regularly
 
 ## Pong Tutorials
 
