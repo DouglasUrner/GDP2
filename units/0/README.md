@@ -1,5 +1,9 @@
 # Unit 0: Introduction To GDP2
 
+## Resources
+
+[Pong in Game Lab](https://studio.code.org/projects/gamelab/i5ayCSwFe3tINYE-P-peHO0AmZhI3NMWaAsepsRM6SI)
+
 ## Day 1: Course Overview
 
 * Introductions
