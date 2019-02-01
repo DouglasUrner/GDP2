@@ -4,7 +4,7 @@
 
 By this point you alread have a Canvas account and have joined the class. Your job now is to clean up your profile settings and to learn how to turn in an assignment.
 
-[Slides](https://docs.google.com/presentation/d/1spbB4-bNs-KhIUOPYvUkgesD35kexxJEyeQwNuFKWwo/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1spbB4-bNs-KhIUOPYvUkgesD35kexxJEyeQwNuFKWwo/edit?usp=sharing) - right-click and choose **Open link in a new tab** to view.
 
 ### Learning Targets:
 
@@ -14,6 +14,15 @@ By this point you alread have a Canvas account and have joined the class. Your j
 
 ## Instructions
 
-1. 
+1. Follow along in the [slides](https://docs.google.com/presentation/d/1spbB4-bNs-KhIUOPYvUkgesD35kexxJEyeQwNuFKWwo/edit?usp=sharing) to update your Canvas profile and create a bookmark in Chrome for our class.
+1. Make a copy of the **Canvas 101 Template**:
+   - Right-click on the [Canvas 101 Template]()** link and choose **Open link in new tab**.
+   - The template document will open in read-only mode.
+   - In the document **File** menu choose **Make a copy...** (File > Make a copy...)
+   - Rename the document - changing **Copy of** to your name is one possibility.
+1. Complete the questions.
+1. Submit the document to complete the assignment. The first time that you submit a Google Doc you will have to go through the process of approving the connection between Google and Canvas.
 
 ## Submission
+
+Submit a PDF of the Canvas 101 Template.
