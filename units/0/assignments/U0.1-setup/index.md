@@ -12,6 +12,7 @@ By this point you alread have a Canvas account and have joined the class. Your j
 * I can create a bookmark in Chrome.
 * I can make an editable copy of a Google Doc.
 * I can submit an assignment in Canvas.
+* I can correct and resubmit an assignment in Canvas.
 
 ## Instructions
 
@@ -35,3 +36,7 @@ Follow along in the [slides](https://docs.google.com/presentation/d/1spbB4-bNs-K
 ## Submission
 
 Submit a PDF of the Canvas 101 Template.
+
+## Checking Feedback
+
+**[Slides](https://docs.google.com/presentation/d/1y9jbWEt1y7CTD44YNtyjzBZtnxzYQLMYCQABQy6PNUY/edit?usp=sharing)**
