@@ -16,7 +16,7 @@ By this point you alread have a Canvas account and have joined the class. Your j
 
 1. Follow along in the [slides](https://docs.google.com/presentation/d/1spbB4-bNs-KhIUOPYvUkgesD35kexxJEyeQwNuFKWwo/edit?usp=sharing) to update your Canvas profile and create a bookmark in Chrome for our class.
 1. Make a copy of the **Canvas 101 Template**:
-   - Right-click on the [Canvas 101 Template]()** link and choose **Open link in new tab**.
+   - Right-click on the **[Canvas 101 Template](https://docs.google.com/document/d/1caYrcNryLzI96mPzDU2imeCsXr9jOfTgvzzbSuyXGVQ/edit?usp=sharing)** link and choose **Open link in new tab**.
    - The template document will open in read-only mode.
    - In the document **File** menu choose **Make a copy...** (File > Make a copy...)
    - Rename the document - changing **Copy of** to your name is one possibility.
