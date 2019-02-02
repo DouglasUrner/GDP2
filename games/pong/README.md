@@ -27,7 +27,7 @@
 * Implementing the mechanics:
   - Move paddles
     - Prevent from leaving screen
-  - Move the balls
+  - Move the ball
   - Bounce the ball off of the paddles
   - Bounce the ball off of the walls
   - Score when ball hits back walls
