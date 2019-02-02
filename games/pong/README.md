@@ -40,7 +40,7 @@
 
 ### Lesson on development tools & the Game Lab game engine model
 
-### Differences betweend JavaScript & C#
+### Differences between JavaScript & C#
 
 JavaScript was designed to make it writing programs relatively easy, C# was designed to make it easy (well easier) to write *reliable* and *maintainable* (easier to read and change) programs. Some of the differences between C# and JavaScript are:
 * Types
