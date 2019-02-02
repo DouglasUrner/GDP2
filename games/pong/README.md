@@ -13,7 +13,27 @@
 * Pair programming
 * Note taking
 
-## Stages
+## Stages (and assignments)
+
+### Design & Planning
+
+* Identify the elements & mechanics of the game.
+* Instantiate the elements:
+  - Background
+  - Paddles
+  - Ball
+  - Boundaries
+  - Display the score
+* Implementing the mechanics:
+  - Move paddles
+    - Prevent from leaving screen
+  - Move the balls
+  - Bounce the ball off of the paddles
+  - Bounce the ball off of the walls
+  - Score when ball hits back walls
+  - Start game / end game / restart game
+
+### Pair Programming in Game Lab (JavaScript)
 
 0. Design
    - Identify elements & mechanics
