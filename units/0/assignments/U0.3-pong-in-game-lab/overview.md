@@ -26,8 +26,8 @@ The project is broken into three phases:
 
 [pigl-1]: https://canvas.instructure.com/courses/1405044/assignments/10679723
 [pigl-2]: https://canvas.instructure.com/courses/1405044/assignments/10645687
-[pigl-3]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964398
-[pigl-4]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964401
+[pigl-3]: https://canvas.instructure.com/courses/1405044/assignments/10645732
+[pigl-4]: https://canvas.instructure.com/courses/1405044/assignments/10645734
 
 [gamelab]: https://code.org/educate/gamelab
 [pong]: https://en.wikipedia.org/wiki/Pong
