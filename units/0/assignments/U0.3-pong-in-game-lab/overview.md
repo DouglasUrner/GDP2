@@ -16,12 +16,18 @@ The project is broken into three phases:
 ### Learning Targets:
 
 * I can explain the practice of "pair programming."
-* I can 
+* I can explain the concept of "abstraction" as it is used in computer science.
+* I can explain what computer scientists mean by the term "algorithm."
+* I can break a large problem into smaller component parts.
+* I can construct an algorithm using the building blocks of:
+  - Sequencing (arranging steps in order)
+  - Selection (choosing which branch of code to follow)
+  - Iteration (looping over a set of instructions)
 
 [pigl-1]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=22037052
-[pigl-2]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=22037052
-[pigl-3]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=22037052
-[pigl-4]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=22037052
+[pigl-2]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964130
+[pigl-3]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964398
+[pigl-4]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964401
 
 [gamelab]: https://code.org/educate/gamelab
 [pong]: https://en.wikipedia.org/wiki/Pong
