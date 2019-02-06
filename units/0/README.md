@@ -4,6 +4,13 @@
 
 [Pong in Game Lab](https://studio.code.org/projects/gamelab/i5ayCSwFe3tINYE-P-peHO0AmZhI3NMWaAsepsRM6SI)
 
+## Assignments
+
+**[U0.0: Notebook]()**  
+**[U0.1: Canvas Account Setup]()**  
+**[U0.2: First Canvas Submission]()**  
+**[U0.3: Pong In Game Lab]()**  
+
 ## Day 1: Course Overview
 
 * Introductions
