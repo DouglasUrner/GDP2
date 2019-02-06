@@ -24,8 +24,8 @@ The project is broken into three phases:
   - Selection (choosing which branch of code to follow)
   - Iteration (looping over a set of instructions)
 
-[pigl-1]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=22037052
-[pigl-2]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964130
+[pigl-1]: https://canvas.instructure.com/courses/1405044/assignments/10679723
+[pigl-2]: https://canvas.instructure.com/courses/1405044/assignments/10645687
 [pigl-3]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964398
 [pigl-4]: https://canvas.instructure.com/courses/1405044/assignments/10679723?module_item_id=21964401
 
