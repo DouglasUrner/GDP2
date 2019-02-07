@@ -4,7 +4,7 @@
 
 ## Recreating Pong in Game Lab
 
-![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg)
+![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg){:width="200"}
 
 We're going to get started by designing and building a faithful recreation of the clasic arcade game [Pong][pong] in [Game Lab][gamelab] - this will serve as a review and will help make sure that we have a shared piece of code to refer to when we move on to C# and Unity.
 
