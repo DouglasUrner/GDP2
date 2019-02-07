@@ -62,3 +62,7 @@ Unity is an *integration tool* for assembling the pieces necessary to create 2D 
 ## Pong Tutorials
 
 [Let's Make: Pong](https://www.awesomeincu.com/tutorials/unity-pong/) - for Unity 2018 or later
+
+## Pong History
+
+[Wired: THE INSIDE STORY OF PONG AND THE EARLY DAYS OF ATARI](https://www.wired.com/story/inside-story-of-pong-excerpt/)
