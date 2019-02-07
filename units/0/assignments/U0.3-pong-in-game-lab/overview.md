@@ -1,8 +1,18 @@
 [//]: # (<p><iframe src="https://douglasurner.github.io/GDP2/units/0/assignments/U0.2-pong-in-game-lab/" width="100%" height="666px"></iframe></p>)
 
+[helloid]: https://helloid.skschools.org
+
 ## Recreating Pong in Game Lab
 
 We're going to get started by designing and building a faithful recreation of the clasic arcade game [Pong][pong] in [Game Lab][gamelab] - this will serve as a review and will help make sure that we have a shared piece of code to refer to when we move on to C# and Unity.
+
+If you haven't worked in Game Lab before, you'll need to set up an account. It's easy:
+
+1. Go to the [HelloID portal][helloid] (right-click on the link or type in the URL helloid.skschools.org).
+1. Find the Code.org button and click on it.
+1. Accept the terms of service and privacy policy.
+1. On the Code.org dashboard, click on the Projects button in the navigation bar.
+1. In the projects view, select Game Lab - you may also want to bookmark the Projects page.
 
 The project is broken into three phases:
 
