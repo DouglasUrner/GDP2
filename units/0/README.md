@@ -1,4 +1,4 @@
-# Unit 0: Introduction To GDP2
+# Unit 0: Getting Started
 
 ## Resources
 
