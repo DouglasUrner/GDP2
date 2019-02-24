@@ -6,6 +6,6 @@
 
 [How to Setup GitHub with Unity: Step-by-Step Instructions](https://www.studica.com/blog/how-to-setup-github-with-unity-step-by-step-instructions) - October, 2015 / Unity
 
-[How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) - asked 2013, active 2018.
+[How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) - asked 2013, active 2018 - good general information and a lot of links.
 
 [Creating Your First Source Control Repository](https://unity3d.com/learn/tutorials/topics/cloud-build/creating-your-first-source-control-repository) - / Unity 5 - out of date.
