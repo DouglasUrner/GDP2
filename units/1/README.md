@@ -2,10 +2,10 @@
 
 ## Setting Up A Toolchain
 
-### Unity
+### Unity - Game Engine & Editor
 
-### Rider
+### Rider - Text Editor (and debugger) for C#
 
-### Git & GitHub
+### Git & GitHub - Revision Control & Collaboration Tools
 
-### [Piskle](https://www.piskelapp.com)
+### [Piskle](https://www.piskelapp.com) - 2-D Sprite Editor
