@@ -1,6 +1,6 @@
 # Using Git & GitHub With Unity
 
-[GitHub for Unity editor extension](https://unity.github.com)
+[GitHub for Unity](https://unity.github.com) - Unity editor extension, source is [hosted on GitHub](https://github.com/github-for-unity/Unity).
 
 [A Method for Working with Shared Code with Unity and Git](http://prime31.github.io/A-Method-for-Working-with-Shared-Code-with-Unity-and-Git/) - December 2017 (ish) - using submodules, the author has a project on GitHub called [StateKit](https://github.com/prime31/StateKit) that implements a state machine for Unity. Also see [unity3d and git submodules is it possible?](https://stackoverflow.com/questions/24899296/unity3d-and-git-submodules-is-it-possible) on StackOverflow.
 
