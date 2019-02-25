@@ -2,12 +2,9 @@
 
 ## Rider
 
-[slides]: 
-[template]: 
+[slides]: https://docs.google.com/presentation/d/1tKVFne5GZ6Y-WA_-dvPX350sgsouphlfWT2Nohj8cp4/edit?usp=sharing
 
-
-
-[Slides: SLIDE DECK TITLE][slides] - right-click and choose **Open link in a new tab** to view.
+[Slides: **Toolchain: Rider**][slides] - right-click and choose **Open link in a new tab** to view.
 
 ### Learning Targets:
 
