@@ -19,7 +19,7 @@ The first step in setting up our toolchain will be Unity.
 
 ### On School Computers
 
-Unity is installed on our lab computers. Follow along with the slides to:
+Unity is installed on our lab computers. Follow along with the [slides][] to:
 
 1. Create a Unity ID.
 1. Set the default folder where your Unity projects are saved.
