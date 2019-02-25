@@ -12,3 +12,5 @@ Our toolchain consists of four big components:
 1. **Piskel** - Piskel is the sprite editor that you used with Game Lab. It is also available as a web application.
 
 First we will get all of these tools set up and working together here in the lab. All of them are available for "free" for student use, so you can also install them at home as well.
+
+Let's get started!
