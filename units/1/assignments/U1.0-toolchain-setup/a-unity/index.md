@@ -3,7 +3,7 @@
 ## Toolchain: Unity
 
 [slides]: https://docs.google.com/presentation/d/11rmWFCAxk_sEiLdIEvhSGuW5QFodw8ZB68lq56WcsSo/edit?usp=sharing
-[template]: 
+[template]: https://docs.google.com/document/d/1lqeAFuXUtwDdQw-GJHnAvuFEi65oWSo7sGXG59BokT8/edit?usp=sharing
 
 The first step in setting up our toolchain will be Unity.
 
