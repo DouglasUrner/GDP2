@@ -4,6 +4,8 @@
 
 ### Noobtuts: [Unity 2D Pong Game](https://noobtuts.com/unity/2d-pong-game)
 
+This is the place to start - the game implementation is simple (just 38 lines of code) and the tutorial starts with the fundamentals of working with Unity.
+
 ### Awesome Inc U: [Make A Pong Game With Unity 2D](https://www.awesomeincu.com/tutorials/unity-pong/)
 
 Tested with Unity 2018.1.
