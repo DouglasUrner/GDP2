@@ -3,6 +3,7 @@
 ## Rider
 
 [slides]: https://docs.google.com/presentation/d/1tKVFne5GZ6Y-WA_-dvPX350sgsouphlfWT2Nohj8cp4/edit?usp=sharing
+[template]: https://docs.google.com/document/d/1rSh-9fVv0hjAC6GGNZE24jzLBnzFMJeqAgSeRHoUg28/edit?usp=sharing
 
 [Slides: **Toolchain: Rider**][slides] - right-click and choose **Open link in a new tab** to view.
 
