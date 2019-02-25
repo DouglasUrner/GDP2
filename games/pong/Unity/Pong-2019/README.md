@@ -6,6 +6,8 @@
 
 ### Awesome Inc U: [Make A Pong Game With Unity 2D](https://www.awesomeincu.com/tutorials/unity-pong/)
 
+Tested with Unity 2018.1.
+
 ### Vincent Quarles: Building a Pong Clone in Unity
 
 This one is in two parts:
