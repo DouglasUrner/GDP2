@@ -4,6 +4,7 @@
 ### And just a bit of C#
 
 [slides]: https://docs.google.com/presentation/d/1tKVFne5GZ6Y-WA_-dvPX350sgsouphlfWT2Nohj8cp4/edit?usp=sharing
+[slides2]: https://docs.google.com/presentation/d/1vcGLpkiYQ6l3BNKaKWcirgetFKL3wseDwTjpADdR7ls/edit?usp=sharing
 [template]: https://docs.google.com/document/d/1rSh-9fVv0hjAC6GGNZE24jzLBnzFMJeqAgSeRHoUg28/edit?usp=sharing
 
 Rider is the *text editor* that we will be using to edit the C# *scripts* that give our games "life."
@@ -31,7 +32,7 @@ You can download a 30-day trial of Rider at home, you can also request a free st
 
 1. Using the icon on your desktop, launch Rider.
 1. Follow along in the [slides][] to get Rider set up.
-1. Create and test the Paddle script.
+1. Create and test the Paddle script. The slides are here: [First Look at C#][slides2]
 
 ## Submission
 
