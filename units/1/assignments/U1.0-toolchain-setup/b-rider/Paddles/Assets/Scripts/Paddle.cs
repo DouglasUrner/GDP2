@@ -24,10 +24,9 @@ public class Paddle : MonoBehaviour
     {
     }
 
-// Update is called once per frame
-    private void Update()
-    {
-        var v = Input.GetAxisRaw(Axis);
-        GetComponent<Rigidbody2D>().velocity = new Vector2(0, v) * Speed;
-    }
+	// Update is called once per frame
+	void Update() {
+		var y = Input.GetAxisRaw(Axis);
+		GetComponent<Rigidbody2D>().velocity = new Vector2(0, y * Speed);
+	}
 }
