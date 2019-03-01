@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3592130965049756612}
   - component: {fileID: 3507760307780564748}
   - component: {fileID: 2142509634261775467}
+  - component: {fileID: 4371952104410432017}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -99,3 +100,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4371952104410432017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558367839992443736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c2853510b2846b2b518ca6c2ce8ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Axis: Select Input system axis.
+  Speed: 10
