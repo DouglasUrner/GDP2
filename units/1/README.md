@@ -4,8 +4,21 @@
 
 ### Unity - Game Engine & Editor
 
+Tasks:
+* Startup and setup account.
+* Set the external editor.
+* Set the play tint.
+* Start a project.
+  - Set the default location.
+  - Choose template.
+* Create paddle prefab.
+  - As a 3D cube
+  - As a 2D sprite
+* Instantiate and position two paddles.
+
 Introduce:
 * Starting a project
+  - Location
   - 2D vs. 3D
 * UI elements / Unity window layouts and panes.
   - Panes:
