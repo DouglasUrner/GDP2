@@ -56,6 +56,15 @@ Introduce:
 
 ### Rider - Text Editor (and debugger) for C#
 
+Tasks:
+* First launch and connect to license server and select options
+* Create a Unity script
+* Attach the script to a game object
+
+Introduce:
+* Conventions
+  - File name and class name must match
+
 ### Git & GitHub - Revision Control & Collaboration Tools
 
 ### [Piskle](https://www.piskelapp.com) - 2-D Sprite Editor
