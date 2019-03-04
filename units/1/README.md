@@ -6,6 +6,7 @@
 
 Introduce:
 * Starting a project
+  - 2D vs. 3D
 * UI elements / Unity window layouts and panes.
   - Panes:
     - Hierarchy
@@ -18,7 +19,18 @@ Introduce:
   - Customizing layouts
   - Play controls
 * Game Objects
+  - Create:
+    - Sprite
+    - 3D objects (box, etc.).
+    - From prefab
+  - Edit:
+    - Set name
+    - Transform
+  - Camera
 * Components
+  - Introduce:
+    - Colliders
+    - Rigidbodies
   - Add
   - Remove
   - Set properties
