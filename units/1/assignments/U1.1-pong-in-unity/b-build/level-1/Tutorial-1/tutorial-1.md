@@ -1,8 +1,10 @@
 # Pong in Unity - Tutorial 1: Building the prototype
 
 ## 1: Create A New Project In Unity
-1. Launch Unity, you will see the launch dialog.
+1. Launch Unity, you will see the launch dialog:
 ![Unity launch dialog, showing Learn tab](assets/001.png)
+1. Click on the **New** button. The new project dialog will open with defaults filled in. You will need to change them:
+![Unity new project defaults](assets/002.png)
 1. New project
    - Name
    - Location
