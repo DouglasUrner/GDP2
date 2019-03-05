@@ -15,9 +15,15 @@
 !README*
 
 # But do ignore these:
+
+# Unity
 #
+*.meta
+
 # macOS
+#
 .DS_Store
+
 # The JetBrains Rider plugin breaks things on
 # machines without Rider installed.
 #
