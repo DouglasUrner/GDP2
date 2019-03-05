@@ -39,7 +39,7 @@ The Unity **[Toolbar](https://docs.unity3d.com/Manual/Toolbar.html)** provides a
 * ![](assets/Editor-PlayButtons.png) - Play Buttons 
 * ![](assets/Editor-LayoutDropDown.png) - Layout Drop Down menu for managing the arrangement of the Unity UI elements.
 
-![Cropped view of the Unity toolbar](assets/005.png)
+![Cropped view of the Unity toolbar](assets/006.png)
    
 ### Menus
 
