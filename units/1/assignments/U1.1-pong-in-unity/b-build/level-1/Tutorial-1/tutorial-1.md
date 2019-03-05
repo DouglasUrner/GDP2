@@ -61,8 +61,10 @@ The Unity UI is divided into several panes, each of the panes is numbered to cor
 1. **[Hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html)** - the Hierarchy pane displays a list of all of the game objects in your project. You can see the "family" (parent-child, sibling) relationships of game objects in the Hierarchy pane. When you add a game object by dragging it to the Hierarchy view, its transform is set to the origin. 
 1. **[Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html)** - the Scene view pane provides a graphical display of the game objects in your project. When you add a game object by dragging it to the Scene view, its transform is set to the location where you dropped it. 
 1. **[Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html)** - the Inspector pane displays the *components* and *properties* of the selected game object. You select a game object by clicking on it in the Hierarchy or Scene views. 
-1. **[Project](https://docs.unity3d.com/Manual/ProjectView.html)** & **[Console](https://docs.unity3d.com/Manual/Console.html)** - the Project pane is a view of files that make up your project. You can manage them directly in the Project pane. The Console pane shows messages from Unity: compiler errors, run-time messages from calls to **[Debug.Log()](https://docs.unity3d.com/ScriptReference/Debug.Log.html)**.
+1. **[Project][]** & **[Console](https://docs.unity3d.com/Manual/Console.html)** - the Project pane is a view of files that make up your project. You can manage them directly in the Project pane. The Console pane shows messages from Unity: compiler errors, run-time messages from calls to **[Debug.Log()](https://docs.unity3d.com/ScriptReference/Debug.Log.html)**.
 1. **[Game](https://docs.unity3d.com/Manual/GameView.html)** - the Game view pane is where you test your game.
+
+[project]: https://docs.unity3d.com/Manual/ProjectView.html
    
 ### Controls
 
@@ -126,11 +128,23 @@ Even on a small project it can help to have your assets well organized, for big 
 ![](assets/4-CreateFolders-2.png)
 ![](assets/4-CreateFolders-3.png)
 
-1. Create folders:
-   - Sprites
-   - Scripts
-1. Download Paddle and Ball images
-   - Save to Sprites folder
+That's one way to create a folder in the Project pane. There are two more ways. To create the Scripts folder we'll use the Project pane's **Create** drop-down:
+
+1. Note that creating a folder leaves it selected.
+1. Select the **Assets** folder again - we don't want to create our **Scripts** folder in the **Sprites** folder. Not that it hasn't been done…
+1. Click on the **Create** drop-down menu just above the **Assets** folder in the Project pane.
+1. Select **Folder**.
+1. Rename the new folder from **New Folder** to **Scripts.**
+
+![](assets/4-CreateFolders-4.png)
+
+When you are done, the Project pane should look like this.
+
+![](assets/4-CreateFolders-5.png)
+
+The third way to create a folder in Unity is from the **Assets** menu on the menubar. Useful if you forget the other methods, but otherwise I find it too cumbersome for regular use.
+
+### Download Paddle and Ball images
 
 ## 5: Paddles
 1. Create a paddle by dragging the Paddle sprite into the Scene view - notice that the transform gets set to the location where you drop the sprite.
