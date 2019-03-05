@@ -51,7 +51,13 @@ Once you have your workspace customized, save your layout.
    
 ### Menus
 
-1. Menus
+Unity's **menu bar** at the top of the Unity window gives you access to most Unity commands without needing to know their keyboard shortcuts. Some of the menus are probably familiar to you - but some, for example **Assets, Game Objects,** and **Components** are probably not. Take some time to check them out as you could use them to create all of the elements that you add to your game.
+
+Because you use those functions so often, Unity has multiple ways to access them. In addition to the menu bar, you can also:
+
+* **Right-click** in a pane to get a context menu.
+* Use the **Create** drop-down menu in the Project and Hierarchy panes.
+* Use the **Add Component** button in the Inspector.
 
 ## 3: Game Assets
 1. Create folders:
