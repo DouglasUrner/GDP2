@@ -52,8 +52,11 @@ Rules for naming scripts:
 1. Create Paddle script
    - Make sure it is in Script folder - or move it there.
 1. Attach the script to the Paddle prefab.
+1. Test.
+
+### Moving the paddles
    
-## 6: Ball
+## 7: Ball
 1. Drag Ball sprite to Hierarchy
    - Make it a prefab
    - Add tag (be sure it goes on the prefab)
@@ -62,7 +65,7 @@ Rules for naming scripts:
      - Drag to Physics 2D component
    - Add BallController script
 
-## 7: Edges
+## 8: Edges
 1. Create empty game object - Edges
    - Reset transform
    - Create an empty child, name it Top
