@@ -33,8 +33,13 @@ The Unity UI is divided into several panes, each of the panes is numbered to cor
    
 ### Controls
 
-1. Controls
-   - Play
+The Unity **[Toolbar](https://docs.unity3d.com/Manual/Toolbar.html)** provides access to some commonly used controlls, including:
+
+* ![](assets/Editor-TransformTools.png) - Transform Tools to control how the Scene view works.
+* ![](assets/Editor-PlayButtons.png) - Play Buttons 
+* ![](assets/Editor-LayoutDropDown.png) - Layout Drop Down menu for managing the arrangement of the Unity UI elements.
+
+![Cropped view of the Unity toolbar](assets/005.png)
    
 ### Menus
 
