@@ -153,8 +153,8 @@ The only sprites we *need* for Pong are a white circle and a white square. You c
 * **[Circle][]**
 * **[Square][]**
 
-[circle]: assets/Circle.png
-[square]: assets/Square.png
+[circle]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Circle.png
+[square]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Square.png
 
 ## 5: Paddles
 1. Create a paddle by dragging the Paddle sprite into the Scene view - notice that the transform gets set to the location where you drop the sprite.
