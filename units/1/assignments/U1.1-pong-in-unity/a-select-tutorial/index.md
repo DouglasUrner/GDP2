@@ -4,7 +4,7 @@
 
 The three Pong tutorials on the [project overview page][overview] offer a range of approaches to building a Pong clone in Unity. They also offer a choice of the level of challenge for this project. Your first step is to decide which one is right for you.
 
-[overview]: 
+[overview]: https://canvas.instructure.com/courses/1405044/pages/u1-dot-1-pong-in-unity?module_item_id=22288150
 [template]: https://docs.google.com/document/d/1HCI6z6Q-gV25jO3Xu5_A9NlePL50yFppzVE5rM1vqU8/edit?usp=sharing
 
 ### Learning Targets:
