@@ -2,12 +2,14 @@
 
 ![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg)
 
-This is the first of a four part series of tutorials for building your own version of the classic arcade game [Pong][] in [Unity][]. The examples use the [JetBrains Rider IDE][rider] for editing Unity's [C#][] scripts, but you can use any editor that you prefer. The tutorials build on each other, so it makes sense for everyone to start at the beginning.
+This is the first of a four part series of tutorials for building your own version of the classic arcade game [Pong][] in [Unity][].
 
-* Tutorial 1: build a prototype that lets you test and tune the core mechanic of the game.
-* [Tutorial 2][tutorial2]: turn the tutorial into a playable game with scoring and a restart button.
+* Tutorial 1: build a prototype to test and tune the core mechanic of the game.
+* [Tutorial 2][tutorial2]: turn the prototype into a playable game with scoring and a restart button.
 * [Tutorial 3][tutorial3]:
 * [Tutorial 4][tutorial4]:
+
+The examples use the [JetBrains Rider IDE][rider] for editing Unity's [C#][] scripts, but you can use any editor that you prefer. The tutorials build on each other, so it makes sense for everyone to start at the beginning.
 
 [pong]: https://en.wikipedia.org/wiki/Pong
 [unity]: #
