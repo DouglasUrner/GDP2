@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Paddle : MonoBehaviour
+public class PaddleController : MonoBehaviour
 {
   public KeyCode moveUp = KeyCode.W;
 public KeyCode moveDown = KeyCode.S;
