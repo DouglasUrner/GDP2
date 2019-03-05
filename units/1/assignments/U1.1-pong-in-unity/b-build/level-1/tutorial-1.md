@@ -40,8 +40,17 @@
 1. Test
 1. Adjust Rigidbody2D settings
    - Set gravity to 0
+   
+## 6: The Paddle Script
+There are a number of ways to create a script.
+
+Rules for naming scripts:
+* Capitalize the file name.
+* No spaces.
+* Check that the file name **exactly** matches the class name.
+
 1. Create Paddle script
-   - Make sure it is in Script folder
+   - Make sure it is in Script folder - or move it there.
 1. Attach the script to the Paddle prefab.
    
 ## 6: Ball
