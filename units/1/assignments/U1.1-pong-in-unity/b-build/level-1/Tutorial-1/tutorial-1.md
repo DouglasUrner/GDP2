@@ -1,20 +1,43 @@
-# Pong in Unity - Tutorial 1: Building the prototype
+# Pong in Unity - Tutorial 1: Building a prototype
 
-## 1: Creating A New Project In Unity
-1. New project
-   - Name
-   - Location
-   - Template
+## 1: Create A New Project In Unity
+1. Launch Unity, you will see the launch dialog:
+![Unity launch dialog, showing Learn tab](assets/001.png)
+1. Click on the **New** button. The new project dialog will open with defaults filled in. You will need to change them:
+![Unity new project defaults](assets/002.png)
+1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your settings should be similar to these:
+   - Name: **Pong**
+   - Location: **U:\Game Design 2\Games**
+   - Template: **2D**
 
-## 2: The Unity UI
-1. UI elements
-   - Project pane
-   - Hierarchy pane
-   - Scene pane
-   - Inspector pane
-   - Game pane
+   If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
+![Unity new project settings](assets/003.png)
+
+## 2: The Unity UI (User Interface)
+
+When Unity opens, the display will look something like this screen capture:
+![Unity UI](assets/004.png)
+The layout of the Unity UI is customizable, so don't worry if what you see looks different. Tutorials, especially video tutorials are easier to follow if your UI layout matches the tutorial, so the first thing we will do is explore the UI and learn how to adjust the layout.
+
+### Major UI Elements
+
+The Unity UI is divided into several panes, each of the panes is numbered to correspond with its description. Each of the panes serves a different purpose. Read the descriptions of each of the panes and find the panes on your computer.
+
+![Unity UI](assets/004-annotated.png)
+
+1. Hierarchy
+1. Scene
+1. Inspector
+1. Project & Console
+1. Game
+   
+### Controls
+
 1. Controls
    - Play
+   
+### Menus
+
 1. Menus
 
 ## 3: Game Assets
