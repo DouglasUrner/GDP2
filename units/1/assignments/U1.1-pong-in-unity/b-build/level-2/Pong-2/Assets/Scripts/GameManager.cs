@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public static void Score(string wallID) {
-		if (wallID == "RightWall") {
+		if (wallID == "Right") {
 			PlayerScore1++;
 		} else {
 			PlayerScore2++;
