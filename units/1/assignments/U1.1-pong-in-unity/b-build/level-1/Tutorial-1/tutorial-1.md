@@ -17,15 +17,27 @@
 
 When Unity opens, the display will look something like this screen capture:
 ![Unity UI](assets/004.png)
+The layout of the Unity UI is customizable, so don't worry if what you see looks different. Tutorials, especially video tutorials are easier to follow if your UI layout matches the tutorial, so the first thing we will do is explore the UI and learn how to adjust the layout.
 
-1. UI elements
-   - Project pane
-   - Hierarchy pane
-   - Scene pane
-   - Inspector pane
-   - Game pane
+### Major UI Elements
+
+The Unity UI is divided into several panes, each of the panes is numbered to correspond with its description. Each of the panes serves a different purpose. Read the descriptions of each of the panes and find the panes on your computer.
+
+![Unity UI](assets/004-annotated.png)
+
+1. Hierarchy
+1. Scene
+1. Inspector
+1. Project & Console
+1. Game
+   
+### Controls
+
 1. Controls
    - Play
+   
+### Menus
+
 1. Menus
 
 ## 3: Game Assets
