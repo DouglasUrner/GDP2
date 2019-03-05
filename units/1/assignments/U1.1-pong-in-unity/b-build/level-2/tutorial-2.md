@@ -21,7 +21,7 @@
 ## 3: Ball
 1. Add ball
    - Make it a prefab
-   - Add tab (be sure it goes on the prefab)
+   - Add tag (be sure it goes on the prefab)
    - Adjust scale (0.5, 0.5)
    - Create and add Physics 2D material
      - Drag to Physics 2D component
