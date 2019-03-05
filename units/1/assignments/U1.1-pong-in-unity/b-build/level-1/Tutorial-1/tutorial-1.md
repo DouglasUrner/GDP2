@@ -1,5 +1,20 @@
 # Pong in Unity - Tutorial 1: Building a prototype
 
+This is the first of a four part series of tutorials for building your own version of the classic arcade game Pong in Unity. The examples use the JetBrains Rider IDE for editing Unity's C# scripts, but you can use any editor that you prefer. The tutorials build on each other, so it makes sense for everyone to start at the beginning.
+
+* Tutorial 1: build a prototype that lets you test and tune the core mechanic of the game.
+* [Tutorial 2][tutorial2]: turn the tutorial into a playable game with scoring and a restart button.
+* [Tutorial 3][tutorial3]:
+* [Tutorial 4][tutorial4]:
+
+[tutorial2]: #
+[tutorial3]: #
+[tutorial4]: #
+
+Inspriration comes from a number of Pong in Unity tutorials, including:
+
+
+
 ## 1: Create A New Project In Unity
 1. Launch Unity, you will see the launch dialog:
 ![Unity launch dialog, showing Learn tab](assets/001.png)
@@ -13,7 +28,7 @@
    If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png)
 
-## 2: The Unity UI (User Interface)
+## 2: Learn Your Way Around The Unity UI (User Interface)
 
 When Unity opens, the display will look something like this screen capture:
 ![Unity UI](assets/004.png)
