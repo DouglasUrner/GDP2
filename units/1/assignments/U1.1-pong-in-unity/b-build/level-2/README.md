@@ -7,4 +7,4 @@ This tutorial builds on [Tutorial 1][tutorial1] adding:
 * More sophisticated ball-to-paddle interactions.
 * A new "serve" after each point.
 
-[tutorial1]: 
+[tutorial1]: ../level-1/tutorial-1
