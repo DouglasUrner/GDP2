@@ -7,6 +7,15 @@
    - Template
 
 ## 2: The Unity UI
+1. UI elements
+   - Project pane
+   - Hierarchy pane
+   - Scene pane
+   - Inspector pane
+   - Game pane
+1. Controls
+   - Play
+1. Menus
 
 ## 3: Game Assets
 1. Create folders:
