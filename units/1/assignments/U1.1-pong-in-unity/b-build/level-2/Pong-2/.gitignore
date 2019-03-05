@@ -28,3 +28,7 @@
 # machines without Rider installed.
 #
 *Assets/Plugins/Editor/JetBrains*
+
+# vi et al
+#
+*.swp
