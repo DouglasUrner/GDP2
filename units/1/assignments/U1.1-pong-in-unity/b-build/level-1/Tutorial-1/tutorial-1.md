@@ -92,17 +92,45 @@ Because you use those functions so often, Unity has multiple ways to access them
 * Use the **Create** drop-down menu in the Project and Hierarchy panes.
 * Use the **Add Component** button in the Inspector.
 
-## 3: Game Assets
+That's enough for now. Let's start building the game.
+
+## 3: Make A Plan
+
+* Collect our assets
+* Paddles
+* The Ball
+* Edges
+
+## 4: Collect & Organize the Game Assets
+
+Take a look at the [Project pane][project], it provides you with a "tidy" view of the files that define your project. It should look like the example below:
+
+![](assets/4-ProjectPaneDetail-1C.png)
+
+If it does not, but looks like this one instead, you missed the part about changing the Project pane to **1 Column Layout** - you want to do this, it makes it much easier to navigate.
+
+![](assets/4-ProjectPaneDetail-2C.png)
+
+Ok, let's go:
+
+### Create a Sprites and a Scripts folder
+
+Even on a small project it can help to have your assets well organized, for big projects it is essential. We know that we are going to be adding sprites and creating scripts. Let's make folders for them:
+
+1. Click on the **Assets** folder to select it.
+1. Right-click to bring up the Project pane context menu.
+1. Select **Create** at the top of the menu, then left-click on **Folder** on the resulting fly-out menu.
+1. Rename the new folder from **New Folder** to **Sprites.**
+
+![](assets/4-CreateFolders-1.png)
+![](assets/4-CreateFolders-2.png)
+![](assets/4-CreateFolders-3.png)
+
 1. Create folders:
    - Sprites
    - Scripts
 1. Download Paddle and Ball images
    - Save to Sprites folder
-
-## 4: The Camera
-1. Test
-1. Adjust camera
-1. Test
 
 ## 5: Paddles
 1. Create a paddle by dragging the Paddle sprite into the Scene view - notice that the transform gets set to the location where you drop the sprite.
@@ -142,7 +170,7 @@ Rules for naming scripts:
 
 ### Moving the paddles
    
-## 7: Ball
+## 7: The Ball
 1. Drag Ball sprite to Hierarchy
    - Make it a prefab
    - Add tag (be sure it goes on the prefab)
