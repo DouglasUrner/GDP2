@@ -8,7 +8,8 @@
 1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your settings should be similar to these:
   - Name: **Pong**
   - Location: **U:\Game Design 2\Games**
-  - Template: **2D**  
+  - Template: **2D**
+
 If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png)
 
