@@ -1,3 +1,4 @@
+## 1: Setup
 1. New project
 1. Add assets
    - Download
@@ -35,3 +36,10 @@
    - Position collider with transform
    - Duplicate three times, Right, Bottom, Left (or N, E, S, W)
 1. Test
+
+## 5: Scoring
+1. Create empty game object
+   - Reset transform
+   - Name it HUD
+1. Game Manager Script
+1. Skin
