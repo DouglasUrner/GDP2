@@ -35,11 +35,19 @@ The Unity UI is divided into several panes, each of the panes is numbered to cor
 
 The Unity **[Toolbar](https://docs.unity3d.com/Manual/Toolbar.html)** provides access to some commonly used controlls, including:
 
-* ![](assets/Editor-TransformTools-small.png) - Transform Tools to control how the Scene view works.
-* ![](assets/Editor-PlayButtons.png) - Play Buttons 
-* ![](assets/Editor-LayoutDropDown.png) - Layout Drop Down menu for managing the arrangement of the Unity UI elements.
+* ![](assets/Editor-TransformTools-small.png) - Transform Tools to scale and move game objects in the Scene view.
+* ![](assets/Editor-PlayButtons.png) - Play Buttons allow switching between Unity's Edit and Play (testing) modes.
+* ![](assets/Editor-LayoutDropDown.png) - Layout Drop Down menu for [customizing your workspace][customizing].
+
+[customizing]: https://docs.unity3d.com/2018.3/Documentation/Manual/CustomizingYourWorkspace.html
 
 ![Cropped view of the Unity toolbar](assets/006.png)
+
+#### Configure Your Workspace
+
+Before you go on, take some time read the section of the [Unity Manual]() on [Customizing Your Workspace][customizing] and set up your workspace to match the example above. This will make it easier to follow these tutorials. If you are planning to use a different tutorial, you may prefer to use its workspace layout as your model.
+
+Once you have your workspace customized, save your layout.
    
 ### Menus
 
