@@ -1,4 +1,4 @@
-# Pong in Unity - Tutorial 1: Building the prototype
+# Pong in Unity - Tutorial 1: Building a prototype
 
 ## 1: Create A New Project In Unity
 1. Launch Unity, you will see the launch dialog:
@@ -13,7 +13,11 @@
    If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png)
 
-## 2: The Unity UI
+## 2: The Unity UI (User Interface)
+
+When Unity opens, the display will look something like this screen capture:
+![Unity UI](assets/004.png)
+
 1. UI elements
    - Project pane
    - Hierarchy pane
