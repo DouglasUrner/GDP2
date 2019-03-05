@@ -138,13 +138,23 @@ That's one way to create a folder in the Project pane. There are two more ways. 
 
 ![](assets/4-CreateFolders-4.png)
 
-When you are done, the Project pane should look like this.
+When you are done, the Project pane should look like this. The absence of *reveal triangles* to the left of the **Scripts** and **Sprites** folders tells you that they are currently empty.
 
 ![](assets/4-CreateFolders-5.png)
 
 The third way to create a folder in Unity is from the **Assets** menu on the menubar. Useful if you forget the other methods, but otherwise I find it too cumbersome for regular use.
 
 ### Download Paddle and Ball images
+
+Our sprites will start off as simple images in **P**ortable **N**etwork **G**raphics (PNG) format. We could also use JPEG images, but PNGs have the advantage of supporting transparency. Use PNGs. Most image editing software can save images in PNG format (and also export images from other formats to PNG).
+
+The only sprites we *need* for Pong are a white circle and a white square. You could easily create them yourself in Photoshop or Piskel or any other image editor, or you can download them from here - since they are white, and the page background is white, they are not much to look at. Use these links to download the **Circle** and **Square** sprites:
+
+* **[Circle][]**
+* **[Square][]**
+
+[circle]: assets/Circle.png
+[square]: assets/Square.png
 
 ## 5: Paddles
 1. Create a paddle by dragging the Paddle sprite into the Scene view - notice that the transform gets set to the location where you drop the sprite.
