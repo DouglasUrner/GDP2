@@ -10,7 +10,7 @@
   - Location: **U:\Game Design 2\Games**
   - Template: **2D**
 
-If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
+  If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png)
 
 ## 2: The Unity UI
