@@ -1,3 +1,5 @@
+# Pong in Unity - Tutorial 2: Turning the prototype into a game.
+
 ## 1: Setup
 1. New project
 1. Add assets
