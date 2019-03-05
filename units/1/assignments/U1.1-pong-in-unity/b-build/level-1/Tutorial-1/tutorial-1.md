@@ -5,10 +5,11 @@
 ![Unity launch dialog, showing Learn tab](assets/001.png)
 1. Click on the **New** button. The new project dialog will open with defaults filled in. You will need to change them:
 ![Unity new project defaults](assets/002.png)
-1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your setting should be similar to these:
+1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your settings should be similar to these:
   - Name: **Pong**
   - Location: **U:\Game Design 2\Games**
   - Template: **2D**
+If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png)
 
 ## 2: The Unity UI
