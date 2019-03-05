@@ -4,8 +4,8 @@
 
 ## Tutorial Options
 
-* [Noobtuts: Unity 2D Pong Game][noobtuts]
-* [Awesome Inc U: Make A Pong Game With Unity 2D][awesome]
+* [Noobtuts: Unity 2D Pong Game][noobtuts] - this is a great place to start if you haven't worked with Unity before. You build a Pong prototype with the basic gameplay, but no scoring. It includes an introduction to working with Unity.
+* [Awesome Inc U: Make A Pong Game With Unity 2D][awesome] - start here if you are up for a bit more challenge (or skip to here after doing the first section of the Noobtuts tutorial).
 * Vincent Quarles: Building a Pong Clone in Unity
   - [Part 1: Retro Revolution: Building a Pong Clone in Unity][quarles1]
   - [Part 2: Building a Pong Clone in Unity: UI and Gameplay][quarles2]
