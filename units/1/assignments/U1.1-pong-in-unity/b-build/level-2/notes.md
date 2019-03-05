@@ -43,3 +43,6 @@
    - Name it HUD
 1. Game Manager Script
 1. Skin
+   - Select font
+   - Set label size
+   - Set button size
