@@ -237,6 +237,7 @@ Here's what to do:
    - The second time, drag it into the Scene pane. What do you see as the transform?
    - Name each paddle - **PaddleL** and **PaddleR**.
    - Set the postion of each paddle.
+1. Click on the Play button ![](assets/Editor-PlayButtons.png) to test.
 1. Save.
 
 ### Configure the Paddle prefab
@@ -251,13 +252,28 @@ Here's what to do:
 
 1. Select the Paddle prefab in the Project pane.
 1. In the Inspector click on the **Open Prefab** button.
+
+   ![](assets/6-1-OpenPrefab.png)
+   
 1. At the bottom of the Inspector pane, click on the **Add Component**.
-   ![](assets/6-Component-1.png)
+   ![](assets/6-2-AddComponent.png)
 1. We are looking for the [Rigidbody2D][] component, you can either browse or find it using the search box.
 1. Since we are adding the Rigidbody2D component to the Paddle prefab, both paddles will now have a Rigidbody2D component.
 1. Click on the Play button ![](assets/Editor-PlayButtons.png) to test the game. What happens?
-1. Adjust Rigidbody2D settings
-   - Set gravity to 0
+
+   Since the only change that we made was adding the Rigidbody2D component, the new behavior must be due to the Rigidbody2D. Read through the Rigidbody2D properties and see if there are any that might explain the behavior. You could also look in the Unity manual - any easy way to get to the relevenent section of the manual is to click on the blue manual button next to a components cog menu button. Try out any ideas that you have, you really can't go wrong - there is a **Reset** option in the cog menu that will restore all of the component's default settings. See if you can get the paddles to remain stationary when you press the play button, before you go on.
+   
+   ![](assets/6-3-Rigidbody2D.png)
+   
+1. You may have figured out that setting the **Gravity Scale** property of the Rigidbody2D component will solve the problem. Before we go on, click on the **Body Type** drop down and look at the options.
+
+   ![](assets/6-4-Rigidbody2D-BodyType.png)
+   
+   A Body Type setting of **Dynamic** means that the game object will participate in the Physics system and will move in response to collisions with other game objects. A setting of **Kinematic** means that the object will only move if we tell it to (for example by setting its **Velocity** property). The **Static** setting is used for objects that don't move. Try setting the Body Type to each of the options and see how the Rigidbody2D properties change.
+   
+   So, we could also avoid the "gravity problem" by setting the Body Type to Kinematic. But there are tradeoffs and we will use a **Body Type** of **Dynamic.**
+   
+1. Check that **Body Type** is set to **Dynamic**, and that **Gravity Scale** is set to **0**.
 1. Test again.
 1. Save.
    
