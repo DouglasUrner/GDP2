@@ -49,31 +49,41 @@ Inspriration comes from a number of Pong in Unity tutorials, including:
 1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your settings should be similar to these:
    - Name: **Pong**
    - Location: **U:\Game Design 2\Games**
-   - Template: **2D**
-   If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.  
+   - Template: **2D**  
+   
+   If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png){: width="600px" }
 
 ---
 
 ## 2: Learn Your Way Around The Unity UI (User Interface)
 
-When Unity opens, the display will look something like this screen capture:
-![Unity UI](assets/004.png)
-The layout of the Unity UI is customizable, so don't worry if what you see looks different. Tutorials, especially video tutorials are easier to follow if your UI layout matches the tutorial, so the first thing we will do is explore the UI and learn how to adjust the layout.
+![Unity UI](assets/004-annotated.png)
+
+When Unity opens, the display will look something like this screen capture above.
+The layout of the Unity UI is customizable, so don't worry if what you see looks different.
+Tutorials, especially video tutorials are easier to follow if you are familiar with the UI layout and it matches the tutorial, so the first things we will do is explore the UI and learn how to customize the layout.
 
 ### Major UI Elements
 
-The Unity UI is divided into several panes, each of the panes is numbered to correspond with its description. Each of the panes serves a different purpose. Read the descriptions of each of the panes and find the panes on your computer.
+The Unity UI is divided into several panes, each of the numbers in the screen capture above correspond with the descriptions of the panes below. Each of the panes serves a different purpose. Read the descriptions of the panes and find the panes on your computer.
 
-![Unity UI](assets/004-annotated.png)
+1. **[Hierarchy][]** - the Hierarchy pane displays a list of all of the game objects in your project. You can see the "family" (parent-child, sibling) relationships of game objects in the Hierarchy pane. When you add a game object by dragging it to the Hierarchy view, its transform is set to the origin.
 
-1. **[Hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html)** - the Hierarchy pane displays a list of all of the game objects in your project. You can see the "family" (parent-child, sibling) relationships of game objects in the Hierarchy pane. When you add a game object by dragging it to the Hierarchy view, its transform is set to the origin. 
-1. **[Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html)** - the Scene view pane provides a graphical display of the game objects in your project. When you add a game object by dragging it to the Scene view, its transform is set to the location where you dropped it. 
-1. **[Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html)** - the Inspector pane displays the *components* and *properties* of the selected game object. You select a game object by clicking on it in the Hierarchy or Scene views. 
-1. **[Project][]** & **[Console](https://docs.unity3d.com/Manual/Console.html)** - the Project pane is a view of files that make up your project. You can manage them directly in the Project pane. The Console pane shows messages from Unity: compiler errors, run-time messages from calls to **[Debug.Log()](https://docs.unity3d.com/ScriptReference/Debug.Log.html)**.
-1. **[Game](https://docs.unity3d.com/Manual/GameView.html)** - the Game view pane is where you test your game.
+1. **[Scene][]** - the Scene view pane provides a graphical display of the game objects in your project. When you add a game object by dragging it to the Scene view, its transform is set to the location where you dropped it.
 
+1. **[Inspector][]** - the Inspector pane displays the *components* and *properties* of the selected game object. You select a game object by clicking on it in the Hierarchy or Scene views.
+
+1. **[Project][]** & **[Console][]** - the Project pane is a view of files that make up your project. You can manage them directly in the Project pane. The Console pane shows messages from Unity: compiler errors, run-time messages from calls to **[Debug.Log()](https://docs.unity3d.com/ScriptReference/Debug.Log.html)**.
+
+1. **[Game][]** - the Game view pane is where you test your game.
+
+[console]: https://docs.unity3d.com/Manual/Console.html
+[game]: https://docs.unity3d.com/Manual/GameView.html
+[hierarchy]: https://docs.unity3d.com/Manual/Hierarchy.html
+[inspector]: https://docs.unity3d.com/Manual/UsingTheInspector.html
 [project]: https://docs.unity3d.com/Manual/ProjectView.html
+[scene]: https://docs.unity3d.com/Manual/UsingTheSceneView.html
    
 ### Controls
 
