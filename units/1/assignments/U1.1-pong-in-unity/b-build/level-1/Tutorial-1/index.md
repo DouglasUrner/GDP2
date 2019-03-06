@@ -427,11 +427,23 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
    
    ```C#
    public class BallController : MonoBehaviour
-{
-    public float speed = 10.0f;
+   {
+     public float speed = 10.0f;
 
-    private Rigidbody2D rb;
+     private Rigidbody2D rb;
+   ```
+   
+   Next, add these two lines to the in the empty **Start()** method:
+   
+   ```Csharp
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector2(speed, 0);
+    }
     ```
+    
+    
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
 
