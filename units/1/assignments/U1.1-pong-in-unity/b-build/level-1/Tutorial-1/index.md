@@ -403,13 +403,23 @@ public class PaddleController : MonoBehaviour
 
 ---
    
-## 7: The Ball
+## 7: Create the Ball
 
-Add collider to paddle
-1. Drag Ball sprite to Hierarchy
-   - Make it a prefab
+### Setup the first ball and create a prefab
+
+The process of setting up the ball is very similar to the paddles:
+1. Drag the **Circle** sprite into the Hierarchy pane to create a sprite game object.
+1. Change the game object's name to **Ball**.
+1. Make a prefab from the Ball by dragging it down to the **Prefabs** folder.
+1. Open the prefab in the **Inspector**.
+1. In the **Ball prefab's** transform adjust the **Scale** until the size seems right.
+   - Setting the **X** and **Y** values to **0.5** worked for me.
+   - Since this is a 2D game you can ignore the **Z** value (or set it, either is ok).
+   
+### Add a collider
+
+### Add
    - Add tag (be sure it goes on the prefab)
-   - Adjust scale (0.5, 0.5)
    - Create and add Physics 2D material
      - Drag to Physics 2D component
    - Add BallController script
