@@ -442,8 +442,25 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
         rb.velocity = new Vector2(speed, 0);
     }
     ```
+    The second line is the equivalent of this code in Game Lab:
     
+    ```JavaScript
+    ball.velocityX = speed;
+    ball.velocityY = 0;
+    ```
     
+    Instead of separate properties for the X and Y components of an objects velocity, Unity uses an object, **Vector2** that *encapsulates* both. To create the Vector2 object we use the **new** keyword. You could read the line of code:
+    
+    ```Csharp
+    rb.velocity = new Vector2(speed, 0);
+    ```
+    as "create a new Vector2 object and initialize it with an X value of *speed* and a Y value of zero, then assin that to the velocity property of the Rigidbody2D named rb."
+    
+    You could acheive the same thing by writing:
+    
+    ```Csharp
+    var 
+    ```
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
 
