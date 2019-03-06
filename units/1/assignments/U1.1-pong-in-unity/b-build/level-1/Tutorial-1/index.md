@@ -459,8 +459,15 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
     You could acheive the same thing by writing:
     
     ```Csharp
-    var 
+    var velocity = rb.velocity;
+    velocity.x = speed;
+    velocity.y = 0;
+    rb.velocity = velocity;
     ```
+    
+    That code makes a copy of the velocity property of the Rigidbody2D (which is a Vector2) and assigns values to the X and Y, then it assigns the copy back to the Rigidbody2D. C# does not allow assigning the properites directly.
+    
+1. What do you think will happen when you run this code? Which way will the ball go? Save, then test.
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
 
