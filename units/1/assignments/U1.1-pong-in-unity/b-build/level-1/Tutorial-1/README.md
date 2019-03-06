@@ -212,7 +212,7 @@ Unity does not save automatically, work outside of the Project pane is likely to
 1. If you hover the mouse over the field labels in the Transform component, the pointer will change to a double arrow. This is a "scrubber" which you may have encountered in Photoshop or when editing audio or video. Using the scrubbers in the transform *component* to move the paddle to the left hand side of the Scene view. Then adjust the X and Y Scale values until you have a paddle that you like.
 1. Save.
 
-![]()
+![Inspector and Scene panes showing first paddle]()
 
 [component]: https://docs.unity3d.com/2018.3/Documentation/Manual/Components.html
 [gameobject]: https://docs.unity3d.com/2018.3/Documentation/Manual/class-GameObject.html
@@ -278,7 +278,35 @@ Here's what to do:
 1. Save.
    
 ## 6: The PaddleController Script
-There are a number of ways to create a script.
+
+In Unity scripts are C# *classes* that implement custom behaviors for game objects. They are attached to game objects like any other component.
+
+### Create a script file named PaddleController
+
+1. Right click on the **Scripts** folder in the Project pane. From the context menu choose **Create > C# Script.**
+1. Name the script **PaddleController.**
+1. The resulting C# file, named **PaddleController.cs** (but Unity does not show extensions in the Project pane), will look like this:
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PaddleController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+```
 
 Rules for naming scripts:
 * Capitalize the file name.
