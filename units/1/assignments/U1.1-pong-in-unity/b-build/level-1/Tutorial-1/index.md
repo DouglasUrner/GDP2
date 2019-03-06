@@ -39,8 +39,10 @@ Inspriration comes from a number of Pong in Unity tutorials, including:
 ## 1: Create A New Project In Unity
 1. Launch Unity, you will see the launch dialog:
 ![Unity launch dialog, showing Learn tab](assets/001.png){: width="450px" style="float: right;" }
+
 1. Click on the **New** button. The new project dialog will open with defaults filled in. You will need to change them:
 ![Unity new project defaults](assets/002.png){: width="450px" style="float: right;" }
+
 1. Name your project and select the 2D template. Double check that the project location is not on the **C:** drive. On Windows your settings should be similar to these:
    - Name: **Pong**
    - Location: **U:\Game Design 2\Games**
