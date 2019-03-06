@@ -1,4 +1,7 @@
-[//]: # ( <p><iframe src="https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/" width="100%" height="666px"></iframe></p> )
+---
+canvasLink: <p><iframe src="https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/" width="100%" height="666px"></iframe></p>
+---
+[//]: # (  )
 
 ## Build Your Version Of Pong
 
