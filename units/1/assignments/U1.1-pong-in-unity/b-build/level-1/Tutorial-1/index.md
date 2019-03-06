@@ -320,7 +320,7 @@ In Unity scripts are C# *classes* that implement custom behaviors for game objec
    You can find the full details [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#identifiers).
 1. The resulting C# file, named **PaddleController.cs** (but Unity does not show extensions in the Project pane), will look like this:
 
-```C#
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -352,7 +352,7 @@ public class PaddleController : MonoBehaviour
 
 We want to move the paddles in response to keyboard input from the players. We will let the players decide what keys they want to use. When we detect input we will set the **velocity** property of the Rigidbody2D and the physics system will move the paddles.
 
-```C#
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -425,7 +425,7 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
 
    Add these lines at the top of the **BallController** *class* to declare a variable to set the ball's speed and a reference to the Ball's Rigidbody2D so that we can give the ball a velocity to get it moving:
    
-   ```C#
+   ```csharp
    public class BallController : MonoBehaviour
    {
      public float speed = 10.0f;
@@ -435,7 +435,7 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
    
    Next, add these two lines to the in the empty **Start()** method:
    
-   ```Csharp
+   ```csharp
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -444,21 +444,21 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
     ```
     The second line is the equivalent of this code in Game Lab:
     
-    ```JavaScript
+    ```javascript
     ball.velocityX = speed;
     ball.velocityY = 0;
     ```
     
     Instead of separate properties for the X and Y components of an objects velocity, Unity uses an object, **Vector2** that *encapsulates* both. To create the Vector2 object we use the **new** keyword. You could read the line of code:
     
-    ```Csharp
+    ```csharp
     rb.velocity = new Vector2(speed, 0);
     ```
     as "create a new Vector2 object and initialize it with an X value of *speed* and a Y value of zero, then assin that to the velocity property of the Rigidbody2D named rb."
     
     You could acheive the same thing by writing:
     
-    ```Csharp
+    ```csharp
     var velocity = rb.velocity;
     velocity.x = speed;
     velocity.y = 0;
