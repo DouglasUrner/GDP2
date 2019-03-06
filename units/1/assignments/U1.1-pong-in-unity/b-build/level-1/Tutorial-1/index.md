@@ -1,6 +1,4 @@
 ---
-markdown: kramdown
-highlighter: rouge
 ---
 
 # Pong in Unity - Tutorial 1: Building a prototype
@@ -307,6 +305,8 @@ Here's what to do:
 1. Check that **Body Type** is set to **Dynamic**, and that **Gravity Scale** is set to **0**.
 1. Test again.
 1. Save.
+
+---
    
 ## 6: The PaddleController Script
 
