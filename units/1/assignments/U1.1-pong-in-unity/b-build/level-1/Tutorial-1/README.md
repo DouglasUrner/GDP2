@@ -292,7 +292,7 @@ In Unity scripts are C# *classes* that implement custom behaviors for game objec
    You can find the full details [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#identifiers).
 1. The resulting C# file, named **PaddleController.cs** (but Unity does not show extensions in the Project pane), will look like this:
 
-   ```C#
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -321,6 +321,8 @@ public class PaddleController : MonoBehaviour
 1. Test - nothing should happen, but there should also be no errors.
 
 ### Moving the paddles
+
+We want to move the paddles in response to keyboard input from the players. We will let the players decide what keys they want to use. When we detect input we will set the **velocity** property of the Rigidbody2D and the physics system will move the paddles.
    
 ## 7: The Ball
 
