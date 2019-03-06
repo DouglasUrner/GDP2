@@ -153,6 +153,20 @@ The only sprites we *need* for Pong are a white circle and a white square. You c
 * **[Circle][]**
 * **[Square][]**
 
+To download the linked images:
+
+1. Right click on the link and choose **Download Linked File As…**.
+1. Navigate to the Sprites folder in your Unity project.
+1. If you want, change the file name.
+1. Click **Save**
+
+![](assets/4-DownloadSprites-1.png)
+![](assets/4-DownloadSprites-2.png)
+
+After downloading the Circle and Square images, your Unity Sprites folder should look like this:
+
+![](assets/4-DownloadSprites-3.png)
+
 [circle]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Circle.png
 [square]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Square.png
 
