@@ -219,25 +219,47 @@ Unity does not save automatically, work outside of the Project pane is likely to
 [sprite]: https://docs.unity3d.com/2018.3/Documentation/Manual/Sprites.html
 [transform]: https://docs.unity3d.com/2018.3/Documentation/Manual/class-Transform.html
 
-### Make it a Paddle prefab
+### Make a Paddle prefab
 
+Unity's [Prefab][] facility lets you create templates for game objects. Since Pong has two paddles it makes sense to base them on a prefab. Using prefabs helps to avoid errors and makes it easy to keep multiple objects in synch. Prefabs also let you configure an object and use it later - this is very useful when you need to spawn complex objects.
 
-1. Create a Paddle *prefab*:
-   - Create a Prefabs folder in the Project pane.
-   - Drag the paddle from the hierarchy to the Prefabs folder.
+[prefab]: https://docs.unity3d.com/Manual/Prefabs.html
+
+Here's what to do:
+
+1. Create a **Prefabs** folder in the Project pane. The folder is not "magic" - the name *Prefabs* is a convention, not a rule.
+1. Drag the Square game object from the Hierarchy view to the Prefabs folder you just created.
    - Notice how the icon changes.
-   - Delete the paddle game object from the Hierarchy pane. Note: prefabs are often created dynamically in scripts, so it is common to delete the game object after creating the prefab - but you don't have to. This is an occasion where it would be reasonable to leave the game object in the game, we are deleting it so that we can see how the behavior differs when we create a game object from a prefab.
+1. Rename the prefab to **Paddle** in the Project pane - you can also rename it in the Inspector, but the name of the prefab must match the name of the file holding it, so if you rename it in the Inspector you will be prompted to confirm that you want to rename the file as well.
+1. Delete the paddle game object from the Hierarchy pane. Note: prefabs are often created dynamically in scripts, so it is common to delete a game object after using it to create a prefab - but you don't have to. This is an occasion where it would be reasonable to leave the game object in the game, we are deleting it so that we can see how the behavior differs when we create a game object from a prefab.
 1. Create two paddles by dragging in the Paddle prefab twice.
    - The first time, drag it into the Hierarchy pane. What do you expect to see as the position value in the transform?
    - The second time, drag it into the Scene pane. What do you see as the transform?
-   - Name each paddle.
+   - Name each paddle - **PaddleL** and **PaddleR**.
    - Set the postion of each paddle.
-1. Edit Paddle prefab
-   - Rigidbody2D - so we can move it
-   - Box Collider - so the ball will bounce off it
-1. Test
+1. Save.
+
+### Configure the Paddle prefab
+
+We want to be able to move the paddles. We could do this by applying the counter pattern to the Y property of the Paddle's Transform's Position, but it will probably be easier and clearer (and more generally useful) to use a [Rigidbody2D][] component to help with the movement.
+
+In Unity [Components][component] let us customize game objects to get the appearance and behaviors that we want.
+
+[rigidbody2d]: 
+
+Here's what to do:
+
+1. Select the Paddle prefab in the Project pane.
+1. In the Inspector click on the **Open Prefab** button.
+1. At the bottom of the Inspector pane, click on the **Add Component**.
+   ![](assets/6-Component-1.png)
+1. We are looking for the [Rigidbody2D][] component, you can either browse or find it using the search box.
+1. Since we are adding the Rigidbody2D component to the Paddle prefab, both paddles will now have a Rigidbody2D component.
+1. Click on the Play button ![](assets/Editor-PlayButtons.png) to test the game. What happens?
 1. Adjust Rigidbody2D settings
    - Set gravity to 0
+1. Test again.
+1. Save.
    
 ## 6: The PaddleController Script
 There are a number of ways to create a script.
@@ -255,6 +277,8 @@ Rules for naming scripts:
 ### Moving the paddles
    
 ## 7: The Ball
+
+Add collider to paddle
 1. Drag Ball sprite to Hierarchy
    - Make it a prefab
    - Add tag (be sure it goes on the prefab)
