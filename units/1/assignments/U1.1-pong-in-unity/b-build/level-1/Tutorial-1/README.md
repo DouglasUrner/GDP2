@@ -178,6 +178,7 @@ Notice that each of the sprites, Circle and Square, has a reveal triangle to the
    - **Texture Type** should be set to **Sprite (2D and UI)**, if it is not your project may have been created with a 3D template. Read the Unity manual section on [2D and 3D Settings][3Dto2D] to learn how to switch your project into 2D mode (or you could start over, it would be quick, and it would be good practice).
    - **Pixels Per Unit** should be **100**, this setting scales images to the game world. Decreasing it makes the sprite larger and vice versa.
    - **Filter Mode** should be changed from the default of **Bilinear** to **Point (no filter)** for the Square, it can be left at the default for the Circle. The bilinear setting may result in fuzzy edges which will look bad on the paddles or if we use the square to form edges or the center line.
+1. Click the **Apply** button to save your changes.
 
 ![Inspector pane displaying sprite](assets/4-DownloadSprites-4.png)
 
@@ -186,6 +187,11 @@ Notice that each of the sprites, Circle and Square, has a reveal triangle to the
 [3Dto2D]: https://docs.unity3d.com/2018.3/Documentation/Manual/2DAnd3DModeSettings.html
 
 ## 5: Set Up The Paddles
+
+We are ready to start building the game. Unity does not save automatically, work outside of the Project pane is likely to be lost if Unity crashes and you haven't saved. Save now, it is a good habit and an opportunity to give the initial scene a better name:
+
+* From the **File** menu choose the **Save As…** option, when you choose this item you are saving the active scene with a new name. Choose a descriptive name for the scene and make sure that the **Scenes** folder is selected. You only need to do **Save As…** the first time you save a scene, or if you want to rename a scene. Note that unlike many applications, **Save As…** does not make a second copy of the scene - it renames it.
+* In the future you can save you work with the keyboard shortcut **Command-S** (or **Control-S** on Windows).
 
 ### Place the first paddle and set its transform
 
