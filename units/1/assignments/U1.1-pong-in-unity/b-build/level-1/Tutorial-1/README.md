@@ -167,10 +167,19 @@ After downloading the Circle and Square images, your Unity Sprites folder should
 
 ![](assets/4-DownloadSprites-3.png)
 
+### Check the sprite import settings
+
+Notice that each of the sprites, Circle and Square, has a reveal triangle to the left of it.
+
 [circle]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Circle.png
 [square]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Square.png
 
-## 5: Paddles
+## 5: Set Up The Paddles
+
+### Place the first paddle and set its transform
+
+### Make it a Paddle prefab
+
 1. Create a paddle by dragging the Paddle sprite into the Scene view - notice that the transform gets set to the location where you drop the sprite.
 1. Use the cog menu to reset the paddle sprite to the origin.
 1. Delete the paddle.
@@ -193,7 +202,7 @@ After downloading the Circle and Square images, your Unity Sprites folder should
 1. Adjust Rigidbody2D settings
    - Set gravity to 0
    
-## 6: The Paddle Script
+## 6: The PaddleController Script
 There are a number of ways to create a script.
 
 Rules for naming scripts:
@@ -216,8 +225,10 @@ Rules for naming scripts:
    - Create and add Physics 2D material
      - Drag to Physics 2D component
    - Add BallController script
+   
+## 8: The BallController Script
 
-## 8: Edges
+## 9: Edges
 1. Create empty game object - Edges
    - Reset transform
    - Create an empty child, name it Top
