@@ -188,7 +188,11 @@ Notice that each of the sprites, Circle and Square, has a reveal triangle to the
 
 ## 5: Set Up The Paddles
 
-We are ready to start building the game. Unity does not save automatically, work outside of the Project pane is likely to be lost if Unity crashes and you haven't saved. Save now, it is a good habit and an opportunity to give the initial scene a better name:
+We are ready to start building the game!
+
+### Save and rename the Sample Scene
+
+Unity does not save automatically, work outside of the Project pane is likely to be lost if Unity crashes and you haven't saved. Save now, it is a good habit and an opportunity to give the initial scene a better name:
 
 * From the **File** menu choose the **Save As…** option, when you choose this item you are saving the active scene with a new name. Choose a descriptive name for the scene and make sure that the **Scenes** folder is selected. You only need to do **Save As…** the first time you save a scene, or if you want to rename a scene. Note that unlike many applications, **Save As…** does not make a second copy of the scene - it renames it.
 * In the future you can save you work with the keyboard shortcut **Command-S** (or **Control-S** on Windows).
