@@ -323,6 +323,55 @@ public class PaddleController : MonoBehaviour
 ### Moving the paddles
 
 We want to move the paddles in response to keyboard input from the players. We will let the players decide what keys they want to use. When we detect input we will set the **velocity** property of the Rigidbody2D and the physics system will move the paddles.
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PaddleController : MonoBehaviour
+{
+    /*
+     * Public variables will show up as properties in the
+     * Inspector - values set here will be used as defaults.
+     * Once a value is set in the Inspector, changes to the
+     * prefab will not override.
+     */
+    public KeyCode moveUp = KeyCode.None;
+    public KeyCode moveDown = KeyCode.None;
+    public float speed = 12.0f;
+    
+    private Rigidbody2D rb;
+
+    // Use this for initialization
+    void Start() {
+        /*
+         * Finding components is a relatively expensive operation
+         * so we do it once here rather than every frame in Update().
+         */
+        rb = GetComponent<Rigidbody2D>();
+        
+        if (moveUp == KeyCode.None || moveDown == KeyCode.None) {
+            // Warn if KeyCodes are not set.
+            Debug.Log("KeyCodes not set");
+        }
+    }
+	
+    // Update is called once per frame
+    void Update() {
+        var vel = rb.velocity;
+        
+        if (Input.GetKey(moveUp)) {
+            vel.y = speed;
+        } else if (Input.GetKey(moveDown)) {
+            vel.y = -speed;
+        } else {
+            vel.y = 0;
+        }
+        rb.velocity = vel;
+    }
+}
+```
    
 ## 7: The Ball
 
