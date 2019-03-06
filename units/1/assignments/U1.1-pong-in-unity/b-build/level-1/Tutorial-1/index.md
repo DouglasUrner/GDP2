@@ -3,7 +3,7 @@
 
 # Pong in Unity - Tutorial 1: Building a prototype
 
-![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg){: width="200px" }
+![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg){: width="500px" style="float: right;" }
 
 This is the first of a four part series of tutorials for building your own version of the classic arcade game [Pong][] in [Unity][].
 
