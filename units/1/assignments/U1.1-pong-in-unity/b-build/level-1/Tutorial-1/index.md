@@ -1,5 +1,6 @@
 ---
 ---
+
 # Pong in Unity - Tutorial 1: Building a prototype
 
 ![](https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_582,c_limit/Pong-TA-B1C1YX.jpg)
