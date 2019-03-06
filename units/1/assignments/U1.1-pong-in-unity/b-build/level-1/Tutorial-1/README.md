@@ -201,13 +201,13 @@ Unity does not save automatically, work outside of the Project pane is likely to
 
 1. Create a [Sprite][] [GameObject][] by dragging the Square sprite from the Project pane into the Scene view - notice that the *transform* [Component][] gets its values set to the location where you drop the sprite. Every game object has a [transform][] - for most game objects the transform is in "world space," the transform of child objects is in terms of the parent game object. An game object's transform is set when the object is created. You can set the tranform by moving the object in the Scene view or by entering new values in the Transform component.
 
-![](assets/5-Transform-2.png)
+   ![](assets/5-Transform-2.png)
 
 1. You can set the transform to its default values by choosing **Reset** from the cog menu in the upper right corner of the Tranform component. Try this.
 
-![](assets/5-TransformCog-3.png)
+   ![](assets/5-TransformCog-3.png)
 
-1. Delete the paddle - select it in the Hierarchy pane or Scene view and press the **Delete** key, you can also use the context menu.
+3. Delete the paddle - select it in the Hierarchy pane or Scene view and press the **Delete** key, you can also use the context menu.
 1. Create another paddle by dragging the Square sprite up to the Hierarchy view - notice that the transform is set to the origin.
 1. If you hover the mouse over the field labels in the Transform component, the pointer will change to a double arrow. This is a "scrubber" which you may have encountered in Photoshop or when editing audio or video. Using the scrubbers in the transform *component* to move the paddle to the left hand side of the Scene view. Then adjust the X and Y Scale values until you have a paddle that you like.
 1. Save.
