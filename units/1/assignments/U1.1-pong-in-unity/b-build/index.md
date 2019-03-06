@@ -15,7 +15,7 @@ After you have decided which tutorial you will use, it is time to start in. Sinc
 * [Tutorial 3: ][tutorial3]
 * [Tutorial 4: ][tutorial4]
 
-[tutorial1]: https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/
+[tutorial1]: https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1
 [tutorial2]: https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/level-2/Tutorial-2/
 [tutorial3]: #
 [tutorial4]: #
