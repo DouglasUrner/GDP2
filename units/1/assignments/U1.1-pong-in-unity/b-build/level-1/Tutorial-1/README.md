@@ -246,7 +246,7 @@ We want to be able to move the paddles. We could do this by applying the counter
 
 In Unity [Components][component] let us customize game objects to get the appearance and behaviors that we want.
 
-[rigidbody2d]: 
+[rigidbody2d]: https://docs.unity3d.com/Manual/class-Rigidbody2D.html
 
 Here's what to do:
 
