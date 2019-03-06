@@ -284,10 +284,15 @@ In Unity scripts are C# *classes* that implement custom behaviors for game objec
 ### Create a script file named PaddleController
 
 1. Right click on the **Scripts** folder in the Project pane. From the context menu choose **Create > C# Script.**
-1. Name the script **PaddleController.**
+1. Name the script **PaddleController.** The name of the script **must** match the name of the *class* that is declared in the script (the name for the body of code that we are going to write). This means that the file name must be a legal C# identifyer name. Roughly speaking that means that the file name:
+   - Starts with a letter.
+   - Contains no spaces.
+   - Doesn't include punctuation, other than the underscore character.
+   By convention class names start with a capital letter and are *CamelCased*.
+   You can find the full details [here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#identifiers).
 1. The resulting C# file, named **PaddleController.cs** (but Unity does not show extensions in the Project pane), will look like this:
 
-```C#
+   ```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -308,15 +313,12 @@ public class PaddleController : MonoBehaviour
 }
 ```
 
-Rules for naming scripts:
-* Capitalize the file name.
-* No spaces.
-* Check that the file name **exactly** matches the class name.
-
-1. Create Paddle script
-   - Make sure it is in Script folder - or move it there.
-1. Attach the script to the Paddle prefab.
-1. Test.
+1. The script won't do anything yet, but let's attach it to the Paddle prefab so that we can test as we go:
+   - Select and **Open** the Paddle prefab.
+   - Click on the **Add Component** button.
+   - In the search box start typing **PaddleController**.
+   - Select the script to attach it to the Paddle prefab.
+1. Test - nothing should happen, but there should also be no errors.
 
 ### Moving the paddles
    
