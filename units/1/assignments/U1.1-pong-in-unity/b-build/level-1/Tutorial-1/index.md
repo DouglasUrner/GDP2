@@ -121,20 +121,24 @@ That's enough to get started. Let's build a game.
 
 ## 3: Make A Plan
 
+Take a momement to break down the project into a series of smaller tasks. In this tutorial, we've broken it down into four hunks that should result in a prototype that will let us test the core mechanic of the game - moving the paddles to hit the ball:
+
 * Collect our assets
 * Paddles
 * The Ball
 * Edges
 
+---
+
 ## 4: Collect & Organize the Game Assets
 
 Take a look at the [Project pane][project], it provides you with a "tidy" view of the files that define your project. It should look like the example below:
 
-![](assets/4-ProjectPaneDetail-1C.png)
+![](assets/4-ProjectPaneDetail-1C.png){: width="400px" }
 
 If it does not, but looks like this one instead, you missed the part about changing the Project pane to **1 Column Layout** - you want to do this, it makes it much easier to navigate.
 
-![](assets/4-ProjectPaneDetail-2C.png)
+![](assets/4-ProjectPaneDetail-2C.png){: width="400px" }
 
 Ok, let's go:
 
@@ -147,9 +151,9 @@ Even on a small project it can help to have your assets well organized, for big 
 1. Select **Create** at the top of the menu, then left-click on **Folder** on the resulting fly-out menu.
 1. Rename the new folder from **New Folder** to **Sprites.**
 
-![](assets/4-CreateFolders-1.png)
-![](assets/4-CreateFolders-2.png)
-![](assets/4-CreateFolders-3.png)
+![](assets/4-CreateFolders-1.png){: width="400px" }
+![](assets/4-CreateFolders-2.png){: width="400px" }
+![](assets/4-CreateFolders-3.png){: width="400px" }
 
 That's one way to create a folder in the Project pane. There are two more ways. To create the Scripts folder we'll use the Project pane's **Create** drop-down:
 
@@ -159,11 +163,11 @@ That's one way to create a folder in the Project pane. There are two more ways. 
 1. Select **Folder**.
 1. Rename the new folder from **New Folder** to **Scripts.**
 
-![](assets/4-CreateFolders-4.png)
+![](assets/4-CreateFolders-4.png){: width="400px" }
 
 When you are done, the Project pane should look like this. The absence of *reveal triangles* to the left of the **Scripts** and **Sprites** folders tells you that they are currently empty.
 
-![](assets/4-CreateFolders-5.png)
+![](assets/4-CreateFolders-5.png){: width="400px" }
 
 The third way to create a folder in Unity is from the **Assets** menu on the menubar. Useful if you forget the other methods, but otherwise I find it too cumbersome for regular use.
 
@@ -183,12 +187,12 @@ To download the linked images:
 1. If you want, change the file name.
 1. Click **Save**
 
-![](assets/4-DownloadSprites-1.png)
-![](assets/4-DownloadSprites-2.png)
+![](assets/4-DownloadSprites-1.png){: width="400px" }
+![](assets/4-DownloadSprites-2.png){: width="400px" }
 
 After downloading the Circle and Square images, your Unity Sprites folder should look like this:
 
-![](assets/4-DownloadSprites-3.png)
+![](assets/4-DownloadSprites-3.png){: width="400px" }
 
 ### Check the sprite import settings
 
@@ -203,13 +207,15 @@ Notice that each of the sprites, Circle and Square, has a reveal triangle to the
    - **Filter Mode** should be changed from the default of **Bilinear** to **Point (no filter)** for the Square, it can be left at the default for the Circle. The bilinear setting may result in fuzzy edges which will look bad on the paddles or if we use the square to form edges or the center line.
 1. Click the **Apply** button to save your changes.
 
-![Inspector pane displaying sprite](assets/4-DownloadSprites-4.png)
+![Inspector pane displaying sprite](assets/4-DownloadSprites-4.png){: width="400px" }
 
 [circle]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Circle.png
 [square]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Square.png
 [3Dto2D]: https://docs.unity3d.com/2018.3/Documentation/Manual/2DAnd3DModeSettings.html
 
-## 5: Set Up The Paddles
+---
+
+## 5: Create The Paddles
 
 We are ready to start building the game!
 
@@ -224,18 +230,18 @@ Unity does not save automatically, work outside of the Project pane is likely to
 
 1. Create a [Sprite][] [GameObject][] by dragging the Square sprite from the Project pane into the Scene view - notice that the *transform* [Component][] gets its values set to the location where you drop the sprite. Every game object has a [transform][] - for most game objects the transform is in "world space," the transform of child objects is in terms of the parent game object. An game object's transform is set when the object is created. You can set the tranform by moving the object in the Scene view or by entering new values in the Transform component.
 
-   ![](assets/5-Transform-2.png)
+   ![](assets/5-Transform-2.png){: width="400px" }
 
 1. You can set the transform to its default values by choosing **Reset** from the cog menu in the upper right corner of the Tranform component. Try this.
 
-   ![](assets/5-TransformCog-3.png)
+   ![](assets/5-TransformCog-3.png){: width="400px" }
 
 3. Delete the paddle - select it in the Hierarchy pane or Scene view and press the **Delete** key, you can also use the context menu.
 1. Create another paddle by dragging the Square sprite up to the Hierarchy view - notice that the transform is set to the origin.
 1. If you hover the mouse over the field labels in the Transform component, the pointer will change to a double arrow. This is a "scrubber" which you may have encountered in Photoshop or when editing audio or video. Using the scrubbers in the transform *component* to move the paddle to the left hand side of the Scene view. Then adjust the X and Y Scale values until you have a paddle that you like.
 1. Save.
 
-![Inspector and Scene panes showing first paddle]()
+![Inspector and Scene panes showing first paddle](){: width="400px" }
 
 [component]: https://docs.unity3d.com/2018.3/Documentation/Manual/Components.html
 [gameobject]: https://docs.unity3d.com/2018.3/Documentation/Manual/class-GameObject.html
@@ -276,21 +282,21 @@ Here's what to do:
 1. Select the Paddle prefab in the Project pane.
 1. In the Inspector click on the **Open Prefab** button.
 
-   ![](assets/6-1-OpenPrefab.png)
+   ![](assets/6-1-OpenPrefab.png){: width="400px" }
    
 1. At the bottom of the Inspector pane, click on the **Add Component**.
    ![](assets/6-2-AddComponent.png)
 1. We are looking for the [Rigidbody2D][] component, you can either browse or find it using the search box.
 1. Since we are adding the Rigidbody2D component to the Paddle prefab, both paddles will now have a Rigidbody2D component.
-1. Click on the Play button ![](assets/Editor-PlayButtons.png) to test the game. What happens?
+1. Click on the Play button to test the game. What happens?
 
    Since the only change that we made was adding the Rigidbody2D component, the new behavior must be due to the Rigidbody2D. Read through the Rigidbody2D properties and see if there are any that might explain the behavior. You could also look in the Unity manual - any easy way to get to the relevenent section of the manual is to click on the blue manual button next to a components cog menu button. Try out any ideas that you have, you really can't go wrong - there is a **Reset** option in the cog menu that will restore all of the component's default settings. See if you can get the paddles to remain stationary when you press the play button, before you go on.
    
-   ![](assets/6-3-Rigidbody2D.png)
+   ![](assets/6-3-Rigidbody2D.png){: width="400px" }
    
 1. You may have figured out that setting the **Gravity Scale** property of the Rigidbody2D component will solve the problem. Before we go on, click on the **Body Type** drop down and look at the options.
 
-   ![](assets/6-4-Rigidbody2D-BodyType.png)
+   ![](assets/6-4-Rigidbody2D-BodyType.png){: width="400px" }
    
    A Body Type setting of **Dynamic** means that the game object will participate in the Physics system and will move in response to collisions with other game objects. A setting of **Kinematic** means that the object will only move if we tell it to (for example by setting its **Velocity** property). The **Static** setting is used for objects that don't move. Try setting the Body Type to each of the options and see how the Rigidbody2D properties change.
    
@@ -395,6 +401,8 @@ public class PaddleController : MonoBehaviour
     }
 }
 ```
+
+---
    
 ## 7: The Ball
 
@@ -407,7 +415,11 @@ Add collider to paddle
      - Drag to Physics 2D component
    - Add BallController script
    
+---
+   
 ## 8: The BallController Script
+
+---
 
 ## 9: Edges
 1. Create empty game object - Edges
