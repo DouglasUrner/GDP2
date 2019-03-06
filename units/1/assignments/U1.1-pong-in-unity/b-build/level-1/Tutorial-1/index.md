@@ -421,7 +421,17 @@ The process of setting up the ball is very similar to the paddles:
 Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] component and a script component to the prefab:
 1. In the **Ball** prefab, click on the **Add Component** button, select the **New script** option and name the script **BallController**.
 1. The new **BallController** script will be created in the top level of the **Assets** folder, so go to the **Projectns** pane and drag the **BallController** script to the **Scripts** folder.
-1. 
+1. Next, lets get the ball moving. To do that we need to write a bit of code. Open the **BallController** script in Rider by double clicking on it in the **Scripts** folder.
+
+   Add these lines at the top of the **BallController** *class* to declare a variable to set the ball's speed and a reference to the Ball's Rigidbody2D so that we can give the ball a velocity to get it moving:
+   
+   ```C#
+   public class BallController : MonoBehaviour
+{
+    public float speed = 10.0f;
+
+    private Rigidbody2D rb;
+    ```
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
 
