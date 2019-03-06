@@ -1,4 +1,6 @@
 ---
+markdown: kramdown
+highlighter: rouge
 ---
 
 # Pong in Unity - Tutorial 1: Building a prototype
