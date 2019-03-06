@@ -418,6 +418,8 @@ The process of setting up the ball is very similar to the paddles:
    
 ### Add a collider
 
+The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
+
 ### Add
    - Add tag (be sure it goes on the prefab)
    - Create and add Physics 2D material
