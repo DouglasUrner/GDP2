@@ -36,6 +36,7 @@ Inspriration comes from a number of Pong in Unity tutorials, including:
 [quarles1]: https://www.sitepoint.com/retro-revolution-building-a-pong-clone-in-unity/
 [quarles2]: https://www.sitepoint.com/building-a-pong-clone-in-unity-ui-and-gameplay/
 
+---
 ## 1: Create A New Project In Unity
 1. Launch Unity, you will see the launch dialog:
 ![Unity launch dialog, showing Learn tab](assets/001.png){: width="450px" style="float: right;" }
@@ -51,6 +52,7 @@ Inspriration comes from a number of Pong in Unity tutorials, including:
    If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
 ![Unity new project settings](assets/003.png){: width="450px" style="float: right;" }
 
+---
 ## 2: Learn Your Way Around The Unity UI (User Interface)
 
 When Unity opens, the display will look something like this screen capture:
