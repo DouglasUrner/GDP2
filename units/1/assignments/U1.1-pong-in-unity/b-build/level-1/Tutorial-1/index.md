@@ -148,12 +148,11 @@ Even on a small project it can help to have your assets well organized, for big 
 
 1. Click on the **Assets** folder to select it.
 1. Right-click to bring up the Project pane context menu.
+   ![](assets/4-CreateFolders-1.png){: width="400px" }
 1. Select **Create** at the top of the menu, then left-click on **Folder** on the resulting fly-out menu.
+   ![](assets/4-CreateFolders-2.png){: width="400px" }
 1. Rename the new folder from **New Folder** to **Sprites.**
-
-![](assets/4-CreateFolders-1.png){: width="400px" }
-![](assets/4-CreateFolders-2.png){: width="400px" }
-![](assets/4-CreateFolders-3.png){: width="400px" }
+   ![](assets/4-CreateFolders-3.png){: width="400px" }
 
 That's one way to create a folder in the Project pane. There are two more ways. To create the Scripts folder we'll use the Project pane's **Create** drop-down:
 
@@ -162,12 +161,11 @@ That's one way to create a folder in the Project pane. There are two more ways. 
 1. Click on the **Create** drop-down menu just above the **Assets** folder in the Project pane.
 1. Select **Folder**.
 1. Rename the new folder from **New Folder** to **Scripts.**
-
-![](assets/4-CreateFolders-4.png){: width="400px" }
+   ![](assets/4-CreateFolders-4.png){: width="400px" }
 
 When you are done, the Project pane should look like this. The absence of *reveal triangles* to the left of the **Scripts** and **Sprites** folders tells you that they are currently empty.
 
-![](assets/4-CreateFolders-5.png){: width="400px" }
+![](assets/4-CreateFolders-5.png){: width="600px" }
 
 The third way to create a folder in Unity is from the **Assets** menu on the menubar. Useful if you forget the other methods, but otherwise I find it too cumbersome for regular use.
 
@@ -183,16 +181,15 @@ The only sprites we *need* for Pong are a white circle and a white square. You c
 To download the linked images:
 
 1. Right click on the link and choose **Download Linked File As…**.
+   ![](assets/4-DownloadSprites-1.png){: width="400px" }
 1. Navigate to the Sprites folder in your Unity project.
 1. If you want, change the file name.
+   ![](assets/4-DownloadSprites-2.png){: width="400px" }
 1. Click **Save**
-
-![](assets/4-DownloadSprites-1.png){: width="400px" }
-![](assets/4-DownloadSprites-2.png){: width="400px" }
 
 After downloading the Circle and Square images, your Unity Sprites folder should look like this:
 
-![](assets/4-DownloadSprites-3.png){: width="400px" }
+![](assets/4-DownloadSprites-3.png){: width="600px" }
 
 ### Check the sprite import settings
 
@@ -234,7 +231,7 @@ Unity does not save automatically, work outside of the Project pane is likely to
 
 1. You can set the transform to its default values by choosing **Reset** from the cog menu in the upper right corner of the Tranform component. Try this.
 
-   ![](assets/5-TransformCog-3.png){: width="400px" }
+   ![](assets/5-TransformCog-3.png){: width="300px" }
 
 3. Delete the paddle - select it in the Hierarchy pane or Scene view and press the **Delete** key, you can also use the context menu.
 1. Create another paddle by dragging the Square sprite up to the Hierarchy view - notice that the transform is set to the origin.
