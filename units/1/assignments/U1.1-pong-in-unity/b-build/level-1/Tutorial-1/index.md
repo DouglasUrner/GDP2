@@ -15,9 +15,10 @@ This is the first of a four part series of tutorials for building your own versi
 The examples use the [JetBrains Rider IDE][rider] for editing Unity's [C#][] scripts, but you can use any editor that you prefer. The tutorials build on each other, so it makes sense for everyone to start at the beginning.
 
 [pong]: https://en.wikipedia.org/wiki/Pong
-[unity]: #
+[unity]: https://unity3d.com
 [rider]: #
 [c#]: #
+[manual]: https://docs.unity3d.com/Manual/UnityManual.html
 
 [tutorial2]: #
 [tutorial3]: #
@@ -51,7 +52,7 @@ Inspriration comes from a number of Pong in Unity tutorials, including:
    - Location: **U:\Game Design 2\Games**
    - Template: **2D**  
    
-   If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.
+   If you are working on macOS or Linux, you settings should be similar to the ones in the screen capture. After double checking, click on the **Create project** button and Unity will initialize your project. This will take a while, as Unity works it will relaunch itself and it will display some progress bars.  
 ![Unity new project settings](assets/003.png){: width="600px" }
 
 ---
@@ -87,19 +88,20 @@ The Unity UI is divided into several panes, each of the numbers in the screen ca
    
 ### Controls
 
-The Unity **[Toolbar](https://docs.unity3d.com/Manual/Toolbar.html)** provides access to some commonly used controlls, including:
+![Cropped view of the Unity toolbar](assets/006.png)
+
+The Unity **[Toolbar][]** provides access to some commonly used controlls, including:
 
 * ![](assets/Editor-TransformTools-small.png) - Transform Tools to scale and move game objects in the Scene view.
 * ![](assets/Editor-PlayButtons.png) - Play Buttons allow switching between Unity's Edit and Play (testing) modes.
 * ![](assets/Editor-LayoutDropDown.png) - Layout Drop Down menu for [customizing your workspace][customizing].
 
 [customizing]: https://docs.unity3d.com/2018.3/Documentation/Manual/CustomizingYourWorkspace.html
-
-![Cropped view of the Unity toolbar](assets/006.png)
+[toolbar]: https://docs.unity3d.com/Manual/Toolbar.html
 
 #### Configure Your Workspace
 
-Before you go on, take some time read the section of the [Unity Manual]() on [Customizing Your Workspace][customizing] and set up your workspace to match the example above. This will make it easier to follow these tutorials. If you are planning to use a different tutorial, you may prefer to use its workspace layout as your model.
+Before you go on, take some time read the section of the [Unity Manual][manual] on [Customizing Your Workspace][customizing] and set up your workspace to match the example above. This will make it easier to follow these tutorials. If you are planning to use a different tutorial, you may prefer to use its workspace layout as your model.
 
 Once you have your workspace customized, save your layout.
    
@@ -113,7 +115,9 @@ Because you use those functions so often, Unity has multiple ways to access them
 * Use the **Create** drop-down menu in the Project and Hierarchy panes.
 * Use the **Add Component** button in the Inspector.
 
-That's enough for now. Let's start building the game.
+That's enough to get started. Let's build a game.
+
+---
 
 ## 3: Make A Plan
 
