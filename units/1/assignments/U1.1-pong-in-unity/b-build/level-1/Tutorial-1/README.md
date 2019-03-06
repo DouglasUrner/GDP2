@@ -169,10 +169,21 @@ After downloading the Circle and Square images, your Unity Sprites folder should
 
 ### Check the sprite import settings
 
-Notice that each of the sprites, Circle and Square, has a reveal triangle to the left of it.
+Notice that each of the sprites, Circle and Square, has a reveal triangle to the left of it. The images that you downloaded have become sprites. Before we move on, let's investigate them a bit:
+
+1. Notice that each sprite has a small icon of itself.
+1. Click on the reveal triangle to open the sprite folder.
+1. Inside you will find the image file that you downloaded. If you had downloaded an animated sprite the animation frames would all be stored together in the folder.
+1. In the **Inspector** pane the properties of the selected sprite are displayed along with a preview. There are a few things to notice/check:
+   - **Texture Type** should be set to **Sprite (2D and UI)**, if it is not your project may have been created with a 3D template. Read the Unity manual section on [2D and 3D Settings][3Dto2D] to learn how to switch your project into 2D mode (or you could start over, it would be quick, and it would be good practice).
+   - **Pixels Per Unit** should be **100**, this setting scales images to the game world. Decreasing it makes the sprite larger and vice versa.
+   - **Filter Mode** should be changed from the default of **Bilinear** to **Point (no filter)** for the Square, it can be left at the default for the Circle. The bilinear setting may result in fuzzy edges which will look bad on the paddles or if we use the square to form edges or the center line.
+
+![Inspector pane displaying sprite](assets/4-DownloadSprites-4.png)
 
 [circle]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Circle.png
 [square]: https://github.com/DouglasUrner/GDP2/raw/master/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1/assets/Square.png
+[3Dto2D]: https://docs.unity3d.com/2018.3/Documentation/Manual/2DAnd3DModeSettings.html
 
 ## 5: Set Up The Paddles
 
