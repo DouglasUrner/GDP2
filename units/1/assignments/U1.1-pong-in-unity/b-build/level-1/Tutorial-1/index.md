@@ -416,7 +416,12 @@ The process of setting up the ball is very similar to the paddles:
    - Setting the **X** and **Y** values to **0.5** worked for me.
    - Since this is a 2D game you can ignore the **Z** value (or set it, either is ok).
    
-### Add a collider
+### Add components
+
+Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] component and a script component to the prefab:
+1. In the **Ball** prefab, click on the **Add Component** button, select the **New script** option and name the script **BallController**.
+1. The new **BallController** script will be created in the top level of the **Assets** folder, so go to the **Projectns** pane and drag the **BallController** script to the **Scripts** folder.
+1. 
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
 
