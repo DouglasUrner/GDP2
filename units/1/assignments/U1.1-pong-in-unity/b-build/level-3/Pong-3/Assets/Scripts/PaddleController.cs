@@ -4,41 +4,44 @@ using UnityEngine;
 
 public class PaddleController : MonoBehaviour
 {
-  public KeyCode moveUp = KeyCode.W;
-public KeyCode moveDown = KeyCode.S;
-public float speed = 10.0f;
-public float boundY = 2.25f;
+    //speed of player
+    public float speed = 10;
+    public KeyCode pause = KeyCode.P;
+    public string axis = "Vertical";
 
-private Rigidbody2D rb2d;
+    //bounds of player
+    public float bound = 4.5F;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-           rb2d = GetComponent<Rigidbody2D>(); 
+    // Use this for initialization
+    void Start () {
+        // Setting Time.timeScale to 0 stops time and pauses the game. Only works
+        // in single player. This script could be disabled in single player mode on
+        // the opponent paddle by the AI script or if worse comes to worse in AI mode
+        // there could be a flag to do an early return.
+        Time.timeScale = 0;
+        Debug.Log("Pause");
+    }
+
+    void Update() {
+        // Pause or start/resume when player hits pause.
+        if (Input.GetKeyDown(pause)) {
+            Time.timeScale = (Time.timeScale == 0) ? 1 : 0;
+            Debug.Log(Time.timeScale == 0 ? "Pause" : "Resume");
+        }
     }
 
     // Update is called once per frame
-    void Update()
-    {
-    var vel = rb2d.velocity;
-    if (Input.GetKey(moveUp)) {
-        vel.y = speed;
-    }
-    else if (Input.GetKey(moveDown)) {
-        vel.y = -speed;
-    }
-    else {
-        vel.y = 0;
-    }
-    rb2d.velocity = vel;
+    void FixedUpdate () {
 
-    var pos = transform.position;
-    if (pos.y > boundY) {
-        pos.y = boundY;
-    }
-    else if (pos.y < -boundY) {
-        pos.y = -boundY;
-    }
-    transform.position = pos;        
+        // Get player input and calculate distance to move.
+        float movementY = Input.GetAxis(axis) * speed * Time.deltaTime;
+        transform.Translate(0, movementY, 0);
+
+        //set bounds of player
+        if (transform.position.y > bound) {
+            transform.position = new Vector2(transform.position.x, bound);
+        } else if (transform.position.y < -bound) {
+            transform.position = new Vector2(transform.position.x, -bound);
+        }
     }
 }

@@ -354,6 +354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaddleR
       objectReference: {fileID: 0}
+    - target: {fileID: 8590375102896067156, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Paddle
+      objectReference: {fileID: 0}
     - target: {fileID: 1695623634634637865, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -651,6 +656,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PaddleL
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590375102896067156, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Paddle
       objectReference: {fileID: 0}
     - target: {fileID: 1695623634634637865, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
         type: 3}

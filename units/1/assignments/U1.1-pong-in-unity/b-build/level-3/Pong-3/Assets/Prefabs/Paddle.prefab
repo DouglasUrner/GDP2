@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5568925850687710834}
   m_Layer: 0
   m_Name: Paddle
-  m_TagString: Untagged
+  m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a263ca208f44b7dbeb33fa3d125587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveUp: 119
-  moveDown: 115
   speed: 10
-  boundY: 6.45
+  pause: 112
+  axis: Vertical
+  bound: 6.5
