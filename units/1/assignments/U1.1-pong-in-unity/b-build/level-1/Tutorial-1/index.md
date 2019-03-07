@@ -475,6 +475,8 @@ The ball needs a [Collider][] component so that it can detect and respond to col
    
 ## 8: Make The Ball Bounce When It Hits The Paddles
 
+### Add colliders
+
 Now that we have the ball moving, we need to get it to bounce when it hits the paddles and the edges. To do that we will add *colliders* to the ball and paddle prefabs.
 
 1. Open the Ball prefab.
@@ -485,15 +487,38 @@ Now that we have the ball moving, we need to get it to bounce when it hits the p
 
 You will probably see the paddle go flying out of sight, followed by the ball. Well…
 
-The problem is that the default values for the mass of the ball and the paddle are the same. So this is what should be happening. Lets start by looking at the Rigidbody2D component of the Paddle prefab. It should look like this:
+The problem is that the default values for the mass of the ball and the paddle are the same. So this is what should be happening. We just have to figure out how to fix it. Lets start by looking at the Rigidbody2D component of the Paddle prefab. It should look like this:
 
-![](assets/8-2-Rigidbody2D.png)
+![](assets/8-2-Rigidbody2D.png){: width="400px" }
 
-We just have to figure out how to fix it. There are three obvious options:
+There are three posibilities we could try:
+
+* We could try making the mass of the ball very small (and maybe make the mass of the paddle very large as well).
+* We could try using the **Freeze Position** constraint to freeze the **X** position of the paddles.
+* We could try changing the **Body Type** to **Kinematic**.
+
+Try some of them. As soon as you test you should notice that the ball no longer sends the paddle flying, bpt it doesn't bounce either. We need to make the ball "bouncy."
+
+### Add a Physics Materal 2D to the ball
+
+1. In the **Project** pane create a folder called **Materials** in the **Assets** folder.
+1. Select the new **Materials** folder and right-click.
+1. From the context menu choose **Create > Physics Material 2D.**
+1. Rename the material **Ball**.
+1. In the **Inspector** set the values:
+   - Friction: **0**
+   - Bounciness: **1**
+   
+Now we can attach this material to the Ball and it will bounce nicely:
+
+1. Open the **Ball** prefab.
+1. Drag the **Ball** Physics Material 2D from the **Materials** folder to the **Material** property in the Ball's **CircleCollider2D**.
+1. Save and test.
+
+The ball should now be bouncing back and forth between the paddles.
 
    - Add tag (be sure it goes on the prefab)
-   - Create and add Physics 2D material
-     - Drag to Physics 2D component
+
 
 ---
 
