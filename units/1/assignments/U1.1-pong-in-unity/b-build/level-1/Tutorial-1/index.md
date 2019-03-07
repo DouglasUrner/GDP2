@@ -470,16 +470,30 @@ Like the paddles, the ball will move, so we'll need to add a [Rigidbody2D][] com
 1. What do you think will happen when you run this code? Which way will the ball go? Save, then test.
 
 The ball needs a [Collider][] component so that it can detect and respond to collisions with other objectts in thet game.
-
-### Add
-   - Add tag (be sure it goes on the prefab)
-   - Create and add Physics 2D material
-     - Drag to Physics 2D component
-   - Add BallController script
    
 ---
    
-## 8: The BallController Script
+## 8: Make The Ball Bounce When It Hits The Paddles
+
+Now that we have the ball moving, we need to get it to bounce when it hits the paddles and the edges. To do that we will add *colliders* to the ball and paddle prefabs.
+
+1. Open the Ball prefab.
+1. Add a [CircleCollider2D][] component to the prefab.
+1. Open the Paddle prefab.
+1. Add a [BoxCollider2D][] component.
+1. Save and test.
+
+You will probably see the paddle go flying out of sight, followed by the ball. Well…
+
+The problem is that the default values for the mass of the ball and the paddle are the same. So this is what should be happening. Lets start by looking at the Rigidbody2D component of the Paddle prefab. It should look like this:
+
+![](assets/8-2-Rigidbody2D.png)
+
+We just have to figure out how to fix it. There are three obvious options:
+
+   - Add tag (be sure it goes on the prefab)
+   - Create and add Physics 2D material
+     - Drag to Physics 2D component
 
 ---
 
