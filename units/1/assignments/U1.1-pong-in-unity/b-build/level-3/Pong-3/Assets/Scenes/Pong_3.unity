@@ -424,6 +424,11 @@ PrefabInstance:
       propertyPath: moveDown
       value: 274
       objectReference: {fileID: 0}
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: bound
+      value: 6.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9, type: 3}
 --- !u!4 &1300796238 stripped
@@ -715,6 +720,16 @@ PrefabInstance:
     - target: {fileID: 1695623634634637865, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: bound
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
