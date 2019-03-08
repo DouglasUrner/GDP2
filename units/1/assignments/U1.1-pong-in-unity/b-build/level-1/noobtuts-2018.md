@@ -357,6 +357,7 @@ public class MoveRacket : MonoBehaviour {
 
 We will also add a speed variable to our Script, so that we can control the racket's movement speed:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -368,12 +369,15 @@ public class MoveRacket : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v);
     }
 }
+```
 
 We made the speed variable public so that we can always modify it in the Inspector without changing the Script:
-MoveRacket Speed
+
+![MoveRacket Speed]()
 
 Now we can modify our Script to make use of the speed variable:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -385,16 +389,21 @@ public class MoveRacket : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v) * speed;
     }
 }
+```
 
-Note: we set the velocity to the direction multiplied by the speed, which is exactly the velocity's definition.
+*Note: we set the velocity to the direction multiplied by the speed, which is exactly the velocity's definition.*
+
 If we save the Script and press Play then we can now move the rackets:
-Rackets Moving
+
+![Rackets Moving]()
 
 There is just one problem, we can't move the rackets separately yet.
 
-Adding a Movement Axis
+### Adding a Movement Axis
+
 Right now, both our Scripts check the "Vertical" Input axis for the movement calculations. Let's create a new Axis variable so that we can change the Input Axis in the Inspector:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -407,69 +416,92 @@ public class MoveRacket : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v) * speed;
     }
 }
+```
+
 Let's select Edit->Project Settings->Input from the top menu. Here we can modify the current Vertical axis so that it only uses the W and S keys. We will also make it use only Joystick 1:
-Vertical Axis
+
+![Vertical Axis]()
 
 Now we will increase the Size by one in order to add a new axis:
-Increase Axis Size
+
+![Increase Axis Size]()
 
 We will name it Vertical2 and modify it accordingly:
-Vertical2 Axis
+
+![Vertical2 Axis]()
 
 Afterwards we will select the RacketRight GameObject and change the MoveRacket Script's Axis property to Vertical2:
-MoveRacket Vertical2 Axis
+
+![MoveRacket Vertical2 Axis]()
 
 If we press Play then we can now move the rackets seperately:
-Rackets moving seperately
-Note: instead of using axes, we could also create a up and down key variable in our Script and then set it to w/s for the left racket and UpArrow/DownArrow for the right racket. However by using axes we end up with far less code and perfect gamepad/joystick/keyboard support.
 
-Creating the Ball
+![Rackets moving seperately]()
 
-The Ball Texture
+*Note: instead of using axes, we could also create a up and down key variable in our Script and then set it to w/s for the left racket and UpArrow/DownArrow for the right racket. However by using axes we end up with far less code and perfect gamepad/joystick/keyboard support.*
+
+## Creating the Ball
+
+### The Ball Texture
+
 Okay the Ball will be easy again. At first we save the following texture to our Project's Assets folder:
 
-Ball.png
-Note: right click on the image, select Save As... and save it in the project's Assets folder.
+[Ball.png]()
+
+*Note: right click on the image, select Save As... and save it in the project's Assets folder.*
+
 We will use the following Import Settings for it:
-Ball Import Settings
+
+![Ball Import Settings]()
 
 Now we can drag it from the Project Area into the middle of the Scene:
-Ball in Scene
 
-The Ball Collider
+![Ball in Scene]()
+
+### The Ball Collider
+
 Our Ball should make use of Unity's Physics again, so let's select Add Component->Physics 2D->Box Collider 2D to add a Collider:
-Ball Collider
+
+![Ball Collider]()
 
 Our ball is supposed to bounce off walls. For example when flying directly towards a wall it should bounce off in the exact opposite direction. When flying in a 45° angle towards a wall, it should bounce off in a -45° angle and so on.
 
-This sounds like some complicated math that could be done with Scripting. But since we are lazy, we will just let Unity take care of the bouncing off thing by assigning a Physics Material to the Collider that makes it bounce off things all the time.
+This sounds like some complicated math that could be done with scripting. But since we are lazy, we will just let Unity take care of the bouncing off thing by assigning a Physics Material to the Collider that makes it bounce off things all the time.
 
 At first we right click in our Project Area and selected Create->Physics2D Material which we will name BallMaterial:
-Ball Material in Project Area
+
+![Ball Material in Project Area]()
 
 Now we can modify it in the Inspector to make it bounce off:
-Ball Material in Inspector
+
+![Ball Material in Inspector]()
 
 Then we drag the material from the Project Area into the Material slot of the Ball's Collider:
-Ball Collider with Physics Material
+
+![Ball Collider with Physics Material]()
 
 And that's all. Now the ball will bounce off in case it collides with things in the game.
 
-The Ball Rigidbody
+### The Ball Rigidbody
+
 In order to make our ball move through the game world, we will add a Rigidbody2D to it again by selecting Add Component->Physics 2D->Rigidbody 2D.
-Note: remember, every Physics thing that is supposed to move through the game world will need a Rigidbody.
+
+*Note: remember, every Physics thing that is supposed to move through the game world will need a Rigidbody.*
 
 We will modify the Rigidbody component in several ways:
 
-We don't want it to use Gravity
-We want it to have a very small Mass so it doesn't push away the Rackets when colliding
-We don't want it to rotate
-We use Interpolate and Continous Collision Detection for exact physics
-Ball Rigidbody
-Note: those modifications are not very obvious to beginners. The usual workflow is to add a Rigidbody, test the game and then modify the Rigidbody in case of undesired effects like a too big mass.
+* We don't want it to use Gravity
+* We want it to have a very small Mass so it doesn't push away the Rackets when colliding
+* We don't want it to rotate
+* We use Interpolate and Continous Collision Detection for exact physics
+
+![Ball Rigidbody]()
+
+*Note: those modifications are not very obvious to beginners. The usual workflow is to add a Rigidbody, test the game and then modify the Rigidbody in case of undesired effects like a too big mass.*
 
 Okay so there is one more thing to do before we see some cool ball movement. We will select Add Component->New Script, name it Ball and select CSharp for the language. Afterwards we will double click the Script in the Project Area in order to open it:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -485,8 +517,11 @@ public class Ball : MonoBehaviour {
 
     }
 }
+```
+
 Let's remove the Update function because we won't need it. Instead we will use the Start function to give the ball some initial velocity. Yet again we will use a direction multiplied by a speed:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -498,14 +533,18 @@ public class Ball : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
     }
 }
+```
 Now if we press play, we can see the Ball bounce off the walls and rackets:
-Ball Bouncing off
+
+![Pong screen with ball bouncing between paddles.]()
 
 Again, we didn't have to worry about any complicated math. Unity took care of it for us with its powerful Physics engine.
 
-The Ball <-> Racket Collision Angle
+### The Ball <-> Racket Collision Angle
+
 Our game already looks a lot like Pong, but there is one more important modification to be done. We explained in the very beginning that the ball's outgoing angle should depend on where it hit the racket:
-unity-2d-pong-game-racket-bounce-angles
+
+![unity-2d-pong-game-racket-bounce-angles]()
 
 This way the players can shoot the ball into whatever direction they please, which adds a huge tactical component to the game.
 
