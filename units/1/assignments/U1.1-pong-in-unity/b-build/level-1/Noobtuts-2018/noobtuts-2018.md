@@ -19,13 +19,13 @@ We will begin by thinking about the game rules and taking a first look at the Un
 
 The game rules should be very similar to the original Pong. The right player scores a point if the ball hits the left wall. The left player scores a point if the ball hits the right wall. If it hits the top or bottom wall then it bounces off. Each player will have a racket that can be moved up and down to hit back the ball.
 
-Our rackets should have an influence on the ball's outgoing angle:
+Our paddles should have an influence on the ball's outgoing angle:
 
 ![Illustration of the paddle bounce angles](assets/racket_bounce_angles.png)
 
-* If the racket hits the ball at the top corner, then it should bounce off towards our top border.
-* If the racket hits the ball at the center, then it should bounce off towards the right, and not up or down at all.
-* If the racket hits the ball at the bottom corner, then it should bounce off towards our bottom border.
+* If the ball hits the paddle above its center, then it should bounce off towards the top border.
+* If the ball hits the paddle at its center, then the ball should bounce straight, and not going up or down at all.
+* If the ball hits the paddle below its center, then it should bounce off towards the bottom border.
 
 ## About the Unity Engine
 
