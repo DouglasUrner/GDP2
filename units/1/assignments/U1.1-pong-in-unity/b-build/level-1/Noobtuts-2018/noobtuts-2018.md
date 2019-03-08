@@ -599,10 +599,13 @@ float hitFactor(Vector2 ballPos, Vector2 racketPos,
     // || -1 <- at the bottom of the racket
     return (ballPos.y - racketPos.y) / racketHeight;
 }
-Note: we subtract the racketPos.y from the ballPos.y to have a relative position.
+```
+
+*Note: we subtract the racketPos.y from the ballPos.y to have a relative position.*
 
 Here is how our final OnCollisionEnter2D function looks:
 
+```csharp
 void OnCollisionEnter2D(Collision2D col) {
     // Note: 'col' holds the collision information. If the
     // Ball collided with a racket, then:
@@ -642,7 +645,7 @@ void OnCollisionEnter2D(Collision2D col) {
 
 *Note: please read through the comments in order to understand what's going on.*
 
-If we press play, we can now influence the ball's bouncing direction depending on where we hit it with the Racket.
+If we press play, we can now influence the ball's bouncing direction depending on where we hit it with the paddle.
 
 ## Summary
 
