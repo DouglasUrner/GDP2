@@ -3,13 +3,9 @@
 
 # Unity 2D Pong Game
 
-![]()
+![](assets/unity_2d_pong.gif)
 
 This Tutorial will show how to make a 2D Pong Game in the Unity Game Engine with only 38 lines of code. Everything will be explained step-by-step so everyone can understand it.
-
-Here is a preview of the final game:
-
-![]()
 
 ## Foreword
 
