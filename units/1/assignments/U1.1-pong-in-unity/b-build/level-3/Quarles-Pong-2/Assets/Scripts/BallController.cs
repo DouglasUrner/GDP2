@@ -45,7 +45,7 @@ public class BallController : MonoBehaviour
 
             //set angle and speed
             Vector2 d = new Vector2(1, y).normalized;
-            rig2D.velocity = d * speed * 1.5F;
+            rb.velocity = d * speed * 1.5F;
         }
 
         if (col.gameObject.tag == "Player") {
@@ -56,7 +56,7 @@ public class BallController : MonoBehaviour
 
             //set angle and speed
             Vector2 d = new Vector2(-1, y).normalized;
-            rig2D.velocity = d * speed * 1.5F;
+            rb.velocity = d * speed * 1.5F;
         }
     }
 
