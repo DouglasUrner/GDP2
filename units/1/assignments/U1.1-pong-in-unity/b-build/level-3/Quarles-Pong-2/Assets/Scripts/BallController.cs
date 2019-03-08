@@ -32,6 +32,37 @@ public class BallController : MonoBehaviour
 
         //moving ball in initial direction and adding speed
         rb.velocity = (spawnDir * speed);
+    }
+    
+    void OnCollisionEnter2D(Collision2D col) {
 
+        //tag check
+        if (col.gameObject.tag == "Opponent") {
+            //calculate angle
+            float y = launchAngle(transform.position,
+                col.transform.position,
+                col.collider.bounds.size.y);
+
+            //set angle and speed
+            Vector2 d = new Vector2(1, y).normalized;
+            rig2D.velocity = d * speed * 1.5F;
+        }
+
+        if (col.gameObject.tag == "Player") {
+            //calculate angle
+            float y = launchAngle(transform.position,
+                col.transform.position,
+                col.collider.bounds.size.y);
+
+            //set angle and speed
+            Vector2 d = new Vector2(-1, y).normalized;
+            rig2D.velocity = d * speed * 1.5F;
+        }
+    }
+
+    //calculates the angle the ball hits the paddle at
+    float launchAngle(Vector2 ball, Vector2 paddle,
+        float paddleHeight) {
+        return (ball.y - paddle.y) / paddleHeight;
     }
 }
