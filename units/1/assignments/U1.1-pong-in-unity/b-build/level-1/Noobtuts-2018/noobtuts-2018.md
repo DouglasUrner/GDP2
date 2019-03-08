@@ -550,6 +550,7 @@ This way the players can shoot the ball into whatever direction they please, whi
 
 Let's modify our Ball Script to use the OnCollisionEnter2D function that is automatically called by Unity upon colliding with something else:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -569,18 +570,25 @@ public class Ball : MonoBehaviour {
         //   col.collider is the racket's collider
     }
 }
+```
+
 So now we need a function that calculates the ball's velocity depending on where it hit the racket. The following image shows the Vector2 for several movement directions again:
-Vector2 Directions
+
+![Vector2 Directions]()
 
 Now the x value is obvious, it's -1 in case it bounces off the right racket and it's 1 in case it bounces off the left racket. What we need to think about is the y value, which will be somewhere between -1 and 1. All we really need to calculate is this:
 
+```
 ||  1 <- at the top of the racket
 ||
 ||  0 <- at the middle of the racket
 ||
 || -1 <- at the bottom of the racket
+```
+
 Or in other words: we just have to find out where the ball is in relation to the racket. Or in other words: we just have to divide the ball's y coordinate by the racket's height. Here is our function:
 
+```csharp
 float hitFactor(Vector2 ballPos, Vector2 racketPos,
                 float racketHeight) {
     // ascii art:
@@ -630,22 +638,21 @@ void OnCollisionEnter2D(Collision2D col) {
         GetComponent<Rigidbody2D>().velocity = dir * speed;
     }
 }
-Note: please read through the comments in order to understand what's going on.
+```
+
+*Note: please read through the comments in order to understand what's going on.*
 
 If we press play, we can now influence the ball's bouncing direction depending on where we hit it with the Racket.
 
-Summary
+## Summary
 
 In this Tutorial we learned how to install and use Unity, create a basic Scene with just some textures, use Unity's Physics and create Scripts to add custom game mechanics.
 
 When making further improvements to the game, always remember: Unity is simple, you can do almost everything with just a few mouse clicks or a few lines of C# code. There are tons of features that can be added to make the game as fun as possible:
 
-Add a Trail Effect like shown at the top
-Add the old Pong Sound that we all love
-Add a Score
-Increase the Ball's speed over time
-Add an AI enemy
-Add a menu and a credits screen
-The Project Files can be download here.
-
-© 2012-2019 noobtuts.com
+* Add a Trail Effect like shown at the top
+* Add the old Pong Sound that we all love
+* Add a Score
+* Increase the Ball's speed over time
+* Add an AI opponent
+* Add a menu and a credits screen
