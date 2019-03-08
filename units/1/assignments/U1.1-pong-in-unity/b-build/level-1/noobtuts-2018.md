@@ -536,7 +536,7 @@ public class Ball : MonoBehaviour {
 ```
 Now if we press play, we can see the Ball bounce off the walls and rackets:
 
-![Pong screen with ball bouncing between paddles.]()
+![Pong screen with ball bouncing between paddles.](assets/ball_bouncing.gif)
 
 Again, we didn't have to worry about any complicated math. Unity took care of it for us with its powerful Physics engine.
 
