@@ -793,6 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18686e02d7c684c5890d21f83ea77982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  opponent: {fileID: 1425518161}
 --- !u!1 &1027021110
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +808,7 @@ GameObject:
   - component: {fileID: 1027021114}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Paddle
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1316,7 +1317,7 @@ GameObject:
   - component: {fileID: 1425518162}
   m_Layer: 0
   m_Name: Opponent
-  m_TagString: Paddle
+  m_TagString: Opponent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1604,3 +1605,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18686e02d7c684c5890d21f83ea77982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  opponent: {fileID: 1425518161}
