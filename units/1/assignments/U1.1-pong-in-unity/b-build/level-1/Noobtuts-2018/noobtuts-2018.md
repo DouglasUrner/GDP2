@@ -21,7 +21,7 @@ The game rules should be very similar to the original Pong. The right player sco
 
 Our rackets should have an influence on the ball's outgoing angle:
 
-![Illustration of the paddle bounce angles](racket_bounce_angles.png)
+![Illustration of the paddle bounce angles](assets/racket_bounce_angles.png)
 
 * If the racket hits the ball at the top corner, then it should bounce off towards our top border.
 * If the racket hits the ball at the center, then it should bounce off towards the right, and not up or down at all.
