@@ -15,13 +15,13 @@ We will begin by thinking about the game rules and taking a first look at the Un
 
 ## Game Concept
 
-![]()
+![](assets/basic_rules.png)
 
 The game rules should be very similar to the original Pong. The right player scores a point if the ball hits the left wall. The left player scores a point if the ball hits the right wall. If it hits the top or bottom wall then it bounces off. Each player will have a racket that can be moved up and down to hit back the ball.
 
 Our rackets should have an influence on the ball's outgoing angle:
 
-![unity-2d-pong-game-racket-bounce-angles]()
+![Illustration of the paddle bounce angles](racket-bounce-angles.png)
 
 * If the racket hits the ball at the top corner, then it should bounce off towards our top border.
 * If the racket hits the ball at the center, then it should bounce off towards the right, and not up or down at all.
@@ -128,8 +128,8 @@ Let's add four walls to our game. All we need to make a wall is a so called Spri
 
 We will use one horizontal Sprite for the top and bottom walls and one vertical Sprite for the left and right walls:
 
-* WallHorizontal.png
-* WallVertical.png
+* [](assets/WallHorizontal.png)
+* [](assets/WallVertical.png)
 
 *Note: right click each image, select Save As... and save them all in the project's Assets folder.*
 
