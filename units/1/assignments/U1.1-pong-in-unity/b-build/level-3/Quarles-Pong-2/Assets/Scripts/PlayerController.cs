@@ -19,12 +19,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update(){
 
-        // Pause or Play game when player hits p
-        if(Input.GetKeyDown(pause) && Time.timeScale == 0){
-            Time.timeScale = 1;
-        } else if(Input.GetKeyDown(pause) && Time.timeScale == 1){
-            Time.timeScale = 0;
-        }
     }
 
     void FixedUpdate () {
