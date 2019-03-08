@@ -1,3 +1,6 @@
+---
+---
+
 # Unity 2D Pong Game
 
 ![]()
@@ -143,104 +146,139 @@ Alright now we can see them in Unity's Project Area:
 ### The Wall Import Settings
 
 Let's select both wall images and then take a look at the Inspector, where we will apply the following Import Settings:
-Wall ImportSettings
-Note: the Filter Mode and Format can be used to decide between quality and performance. A Pixels Per Unit value of 1 means that 1 x 1 pixels will fit into one unit in the game world. We will use this value for all our textures, because the ball will be 1 x 1 pixels later on, which should be exactly one unit in the game world.
+
+![Wall ImportSettings]
+
+*Note: the Filter Mode and Format can be used to decide between quality and performance. A Pixels Per Unit value of 1 means that 1 x 1 pixels will fit into one unit in the game world. We will use this value for all our textures, because the ball will be 1 x 1 pixels later on, which should be exactly one unit in the game world.*
 
 Modifying the Import Settings might seem like a weird thing to do if you are new to Unity. As a matter of fact, our game would work just fine without ever touching the Import Settings at all. However in 2D games it's usually a good idea to modify those settings so that the world size is something reasonable (we don't want a 100 meter huge racket, this could make the physics somewhat tricky).
 
-Adding the Walls to the Game World
+### Adding the Walls to the Game World
+
 So in order to add the Walls to our game, all we have to do is drag them from the Project Area into the Scene:
-drag_wall_into_scene
+
+![drag_wall_into_scene]()
 
 We will drag each texture into the Scene twice so that we have 4 walls:
-Walls before Positioning
+
+![Walls before Positioning]()
 
 Afterwards we position the walls so that they look like a rectangle with the Camera in the center:
 Walls after Positioning
-Note: we can position the walls by either dragging them around, or by selecting them and then changing their Position in the Inspector.
 
-Renaming the Walls
+*Note: we can position the walls by either dragging them around, or by selecting them and then changing their Position in the Inspector.*
+
+### Renaming the Walls
+
 We will also rename the Walls to WallLeft, WallRight, WallTop and WallBottom so that we don't lose the overview later on. Renaming is very easy, all we have to do is right click a wall in the Hierarchy and select Rename:
-Rename Wall in Hierarchy
+
+![Rename Wall in Hierarchy]()
 
 Here is what our Hierarchy looks like afterwards:
-Walls renamed in Hierarchy
 
-Wall Physics
+![Walls renamed in Hierarchy]
+
+### Wall Physics
+
 Right now we can see the walls in the game, but they aren't real walls yet. They are just images in the game world, a purely visual effect.
 
 We want the walls to be real walls so that the Rackets and the Ball will collide with them instead of just going right through them.
 
 Unity comes with an incredibly powerful physics engine, and all that we have to do is tell Unity that our walls are supposed to be Colliders. We will select all the walls in the Hierarchy:
-Walls selected
 
-Afterwards we click on the Add Component button in the Inspector and then select Physics2D->Box Collider 2D:
-Walls - Add Component
-Note: whatever we do in the Inspector will be done for all objects that are selected in the Hierarchy. And because we selected all four walls, they will all have a Collider now.
+![Walls selected]()
+
+Afterwards we click on the **Add Component** button in the Inspector and then select **Physics2D > Box Collider 2D:**
+
+![Walls - Add Component]()
+
+*Note: whatever we do in the Inspector will be done for all objects that are selected in the Hierarchy. And because we selected all four walls, they will all have a Collider now.*
 
 Now we can see that all our walls have a Box Collider 2D component in the Inspector:
-Wall Colliders in Inspector
-Note: the -- values are the ones that are different between the selected GameObjects.
+
+![Wall Colliders in Inspector]()
+
+*Note: the -- values are the ones that are different between the selected GameObjects.*
 
 If we take a look at the Scene then we can also see that each wall is now surrounded by a green rectangle:
-Wall Colliders in Scene
-Note: the green rectangles are the colliders. They are only shown in the Scene and not in the final game.
+
+![Wall Colliders in Scene]()
+
+*Note: the green rectangles are the colliders. They are only shown in the Scene and not in the final game.*
 
 We can also select only a single wall to see all the values correctly:
-Top Wall Collider in Inspector
 
-Adding the Dotted Line
+![Top Wall Collider in Inspector]()
 
-Alight let's add the dotted line in the middle. We will use the following texture:
+### Adding the Dotted Line
 
-DottedLine.png
-Note: right click on the image, select Save As... and save it in the project's Assets folder.
-We will select it in the Project Area and then apply the same Import Settings that we used before:
-Dotted Line Import Settings
+Alright let's add the dotted line in the middle. We will use the following texture:
+
+[DottedLine.png]()
+
+*Note: right click on the image, select Save As... and save it in the project's Assets folder.
+We will select it in the Project Area and then apply the same Import Settings that we used before:*
+
+![Dotted Line Import Settings]()
 
 Afterwards we can drag it from the Project Area into the Scene. We will position it in the middle of the game:
-Dotted Line in Scene
-Note: the dotted line is a great example to understand how Unity's Physics work. Right now the dotted line is just a texture. Just something that we can see. The ball will not collide with the dotted line unless we add a Collider to it (which we won't, because the ball is not supposed to collide with it).
 
-Creating the Rackets
+![Dotted Line in Scene]()
 
-The Racket Texture
+*Note: the dotted line is a great example to understand how Unity's Physics work. Right now the dotted line is just a texture. Just something that we can see. The ball will not collide with the dotted line unless we add a Collider to it (which we won't, because the ball is not supposed to collide with it).*
+
+## Creating the Rackets
+
+### The Racket Texture
+
 We will use yet another white texture for the rackets:
 
-Racket.png
-Note: right click on the image, select Save As... and save it in the project's Assets folder.
+[Racket.png]()
+
+*Note: right click on the image, select Save As... and save it in the project's Assets folder.*
+
 We will use the following Import Settings for it:
-Racket Import Settings
+
+![Racket Import Settings]()
 
 Our game will have two players, one on the left and one on the right. So let's drag the racket into the game twice and position it once on the left and once on the right:
-Rackets in Scene
 
-Renaming the Rackets
+![Rackets in Scene]()
+
+### Renaming the Rackets
+
 Again to make our lives easier later on, we will rename the two rackets to RacketLeft and RacketRight in the Hierarchy:
 Rackets in Hierarchy
 
-Racket Physics
-Okay so our Rackets should make use of Unity's Physics Engine. At first they should be able to collide with the wall, hence why we add colliders again by selecting both Rackets in the Hierarchy, then pressing Add Component->Physics 2D->Box Collider 2D in the Inspector so that they look like this:
-Racket Colliders
+### Racket Physics
 
-The player should also be able to move the Racket upwards and downwards later on. But the Rackets should stop moving upwards (or downwards) when they collide with a wall.
+Okay, so our Rackets should make use of Unity's Physics Engine. At first they should be able to collide with the wall, hence why we add colliders again by selecting both Rackets in the Hierarchy, then pressing Add Component->Physics 2D->Box Collider 2D in the Inspector so that they look like this:
+
+![Racket Colliders]()
+
+The player should also be able to move the Racket upwards and downwards later on. But the Rackets should stop moving when they collide with a wall.
 
 What sounds like some complicated math will be ridiculously easy in Unity, because a Rigidbody does just that. It always adjusts an object's position so it's physically correct. For example, it can automatically apply gravity to the object, or it can make sure that our Rackets will never move through a wall.
-Note: as a rule of thumb, everything physical that moves through the game world will need a Rigidbody.
+
+*Note: as a rule of thumb, everything physical that moves through the game world will need a Rigidbody.*
 
 To add a Rigidbody to our Rackets we just select both of them in the Hierarchy again, then take a look in the Inspector and press Add Component->Physics 2D->Rigidbody 2D. We then modify the Rigidbody 2D to disable Gravity (because there is no gravity in a pong game), enable Freeze Rotation Z(the rackets should never rotate) and set the Collision Detection to Continuous and enable the Interpolation so that the physics are as exact as possible:
-Racket Rigidbody in Inspector
 
-Racket Movement
-Let's make sure that players can move their rackets. That kind of custom behavior usually requires Scripting. With both rackets still selected, we will click on Add Component->New Script, name it MoveRacket and select CSharp as the language:
-Create MoveRacket Script
-Note: C# is one of the programming languages that can be used for Scripting. Javascript and Boo would do just fine as well.
+![Racket Rigidbody in Inspector]()
+
+### Racket Movement
+
+Let's make sure that players can move their rackets. That kind of custom behavior usually requires Scripting. With both rackets still selected, we will click on Add Component->New Script, name it MoveRacket and select C# as the language:
+
+![Create MoveRacket Script]()
 
 Afterwards we can double click the Script in the Project Area in order to open it:
-Open MoveRacket Script
+
+![Open MoveRacket Script]()
 
 Here is what our Script currently looks like:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -256,12 +294,15 @@ public class MoveRacket : MonoBehaviour {
 
     }
 }
+```
+
 The Start function is automatically called by Unity when starting the game. The Update function is automatically called over and over again, roughly 60 times per second.
 
 But there is another Update function, it's called FixedUpdate. This one is also called over and over again, but in a fixed time interval. Unity's Physics are calculated in the exact same time interval, so it's usually a good idea to use FixedUpdate when doing Physics stuff (we want to move Rackets that have Colliders and RigidBodys, hence Physics stuff).
 
 Okay so let's remove the Start and Update functions and create a FixedUpdate function instead:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -271,17 +312,21 @@ public class MoveRacket : MonoBehaviour {
 
     }
 }
-Note: it's important that we name it exactly FixedUpdate because this is the name that Unity expects. We can also make functions with different names, but they wouldn't automatically be called by Unity then.
+```
+
+*Note: it's important that we name it exactly FixedUpdate because this is the name that Unity expects. We can also make functions with different names, but they wouldn't automatically be called by Unity then.*
 
 The rackets have a Rigidbody component and we will use the Rigidbody's velocity property for movement. The velocity is always the movement direction multiplied by the speed.
 
 The direction will be a Vector2 with a x component (horizontal direction) and a y component (vertical direction). The following image shows a few Vector2 examples:
-Vector2 Directions
+
+![Vector2 Directions]()
 
 The rackets should only move upwards and downwards, which means that the x component will always be 0 and the y component will be 1 for upwards, -1 for downwards or 0 for not moving.
 
 The y value depends on the user input. We could either check for all kinds of key presses (wsad, arrow keys, gamepad sticks and so on), or we could simply use Unity's GetAxisRaw function:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -291,10 +336,13 @@ public class MoveRacket : MonoBehaviour {
         float v = Input.GetAxisRaw("Vertical");
     }
 }
+```
 
-Note: we use GetAxisRaw to check the vertical input axis. This will return 1 when pressing either the W key, the UpArrow key, or when pointing a gamepad's stick upwards. It will return -1 when using the S key, the DownArrow key, or when pointing a gamepad's stick downwards. It will return 0 when none of those keys are pressed. Or in other words, it's exactly what we need.
+*Note: we use GetAxisRaw to check the vertical input axis. This will return 1 when pressing either the W key, the UpArrow key, or when pointing a gamepad's stick upwards. It will return -1 when using the S key, the DownArrow key, or when pointing a gamepad's stick downwards. It will return 0 when none of those keys are pressed. Or in other words, it's exactly what we need.*
+
 Now we can use GetComponent to access the racket's Rigidbody component and then set its velocity:
 
+```csharp
 using UnityEngine;
 using System.Collections;
 
@@ -305,6 +353,8 @@ public class MoveRacket : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v);
     }
 }
+```
+
 We will also add a speed variable to our Script, so that we can control the racket's movement speed:
 
 using UnityEngine;
@@ -318,6 +368,7 @@ public class MoveRacket : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, v);
     }
 }
+
 We made the speed variable public so that we can always modify it in the Inspector without changing the Script:
 MoveRacket Speed
 
