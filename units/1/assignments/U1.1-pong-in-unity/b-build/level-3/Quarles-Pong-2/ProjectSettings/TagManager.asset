@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Opponent
   - ShowOnPause
+  - ShowOnWin
   layers:
   - Default
   - TransparentFX
