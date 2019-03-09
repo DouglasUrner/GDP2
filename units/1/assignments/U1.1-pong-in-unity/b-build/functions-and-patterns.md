@@ -4,4 +4,6 @@
 
 ## Level 2
 
-## Lever 3
+## Level 3
+
+* ```getComponent()```
