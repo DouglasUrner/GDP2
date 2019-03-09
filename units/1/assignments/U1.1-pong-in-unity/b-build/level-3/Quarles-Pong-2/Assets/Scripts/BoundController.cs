@@ -7,16 +7,28 @@ public class BoundController : MonoBehaviour
     // Opponent transform
     public Transform opponent;
 
+    public int opponentScore;
+    public int playerScore;
+
+    void Start(){
+        opponentScore = 0;
+        playerScore = 0;
+    }
+
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Ball"){
+            if(other.gameObject.GetComponent<Rigidbody2D>().velocity.x > 0){
+                opponentScore++;
+            } else {
+                playerScore++;
+            }
 
-            //Destroys other object
+            // Destroy other object (ball)
             Destroy(other.gameObject);
 
-            //sets enemy's position back to original
+            // Set enemy's position back to original
             opponent.position = new Vector3(-6,0,0);
-
-            //pauses game
+            // Pause game
             Time.timeScale = 0;
         }
     }
