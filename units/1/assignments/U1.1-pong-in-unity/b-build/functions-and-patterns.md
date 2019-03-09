@@ -7,7 +7,16 @@
 ## Level 3
 
 * ```gameObject```
+* ```GameObject```
 * ```getComponent()```
+* ```FixedUpdate()```
+* ```Input.GetAxis()```
+* ```KeyCode```
 * ```OnTriggerEnter2D()```
+* ```SceneManager.LoadScrene
 * ```Start()```
+* ```Time```
+* ```transform```
+* ```Translate()```
+* ```Update()```
 * ```Vector3()```
