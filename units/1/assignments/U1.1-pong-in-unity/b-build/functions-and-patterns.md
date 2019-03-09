@@ -1,4 +1,4 @@
-# Functions Introduced & Patterns Used
+# Functions and Objects Introduced & Patterns Used
 
 ## Level 1
 
@@ -6,4 +6,8 @@
 
 ## Level 3
 
-* ```csharp getComponent()```
+* ```gameObject```
+* ```getComponent()```
+* ```OnTriggerEnter2D()```
+* ```Start()```
+* ```Vector3()```
