@@ -12,13 +12,13 @@ public class PointCounter : MonoBehaviour
     // Use this for initialization
     void Start () {
         text = GetComponent<Text>();
-        text.text = rightBound.GetComponent<BoundController>().opponentScore + "\t\t" +
+        text.text = rightBound.GetComponent<BoundController>().opponentScore + "\t" +
                     leftBound.GetComponent<BoundController>().playerScore;
     }
 
     // Update is called once per frame
     void Update () {
-        text.text = rightBound.GetComponent<BoundController>().opponentScore + "\t\t" +
+        text.text = rightBound.GetComponent<BoundController>().opponentScore + "\t" +
                     leftBound.GetComponent<BoundController>().playerScore;
     }
 }
