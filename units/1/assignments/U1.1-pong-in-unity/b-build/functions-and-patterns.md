@@ -13,7 +13,7 @@
 * ```Input.GetAxis()```
 * ```KeyCode```
 * ```OnTriggerEnter2D()```
-* ```SceneManager.LoadScrene
+* ```SceneManager.LoadScene()```
 * ```Start()```
 * ```Time```
 * ```transform```
