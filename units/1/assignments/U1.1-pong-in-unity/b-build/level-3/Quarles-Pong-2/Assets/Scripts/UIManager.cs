@@ -15,10 +15,10 @@ GameObject[] pauseObjects;
     // Update is called once per frame
     void Update () {
 
-        //uses the p button to pause and unpause the game
+        // Use the p button to pause and resume the game
         if(Input.GetKeyDown(KeyCode.P))
         {
-            if(Time.timeScale == 1)
+            if (Time.timeScale == 1)
             {
                 Time.timeScale = 0;
                 showPaused();
@@ -29,15 +29,15 @@ GameObject[] pauseObjects;
         }
 
 
-        if(Time.timeScale == 0){
-            //searches through pauseObjects for PauseText
+        if (Time.timeScale == 0){
+            // Searches through pauseObjects for PauseText
             foreach(GameObject g in pauseObjects){
                 if(g.name == "PauseText")
                     //makes PauseText to Active
                     g.SetActive(true);
             }
         } else {
-            //searches through pauseObjects for PauseText
+            // Searches through pauseObjects for PauseText
             foreach(GameObject g in pauseObjects){
                 if(g.name == "PauseText")
                     //makes PauseText to Inactive
