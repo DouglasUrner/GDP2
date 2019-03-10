@@ -5,18 +5,15 @@ using UnityEngine;
 public class BallController : MonoBehaviour {
   public float ballSpeed = 10;
 
-  private Rigidbody2D rb;
-
   // Use this for initialization
   void Start() {
-    rb = GetComponent<Rigidbody2D>();
-    rb.velocity = LaunchBall();
+    GetComponent<Rigidbody2D>().velocity = ServeBall();
   }
 
   /*
-   * Randomly select the initial speed and direction for the ball.
+   * Randomly select the angle the ball is served at.
    */
-  Vector2 LaunchBall() {
+  Vector2 ServeBall() {
     Vector2 vel;
     int quad = Random.Range(1, 5);
     float dir = Random.Range(0.0f, 1.0f);
@@ -28,7 +25,7 @@ public class BallController : MonoBehaviour {
       vel = new Vector2(-1, 1);
     } else if (quad == 3) {
       vel = new Vector2(-1, -1);
-    } else if (quad == 4) {
+    } else /* quad == 4 */ {
       vel = new Vector2(1, -1);
     }
 
