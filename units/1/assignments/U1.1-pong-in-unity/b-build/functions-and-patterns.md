@@ -1,3 +1,5 @@
+---
+---
 # Functions and Objects Introduced & Patterns Used
 
 ## Level 1
@@ -7,9 +9,9 @@
 
 ## Level 3
 
-* 'gameObject'{: .csharp}
+* `gameObject`{: .csharp}
 * ```GameObject```
-* 'getComponent()'{: .csharp}
+* `getComponent()`{: .csharp}
 * ```FixedUpdate()```
 * ```Input.GetAxis()```
 * ```KeyCode```
