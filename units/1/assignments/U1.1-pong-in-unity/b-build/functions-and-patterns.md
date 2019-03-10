@@ -1,4 +1,6 @@
 ---
+markdown: kramdown
+highlighter: rouge
 ---
 # Functions and Objects Introduced & Patterns Used
 
