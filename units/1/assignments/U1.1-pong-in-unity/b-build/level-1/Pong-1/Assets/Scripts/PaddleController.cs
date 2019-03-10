@@ -16,7 +16,7 @@ public class PaddleController : MonoBehaviour {
    */
   public KeyCode moveUp = KeyCode.None;
   public KeyCode moveDown = KeyCode.None;
-  public float speed = 0.1f;
+  public float paddleSpeed = 0.1f;
 
   // Start is called before the first frame update.
   void Start() {
@@ -34,9 +34,9 @@ public class PaddleController : MonoBehaviour {
     var pos = transform.position;
 
     if (Input.GetKey(moveUp)) {
-      pos.y = pos.y + speed;
+      pos.y = pos.y + paddleSpeed;
     } else if (Input.GetKey(moveDown)) {
-      pos.y = pos.y - speed;
+      pos.y = pos.y - paddleSpeed;
     }
 
     transform.position = pos;
