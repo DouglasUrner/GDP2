@@ -5,13 +5,17 @@ using UnityEngine;
 public class BallController : MonoBehaviour {
   public float ballSpeed = 10;
 
-  // Use this for initialization
+  /*
+   * Start() is called once, just before the first frame in which the object
+   * becomes active. It is a good place to do initialization. Start() in the
+   * equivalent of the code in Game Lab that is outside of the draw() function.
+   */
   void Start() {
     GetComponent<Rigidbody2D>().velocity = ServeBall();
   }
 
   /*
-   * Randomly select the angle the ball is served at.
+   * Randomly set the X and Y components of the ball's velocity.
    */
   Vector2 ServeBall() {
     Vector2 vel;
