@@ -1,44 +1,41 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BallController : MonoBehaviour {
+  public float ballSpeed = 10;
 
-	private Rigidbody2D rb2d;
+  private Rigidbody2D rb;
 
-	void GoBall() {
-		float rand = Random.Range (0, 2);
-		if (rand < 1) {
-			rb2d.AddForce (new Vector2 (20, -15));
-		} else {
-			rb2d.AddForce (new Vector2 (-20, -15));
-		}
-	}
+  // Use this for initialization
+  void Start() {
+    rb = GetComponent<Rigidbody2D>();
+    rb.velocity = LaunchBall();
+  }
 
-	// Use this for initialization
-	void Start () {
-		rb2d = GetComponent<Rigidbody2D> ();
-		Invoke ("GoBall", 2);
-	}
+  /*
+   * Randomly select the initial speed and direction for the ball.
+   */
+  Vector2 LaunchBall() {
+    Vector2 vel;
+    int quad = Random.Range(1, 5);
+    float dir = Random.Range(0.0f, 1.0f);
 
-	void ResetBall() {
-		rb2d.velocity = new Vector2 (0, 0);
-		transform.position = Vector2.zero;
-	}
+    // Direction
+    if (quad == 1) {
+      vel = new Vector2(1, 1);
+    } else if (quad == 2) {
+      vel = new Vector2(-1, 1);
+    } else if (quad == 3) {
+      vel = new Vector2(-1, -1);
+    } else if (quad == 4) {
+      vel = new Vector2(1, -1);
+    }
 
-	void RestartGame() {
-		ResetBall ();
-		Invoke ("GoBall", 1);
-	}
+    // Angle
+    vel.x = vel.x * ballSpeed * dir;
+    vel.y = vel.y * ballSpeed * (1.0f - dir);
 
-	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.collider.CompareTag ("Player")) {
-			Vector2 vel;
-			vel.x = rb2d.velocity.x;
-			vel.y = (rb2d.velocity.y / 2.0f) + (coll.collider.attachedRigidbody.velocity.y / 3.0f);
-			rb2d.velocity = vel;
-		}
-	}
-
+    return vel;
+  }
 }
