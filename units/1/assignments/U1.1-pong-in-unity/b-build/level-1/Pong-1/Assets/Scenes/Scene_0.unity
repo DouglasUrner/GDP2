@@ -476,7 +476,13 @@ PrefabInstance:
       propertyPath: moveDown
       value: 274
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1484295417418794095, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9, type: 3}
 --- !u!1 &1439714979
 GameObject:
@@ -602,7 +608,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: moveUp
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: moveDown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568925850687710834, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9,
+        type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1484295417418794095, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5fd918b6b1c34d0f86c4ca26c9dd4c9, type: 3}
 --- !u!1001 &7794658939593910216
 PrefabInstance:

@@ -2,35 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaddleController : MonoBehaviour
-{
-  public KeyCode moveUp = KeyCode.W;
-	public KeyCode moveDown = KeyCode.S;
-	public float speed = 10.0f;
-	public float boundY = 2.25f;
+public class PaddleController : MonoBehaviour {
+  /*
+   * Class fields (variables) with a storage class of public are
+   * visible in the Inspector in Unity and can be set there. Since
+   * the code of the PaddleController script is shared by both paddles,
+   * we make the KeyCodes public so that we can set them separately for
+   * each paddle.
+   *
+   * When a script is shared with multiple gameObjects the class methods
+   * (Start() and Update() here) are shared, but each gameObject gets its
+   * own copy of the public fields.
+   */
+  public KeyCode moveUp = KeyCode.None;
+  public KeyCode moveDown = KeyCode.None;
+  public float speed = 0.1f;
 
-	private Rigidbody2D rb;
+  // Start is called before the first frame update.
+  void Start() {
+    // Check that KeyCode values are set.
+    if (moveUp == KeyCode.None) {
+      Debug.Log("The moveUp KeyCode is not set for " + gameObject.name);
+    }
+    if (moveDown == KeyCode.None) {
+      Debug.Log("The moveDown KeyCode is not set for " + gameObject.name);
+    }
+  }
 
-	// Start is called before the first frame update
-	void Start()
-	{
-		rb = GetComponent<Rigidbody2D>(); 
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-    var vel = rb.velocity;
+  // Update is called once per frame.
+  void Update() {
+    var pos = transform.position;
 
     if (Input.GetKey(moveUp)) {
-        vel.y = speed;
+      pos.y = pos.y + speed;
+    } else if (Input.GetKey(moveDown)) {
+      pos.y = pos.y - speed;
     }
-    else if (Input.GetKey(moveDown)) {
-        vel.y = -speed;
-    }
-    else {
-        vel.y = 0;
-    }
-    rb.velocity = vel;
-	}
+
+    transform.position = pos;
+  }
 }
