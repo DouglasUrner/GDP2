@@ -32,6 +32,7 @@ Patterns:
 ## Level 2
 
 ```csharp
+Input.GetAxis()
 ```
 
 ## Level 3
@@ -39,13 +40,10 @@ Patterns:
 ```csharp
 gameObject
 GameObject
-getComponent()
 FixedUpdate()
-Input.GetAxis()
 OnTriggerEnter2D()
 SceneManager.LoadScene()
 Time
 transform
 Translate()
-Vector2()
 ```
