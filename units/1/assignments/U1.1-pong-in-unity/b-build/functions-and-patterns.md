@@ -9,7 +9,7 @@
 
 * 'gameObject'{: .csharp}
 * ```GameObject```
-* `getComponent()`{: .csharp}
+* 'getComponent()'{: .csharp}
 * ```FixedUpdate()```
 * ```Input.GetAxis()```
 * ```KeyCode```
