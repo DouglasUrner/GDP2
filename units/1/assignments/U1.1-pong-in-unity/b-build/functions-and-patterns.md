@@ -19,7 +19,7 @@ highlighter: rouge
 * ```KeyCode```
 * ```OnTriggerEnter2D()```
 * `SceneManager.LoadScene()`{:.csharp}
-* `Start()`{:.csharp}
+* `Start()`{:.language-csharp}
 * ```Time```
 * ```transform```
 * ```Translate()```
