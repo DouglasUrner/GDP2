@@ -11,6 +11,7 @@ highlighter: rouge
 
 ## Level 3
 
+<div class="highlight">
 * `gameObject`{:.csharp}
 * ```GameObject```
 * `getComponent()`{:.csharp}
@@ -25,3 +26,4 @@ highlighter: rouge
 * ```Translate()```
 * ```Update()```
 * ```Vector2()```
+</div>
