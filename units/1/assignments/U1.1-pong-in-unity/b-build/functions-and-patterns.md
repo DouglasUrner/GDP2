@@ -6,14 +6,23 @@ highlighter: rouge
 
 ## Level 1
 
+Coding:
+* Constructors, the `new` keyword.
+* Returning a value, the `return` keyword.
+* Block style (`/* … */`) comments.
+* Function overloading.
+
 ```csharp
 Debug.Log()
+GetComponent<>()
 Input.GetKey()
 KeyCode.None
+Random.Range()
 Rigidbody2D
 Start()
 transform.position
 Update()
+Vector2()
 ```
 
 Patterns:
