@@ -7,9 +7,9 @@
 
 ## Level 3
 
-* ```gameObject```{: .csharp}
+* `gameObject`{: .csharp}
 * ```GameObject```
-* ```getComponent()```
+* `getComponent()`{: .csharp}
 * ```FixedUpdate()```
 * ```Input.GetAxis()```
 * ```KeyCode```
