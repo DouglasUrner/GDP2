@@ -33,13 +33,10 @@ GameObject
 getComponent()
 FixedUpdate()
 Input.GetAxis()
-KeyCode.P
 OnTriggerEnter2D()
 SceneManager.LoadScene()
-Start()
 Time
 transform
 Translate()
-Update()
 Vector2()
 ```
