@@ -11,17 +11,17 @@ highlighter: rouge
 
 ## Level 3
 
-* `gameObject`{: .csharp}
+* `gameObject`{:.csharp}
 * ```GameObject```
-* `getComponent()`{: .csharp}
+* `getComponent()`{:.csharp}
 * ```FixedUpdate()```
-* `Input.GetAxis()`{: .csharp}
+* `Input.GetAxis()`{:.csharp}
 * ```KeyCode```
 * ```OnTriggerEnter2D()```
-* ```SceneManager.LoadScene()```
-* `Start()`{: .csharp}
+* `SceneManager.LoadScene()`{:.csharp}
+* `Start()`{:.csharp}
 * ```Time```
 * ```transform```
 * ```Translate()```
 * ```Update()```
-* ```Vector3()```
+* ```Vector2()```
