@@ -11,19 +11,19 @@ highlighter: rouge
 
 ## Level 3
 
-<div markdown="1" class="highlight"> 
-* `gameObject`{:.csharp}
-* ```GameObject```
-* `getComponent()`{:.csharp}
-* ```FixedUpdate()```
-* `Input.GetAxis()`{:.csharp}
-* ```KeyCode```
-* ```OnTriggerEnter2D()```
-* `SceneManager.LoadScene()`{:.csharp}
-* `Start()`{:.language-csharp}
-* ```Time```
-* ```transform```
-* ```Translate()```
-* ```Update()```
-* ```Vector2()```
-</div>
+```csharp
+gameObject
+GameObject
+getComponent()
+FixedUpdate()
+Input.GetAxis()
+KeyCode.P
+OnTriggerEnter2D()
+SceneManager.LoadScene()
+Start()
+Time
+transform
+Translate()
+Update()
+Vector2()
+```
