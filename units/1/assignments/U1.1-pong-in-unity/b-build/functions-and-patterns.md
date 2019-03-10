@@ -2,12 +2,28 @@
 markdown: kramdown
 highlighter: rouge
 ---
-# Functions and Objects Introduced & Patterns Used
+# Functions, Objects, and Properties Introduced & Patterns Used
 
 ## Level 1
-* Rigidbody2D
+
+```csharp
+Debug.Log()
+Input.GetKey()
+KeyCode.None
+Rigidbody2D
+Start()
+transform.position
+Update()
+```
+
+Patterns:
+* Counter pattern
+* Copy, Change, Set
 
 ## Level 2
+
+```csharp
+```
 
 ## Level 3
 
@@ -17,13 +33,10 @@ GameObject
 getComponent()
 FixedUpdate()
 Input.GetAxis()
-KeyCode.P
 OnTriggerEnter2D()
 SceneManager.LoadScene()
-Start()
 Time
 transform
 Translate()
-Update()
 Vector2()
 ```
