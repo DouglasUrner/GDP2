@@ -13,7 +13,7 @@
 * ```GameObject```
 * `getComponent()`{: .csharp}
 * ```FixedUpdate()```
-* ```Input.GetAxis()```
+* `Input.GetAxis()`{: .csharp}
 * ```KeyCode```
 * ```OnTriggerEnter2D()```
 * ```SceneManager.LoadScene()```
