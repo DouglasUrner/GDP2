@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-GameObject[] pauseObjects;
+    GameObject[] pauseObjects;
 
     // Use this for initialization
     void Start () {
