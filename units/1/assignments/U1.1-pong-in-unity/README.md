@@ -4,6 +4,16 @@
 
 ### Objectives:
 
+* Start a new Unity project.
+* Test a game you are developing.
+* Save changes to a Unity project.
+* Create game objects by placing sprites in the Hierarchy and Scene views.
+* Move game an object by dircetly manipulating its transform.
+* Attach components to game objects.
+* Create C# scripts and attach them to game objects.
+* Use `public` fields to configure components in the Inspector.
+* Explain the purpose and common settings of the Rigidbody2D component.
+
 ### Milestones:
 
 * Start a new project.
