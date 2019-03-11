@@ -26,6 +26,18 @@
 
 ### Playtest:
 
+* How does the game feel?
+  - How are the sizes of the ball, paddle, and the "table"?
+  - How is the movement of the paddles and the ball? Do they feel right? What would you change?
+  - Experiment with adjusting the `ballSpeed` and `paddleSpeed` properties. What values seem right? What makes them right?
+* Where could you add strategy to the game?
+  - Give the players a way to effect the direction of the ball after they hit it?
+    - Where the ball hits the paddle.
+    - Movement of the paddle when the ball hits.
+* What could you do to keep the game interesting and challenging?
+  - Have ball speed up?
+  - More than one ball at a time?
+
 ## Level 2: Turning The Prototype Into A Playable Game
 
 ### Objectives:
