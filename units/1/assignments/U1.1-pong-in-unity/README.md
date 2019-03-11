@@ -1,6 +1,8 @@
 # Pong In Unity
 
-## Level 1: A Minimal Prototype In Unity
+## Level 1: A Minimal Prototype
+
+### Objectives:
 
 ### Milestones:
 
@@ -12,10 +14,20 @@
 * Make the ball bounce off of the walls.
 * Make the ball bounce off of the paddles.
 
+### Playtest:
+
 ## Level 2: Turning The Prototype Into A Playable Game
 
+### Objectives:
+
 ### Milestones:
+
+### Playtest:
 
 ## Level 3: Polishing The Game
 
+### Objectives:
+
 ### Milestones:
+
+### Playtest:
