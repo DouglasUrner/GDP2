@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Quarles-Pong-2-MainMenu.unity
     guid: d2424111378014c878d1adced414b421
+  - enabled: 1
+    path: Assets/Scenes/Quarles-Pong-2-Play.unity
+    guid: 34d5dd11d31fc3e4fba07b8b4c886e75
   m_configObjects: {}
