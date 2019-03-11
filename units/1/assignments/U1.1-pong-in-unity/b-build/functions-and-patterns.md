@@ -31,6 +31,9 @@ Patterns:
 
 ## Level 2
 
+* Layers
+* Tags
+
 ```csharp
 Input.GetAxis()
 ```
