@@ -14,10 +14,12 @@ public class UIManager : MonoBehaviour {
   private bool gameOver, leftWon, rightWon;
   
   // Objects to display on pause and win.
-  GameObject[] pauseObjects, winObjects;
+  private GameObject[] pauseObjects, winObjects;
+  private GameObject ballSpawner;
 
   // Use this for initialization
   void Start() {
+    ballSpawner = GameObject.Find("BallSpawner");
     pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
     winObjects = GameObject.FindGameObjectsWithTag("ShowOnWin");
     hideWin();
@@ -46,6 +48,8 @@ public class UIManager : MonoBehaviour {
           g.SetActive(true);
         }
       }
+      // Hide ball by turning off BallSpawner.
+      ballSpawner.SetActive(false);
     }
   }
 
