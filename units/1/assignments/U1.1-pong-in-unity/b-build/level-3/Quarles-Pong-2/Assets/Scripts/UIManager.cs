@@ -39,6 +39,13 @@ public class UIManager : MonoBehaviour {
     if (gameOver) {
       Time.timeScale = 0;
       showWin();
+      // Ugly! Maybe hang on to reference to the button?
+      foreach (var g in pauseObjects) {
+        if (g.name == "ResetButton") {
+          // Make it active so we can start the game again.
+          g.SetActive(true);
+        }
+      }
     }
   }
 
