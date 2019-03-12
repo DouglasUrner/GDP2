@@ -30,6 +30,7 @@ public class BallController : MonoBehaviour
                 quad = new Vector2(1, -1);
                 break;
         }
+        Debug.Log("Serving into quadrant: " + quad);
 
         //moving ball in initial direction and adding speed
         rb.velocity = (quad * speed);
