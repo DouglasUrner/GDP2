@@ -1933,6 +1933,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca48c7630cf524b87bf82dfc58acb5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winningScore: 2
+  leftBound: {fileID: 990130909}
+  rightBound: {fileID: 1709910199}
 --- !u!1 &1592405004
 GameObject:
   m_ObjectHideFlags: 0

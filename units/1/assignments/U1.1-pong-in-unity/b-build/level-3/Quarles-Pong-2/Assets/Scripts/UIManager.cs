@@ -37,6 +37,7 @@ public class UIManager : MonoBehaviour {
     }
 
     if (gameOver) {
+      Time.timeScale = 0;
       showWin();
     }
   }
