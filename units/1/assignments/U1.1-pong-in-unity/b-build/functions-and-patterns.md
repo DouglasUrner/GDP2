@@ -40,6 +40,8 @@ Input.GetAxis()
 
 ## Level 3
 
+Loading scenes
+
 ```csharp
 gameObject
 GameObject
