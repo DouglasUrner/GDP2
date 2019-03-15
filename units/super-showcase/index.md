@@ -25,6 +25,12 @@ _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 ### 2018 Games
 
-[T - 2:00](https://youtu.be/XFCHMK6l9Nw)
+[T-2:00 Game Presentation](https://youtu.be/XFCHMK6l9Nw)
+
+[T-2:00 Game Feedback](https://youtu.be/z1mJk59i_Ak)
+
+[Whispy Presentation](https://youtu.be/pLmCEPCAHxg)
+
+[Whispy Feedback](https://youtu.be/4R94SfE5_vU)
 
 
