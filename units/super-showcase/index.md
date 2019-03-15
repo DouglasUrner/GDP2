@@ -25,6 +25,6 @@ _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 ### 2018 Games
 
-![T - 2:00](https://youtu.be/XFCHMK6l9Nw)
+[T - 2:00](https://youtu.be/XFCHMK6l9Nw)
 
 
