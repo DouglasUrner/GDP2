@@ -33,4 +33,6 @@ _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 [Whispy Feedback](https://youtu.be/4R94SfE5_vU)
 
+[Capital High School Super Showcase Page](http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/)
+
 
