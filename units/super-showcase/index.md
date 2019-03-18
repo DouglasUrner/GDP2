@@ -21,7 +21,7 @@ Entries are judged by a panel of industry judges. The winning teams in each cate
 
 ### Prompt
 
-_Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
+**Your game must take place within one single room:** _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 ### [2018 Awards Ceremony and Winning Games](http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/)
 
@@ -29,7 +29,7 @@ _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 ### Prompt
 
-TIME TRAVEL: _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns.”_
+**TIME TRAVEL:** _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns.”_
 
 ### [2017 Awards Ceremony and Winning Games](http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/)
 
