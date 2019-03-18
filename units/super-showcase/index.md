@@ -23,16 +23,10 @@ Entries are judged by a panel of industry judges. The winning teams in each cate
 
 _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
-### 2018 Games
+### [2018 Awards Ceremony and Winning Games](http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/)
 
-[T-2:00 Game Presentation](https://youtu.be/XFCHMK6l9Nw)
+## 2017
 
-[T-2:00 Game Feedback](https://youtu.be/z1mJk59i_Ak)
-
-[Whispy Presentation](https://youtu.be/pLmCEPCAHxg)
-
-[Whispy Feedback](https://youtu.be/4R94SfE5_vU)
-
-[Capital High School Super Showcase Page](http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/)
+### [2017 Awards Ceremony and Winning Games](http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/)
 
 
