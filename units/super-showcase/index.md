@@ -27,6 +27,10 @@ _Think Keep Talking and No One Explodes, to The Room, to Toy Story.”_
 
 ## 2017
 
+### Prompt
+
+TIME TRAVEL: _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns.”_
+
 ### [2017 Awards Ceremony and Winning Games](http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/)
 
 
