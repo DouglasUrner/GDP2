@@ -6,7 +6,7 @@
 ## Build Your Version Of Pong
 
 [slides]: #
-[template]: #
+[template]: https://docs.google.com/document/d/11gEDNCzy6I-AWqdPJe1_cKJo0OYm6zeOGnp8QvoCbhc/edit?usp=sharing
 
 After you have decided which tutorial you will use, it is time to start in. Since the tutorials build on each other, you may want to refer to the other tutorials. The initial steps of the first tutorial are especially useful as you learn your way around Unity and C#. They are all linked here:
 
@@ -22,7 +22,7 @@ Once you have your tutorial under way, make an initial commit of your code to Gi
 [quarles1]: https://www.sitepoint.com/retro-revolution-building-a-pong-clone-in-unity/
 [quarles2]: https://www.sitepoint.com/building-a-pong-clone-in-unity-ui-and-gameplay/
 
-[Slides: Building Pong in Unity][slides] - right-click and choose **Open link in a new tab** to view.
+[Slides: First Commit To GitHub][slides] - right-click and choose **Open link in a new tab** to view.
 
 ### Learning Targets:
 
