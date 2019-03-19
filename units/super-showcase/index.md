@@ -15,7 +15,9 @@ Entries are judged by a panel of industry judges. The winning teams in each cate
 
 ## 2019
 
-### The prompt will be released at 19:00 PDT on Monday the 18th.
+### Prompt
+
+**Primary Protagonist must be either an Infant or Elderly person.**
 
 ## 2018
 
