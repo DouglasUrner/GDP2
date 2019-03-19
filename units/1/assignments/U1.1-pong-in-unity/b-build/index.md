@@ -1,7 +1,7 @@
 ---
-canvasLink: <p><iframe src="https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/" width="100%" height="666px"></iframe></p>
 ---
-[//]: # (  )
+
+[//]: # ( <p><iframe src="https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/" width="100%" height="666px"></iframe></p> )
 
 ## Build Your Version Of Pong
 
@@ -10,13 +10,13 @@ canvasLink: <p><iframe src="https://douglasurner.github.io/GDP2/units/1/assignme
 
 After you have decided which tutorial you will use, it is time to start in. Since the tutorials build on each other, you may want to refer to the other tutorials. They are all linked here:
 
-* [Tutorial 1: Building a Pong Prototype][tutorial1]
+* [Tutorial 1: Building A Pong Prototype][tutorial1]
 * [Tutorial 2: Turning the Prototype Into A Playable Game][tutorial2]
-* [Tutorial 3: ][tutorial3]
-* [Tutorial 4: ][tutorial4]
+* [Tutorial 3: A Complete Game With An AI][tutorial3]
+* [Tutorial 4: Retro Pong With An AI][tutorial4]
 
-[tutorial1]: https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/level-1/Tutorial-1
-[tutorial2]: https://douglasurner.github.io/GDP2/units/1/assignments/U1.1-pong-in-unity/b-build/level-2/Tutorial-2/
+[tutorial1]: 
+[tutorial2]: 
 [tutorial3]: #
 [tutorial4]: #
 
