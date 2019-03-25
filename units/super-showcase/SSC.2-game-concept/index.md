@@ -24,7 +24,7 @@
    **[Game Design Document](https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing)**
    ```
 1. With your team start documenting your ideas for the game.
-1. Make a copy of the [submission][template].
+1. Make a copy of the [submission template][template].
 1. Identify the most pressing questions that you have.
 1. Once you've completed the template, submit it.
 
