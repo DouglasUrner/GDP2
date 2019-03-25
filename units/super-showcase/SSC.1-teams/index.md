@@ -36,7 +36,7 @@ Brief description of the game.
 * Teeka "C# Rockstar" Steele
 * Jasper "Sprite Master" Caniche
 * Penzey "Test Till You Drop" Francis
-```
+   ```
 1. Make a copy of the [submission template][template] and fill it out.
 1. Once you've completed the template, submit it.
 
