@@ -20,11 +20,19 @@ For the **Game Design Super Showcase Competition** your team may have up to five
 ## Instructions
 
 After you have selected your team:
-1. Create a public GitHub repository for your team.
+1. Create a public GitHub repository for your team. Be sure to check the box to initialize it with a README.
 1. Add the team members as contributors
-1. Create a Markdown file, *TEAM.md*. In it list the members of your team. The file will look something like this:
+1. Edit the Markdown file, *README.md*, the name of your project/repository will aleady be there. Add:
+   - A brief description of the game you're building.
+   - A heading for "Developers"
+   - A list the members of your team.
+   The file will look something like this:
 ```markdown
-# The Super Coders
+# The Name Of The Repository
+
+Brief description of the game.
+
+## Developers
 * Teeka "C# Rockstar" Steele
 * Jasper "Sprite Master" Caniche
 * Penzey "Test Till You Drop" Francis
