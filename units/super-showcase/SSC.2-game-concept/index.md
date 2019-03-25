@@ -7,7 +7,7 @@
 
 [slides]: #
 [gdd]: https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing
-[template]: 
+[template]: https://docs.google.com/document/d/1w5lMQUzl4aHJ73NGDlE-9j652g_Y_CH3LKYpI6lp9e8/edit?usp=sharing
 
 
 ### Learning Targets:
