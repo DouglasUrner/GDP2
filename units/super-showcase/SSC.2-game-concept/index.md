@@ -5,13 +5,13 @@
 
 ## Developing Your Game Concept
 
-[slides]: https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing
-[template]: #
+[slides]: #
+[template]: https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing
 
 
 ### Learning Targets:
 
-* I can ...
+* I can develop a concept for a game.
 
 ## Instructions
 
