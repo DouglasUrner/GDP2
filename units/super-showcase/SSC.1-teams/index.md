@@ -13,7 +13,9 @@ For the **Game Design Super Showcase Competition** your team may have up to five
 ### Learning Targets:
 
 * I can accept an invitation to collaborate on a project on GitHub.
-* Do simple edits to a Markdown document.
+* Do simple edits to a [Markdown][] document.
+
+[markdown]: https://guides.github.com/features/mastering-markdown/
 
 ## Instructions
 
