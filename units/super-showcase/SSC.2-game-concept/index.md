@@ -23,6 +23,19 @@
    ```markdown
    **[Game Design Document](https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing)**
    ```
+   Now your README will look something like this:
+   ```markdown
+   # The Name Of The Repository
+   
+   Brief description of the game.
+   
+   **[Game Design Document](https://docs.google.com/document/d/1pDQuBf--8_l4FbqYTKfDcXevp2SSr9jvGKFK8UkQZUc/edit?usp=sharing)**
+   
+   ## Developers
+   * Teeka "C# Rockstar" Steele
+   * Jasper "Sprite Master" Caniche
+   * Penzey "Test Till You Drop" Francis
+   ```
 1. With your team start documenting your ideas for the game.
 1. Make a copy of the [submission template][template].
 1. Identify the most pressing questions that you have.
