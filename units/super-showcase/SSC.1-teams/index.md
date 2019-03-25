@@ -20,7 +20,13 @@ For the **Game Design Super Showcase Competition** your team may have up to five
 After you have selected your team:
 1. Create a private GitHub repository for your team.
 1. Add the team members as contributors
-1. Create a Markdown file, *TEAM.md*. In it list the members of your team.
+1. Create a Markdown file, *TEAM.md*. In it list the members of your team. The file will look something like this:
+```markdown
+# The Super Coders
+* Teeka "C# Rockstar" Steele
+* Jasper "Sprite Master" Caniche
+* Penzey "Test Till You Drop" Francis
+```
 1. Make a copy of the [submission template][template] and fill it out.
 1. Once you've completed the template, submit it.
 
