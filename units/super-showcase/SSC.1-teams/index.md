@@ -20,7 +20,7 @@ For the **Game Design Super Showcase Competition** your team may have up to five
 ## Instructions
 
 After you have selected your team:
-1. Create a private GitHub repository for your team.
+1. Create a public GitHub repository for your team.
 1. Add the team members as contributors
 1. Create a Markdown file, *TEAM.md*. In it list the members of your team. The file will look something like this:
 ```markdown
