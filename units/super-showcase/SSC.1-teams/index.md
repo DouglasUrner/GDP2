@@ -8,9 +8,7 @@
 For the **Game Design Super Showcase Competition** your team may have up to five people.
 
 [slides]: #
-[template]: #
-
-[Slides: SLIDE DECK TITLE][slides] - right-click and choose **Open link in a new tab** to view.
+[template]: https://docs.google.com/document/d/1_l7tWjuuPGBmixNNH1JdJMCW_iilT8C9cmBVg2x9IsQ/edit?usp=sharing
 
 ### Learning Targets:
 
