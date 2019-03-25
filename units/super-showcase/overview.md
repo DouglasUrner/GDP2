@@ -15,6 +15,8 @@ Entries are judged by a panel of industry judges. The winning teams in each cate
 
 ## 2019
 
+The tentative date for the state contest is Sunday the 12th of May at the Highline Performing Arts Center. We get to send two teams to the state contest. We will have a local "shakedown" during the week of May 6th to select our teams.
+
 ### Prompt
 
 **Primary Protagonist must be either an Infant or Elderly person.**
