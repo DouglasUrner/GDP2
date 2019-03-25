@@ -27,7 +27,7 @@ After you have selected your team:
    - A heading for "Developers"
    - A list the members of your team.
    The file will look something like this:
-```markdown
+   ```markdown
 # The Name Of The Repository
 
 Brief description of the game.
