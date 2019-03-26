@@ -18,6 +18,8 @@
 
 [Creating A 2D Platformer](https://www.youtube.com/playlist?list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz)
 
+[The hobbyist coder #1: 2D platformer controller](http://www.gamasutra.com/blogs/YoannPignole/20131010/202080/The_hobbyist_coder_1_2D_platformer_controller.php)
+
 ## 3D
 
 ## Techniques
