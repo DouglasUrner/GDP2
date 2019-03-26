@@ -2,9 +2,11 @@
 
 ## 2D
 
-### Pong
+### Classics
 
-### PacMan
+#### Pong
+
+#### PacMan
 
 ### Side Scrollers
 
