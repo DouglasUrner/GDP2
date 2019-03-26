@@ -19,3 +19,7 @@
 [Creating A 2D Platformer](https://www.youtube.com/playlist?list=PLFt_AvWsXl0f0hqURlhyIoAabKPgRsqjz)
 
 ## 3D
+
+## Techniques
+
+[C# and Shader Tutorials for Unity - Catlike Coding](https://catlikecoding.com/unity/tutorials/)
