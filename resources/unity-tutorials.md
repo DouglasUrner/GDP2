@@ -8,6 +8,8 @@
 
 ### Side Scrollers
 
+[Runner - a minimal side-scroller](https://catlikecoding.com/unity/tutorials/runner/)
+
 ### Platformer
 
 [Unity 2D Tutorial - 2D Platformer (Super Platformer Bros)](https://www.youtube.com/playlist?list=PLNERyi31iYKRjJVreIz7Q5PsQ__VwTc9D)
