@@ -28,4 +28,6 @@
 
 ## Techniques
 
+[Adding some perspective to your Unity 2D game](http://www.gamasutra.com/blogs/ScottLembcke/20170825/303794/Adding_some_perspective_to_your_Unity_2D_game.php)
+
 [C# and Shader Tutorials for Unity - Catlike Coding](https://catlikecoding.com/unity/tutorials/)
