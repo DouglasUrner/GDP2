@@ -16,7 +16,7 @@ On Windows the easiest way to setup your development environment is with the pac
 
     You will type the commands to install Unity, Rider, and GitHub Desktop in the Command Prompt application.
 1. Install Unity: ```choco install -y unity```
-1. Install JetBrains Rider ```choco install -y rider```
+1. Install JetBrains Rider: ```choco install -y rider```
 1. Install GitHub Desktop: ```choco install -y github-desktop```
 
 [chocolatey]: https://chocolatey.org/
