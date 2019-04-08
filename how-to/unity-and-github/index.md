@@ -24,7 +24,7 @@
   
 ## Everybody in the group
 
-1. Accept your invitation to collaborate - if you have a verified e-mail address associateed with your GitHub account your can accept by clicking on the link in your e-mail. If you don't, you can go to the URL: **https://github.com/<GitHub User Name>/<Repository Name>/invitations** and accept the invitation there.
+1. Accept your invitation to collaborate - if you have a verified e-mail address associateed with your GitHub account your can accept by clicking on the link in your e-mail. If you don't, you can go to the URL: **https://github.com/&lt;GitHub User Name&gt;/<Repository Name>/invitations** and accept the invitation there.
 1. Launch GitHub Desktop.
 1. Search for and clone your project repository (the clone will be your working copy).
 1. Create a branch for your work.
