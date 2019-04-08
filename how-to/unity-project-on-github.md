@@ -12,6 +12,9 @@
   - Once Unity is done (open), close it (Unity does not like you moving a project while it is open).
   - Using GitHub Desktop, clone the project repository to your computer.
   - Move the folders from the Unity project into the cloned repository.
+    - Use the **Show in Explorer** button in GitHub Desktop to go to the folder you just cloned.
+    - Type **Control-N** to open a new Explorer window, then go to the folder holding the Unity project that you just created.
+    - Drag the folders to your cloned repository.
   - In GitHub Desktop, add a summary and commit the changes.
   - Push the changes back to GitHub.
   
