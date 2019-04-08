@@ -19,6 +19,7 @@
     - Drag the folders to your cloned repository.
     <img src="images/Unity-project-folders-in-Explorer.png">
   - In GitHub Desktop, add a summary and commit the changes.
+    <img src="images/GitHub-Desktop-with-Unity-folders-added.png">
   - Push the changes back to GitHub.
   
 ## Everybody in the group
