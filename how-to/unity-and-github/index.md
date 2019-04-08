@@ -17,7 +17,7 @@
     - Use the **Show in Explorer** button in GitHub Desktop to go to the folder you just cloned.
     - Type **Control-N** to open a new Explorer window, then go to the folder holding the Unity project that you just created.
     - Drag the folders to your cloned repository.
-    <img src="images/Unity-project-folders-in-Explorer.png" width="600px">
+      <img src="images/Unity-project-folders-in-Explorer.png" width="600px">
   - In GitHub Desktop, add a summary and commit the changes. Double check that the number of changed files is relatively small - 20 to 30 is about right, 100s or 1000s is definitely wrong. If the nubmer is too high you forgot to add a **.gitignore** file, do that now before committing your changes.
     <img src="images/GitHub-Desktop-with-Unity-folders-added.png" width="600px">
   - Push the changes back to GitHub.
