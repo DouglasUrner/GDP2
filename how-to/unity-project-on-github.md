@@ -3,6 +3,9 @@
 ## Somebody in the group
 
 * Create a new repository on GitHub for the project.
+  - Make sure you:
+    - Tick the **Initialize the repository with a README** checkbox.
+    - Add a .gitignore for Unity.
   - If you will have collaborators, send them invitations.
 * Start a new Unity project and push it to GitHub.
   - Once Unity is done (open), close it (Unity does not like you moving a project while it is open).
