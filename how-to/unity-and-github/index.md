@@ -12,13 +12,6 @@
     - Tick the **Initialize the repository with a README** checkbox.
     - Add a .gitignore for Unity.
     - If you skip these steps you will not be able to clone the repository until some content has been added to it.
-    
-### Invite collaborators
-
-* Go to the GitHub web site.
-* Click on the **Settings** tab.
-* From the left-hand sidebar choose **Collaborators.**
-* Invite them by their GitHub user name.
 
 ### Create a new Unity project and push it to GitHub.
 
@@ -37,6 +30,13 @@
   - In GitHub Desktop, add a summary and commit the changes. Double check that the number of changed files is relatively small - 20 to 30 is about right, 100s or 1000s is definitely wrong. If the nubmer is too high you forgot to add a **.gitignore** file, do that now before committing your changes.
     <img src="images/GitHub-Desktop-with-Unity-folders-added.png" width="600px">
   - Push the changes back to GitHub.
+      
+### Invite collaborators
+
+* Go to the GitHub web site.
+* Click on the **Settings** tab.
+* From the left-hand sidebar choose **Collaborators.**
+* Invite them by their GitHub user name.
   
 ## Everybody in the group
 
