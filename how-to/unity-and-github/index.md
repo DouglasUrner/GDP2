@@ -28,7 +28,9 @@
 
    ```https://github.com/<GitHub User Name>/<Repository Name>/invitations```
    
-   and accept the invitation there. Replace ```<GitHub User Name>``` with the GitHub name of the person who created the repository, and replace ```<Repository Name>``` with the name of the repository - in case that wasn't obvious...
+   and accept the invitation there.
+   
+   Replace ```<GitHub User Name>``` with the GitHub name of the person who created the repository, and replace ```<Repository Name>``` with the name of the repository - in case that wasn't obvious...
 1. Launch GitHub Desktop.
 1. Search for and clone your project repository (the clone will be your working copy).
 1. Create a branch for your work.
