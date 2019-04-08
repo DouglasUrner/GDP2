@@ -6,6 +6,7 @@
   - Make sure you:
     - Tick the **Initialize the repository with a README** checkbox.
     - Add a .gitignore for Unity.
+    - If you skip these steps you will not be able to clone the repository until some content has been added to it.
   - If you will have collaborators, send them invitations.
 * Start a new Unity project and push it to GitHub.
   - Once Unity is done (open), close it (Unity does not like you moving a project while it is open).
