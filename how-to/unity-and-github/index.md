@@ -4,13 +4,29 @@
 
 ## Somebody in the group
 
-* Create a new repository on GitHub for the project.
+### Create a new Git repository for the project
+
+* Launch GitHub Desktop.
+* From the **File** menu, choose **New repository...**
   - Make sure you:
     - Tick the **Initialize the repository with a README** checkbox.
     - Add a .gitignore for Unity.
     - If you skip these steps you will not be able to clone the repository until some content has been added to it.
-  - If you will have collaborators, send them invitations.
-* Start a new Unity project and push it to GitHub.
+    
+### Invite collaborators
+
+* Go to the GitHub web site.
+* Click on the **Settings** tab.
+* From the left-hand sidebar choose **Collaborators.**
+* Invite them by their GitHub user name.
+
+### Create a new Unity project and push it to GitHub.
+
+* If necessary, launch Unity, then from the **File** menu choose **New Project...**
+* In the new project dialog, set up a new project:
+  - Give the project the same name that you used for the Git repository.
+  - Select the same location that you chose for the Git repository in GitHub Desktop.
+* Click the **Create Project** button.
   - Once Unity is done (open), close it (Unity does not like you moving a project while it is open).
   - Using GitHub Desktop, clone the project repository to your computer.
   - Move the folders from the Unity project into the cloned repository.
