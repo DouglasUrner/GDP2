@@ -24,7 +24,8 @@
   
 ## Everybody in the group
 
-1. Clone the repository (the clone is your working copy).
+1. Launch GitHub Desktop.
+1. Search for and clone your project repository (the clone will be your working copy).
 1. Create a branch for your work.
 1. Commit something useful to the branch and push it. Ideas:
    - A list of sprites (or create the Sprites folder and add some placeholders - or even final sprites).
