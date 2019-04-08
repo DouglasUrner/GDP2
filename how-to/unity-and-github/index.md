@@ -1,3 +1,5 @@
+---
+---
 # Setting Up A Unity Project On GitHub
 
 ## Somebody in the group
@@ -15,13 +17,15 @@
     - Use the **Show in Explorer** button in GitHub Desktop to go to the folder you just cloned.
     - Type **Control-N** to open a new Explorer window, then go to the folder holding the Unity project that you just created.
     - Drag the folders to your cloned repository.
-    <img src="images/Unity-project-folders-in-Explorer.png">
-  - In GitHub Desktop, add a summary and commit the changes.
+    <img src="images/Unity-project-folders-in-Explorer.png" width="600px">
+  - In GitHub Desktop, add a summary and commit the changes. Double check that the number of changed files is relatively small - 20 to 30 is about right, 100s or 1000s is definitely wrong. If the nubmer is too high you forgot to add a **.gitignore** file, do that now before committing your changes.
+    <img src="images/GitHub-Desktop-with-Unity-folders-added.png" width="600px">
   - Push the changes back to GitHub.
   
 ## Everybody in the group
 
-1. Clone the repository (the clone is your working copy).
+1. Launch GitHub Desktop.
+1. Search for and clone your project repository (the clone will be your working copy).
 1. Create a branch for your work.
    - The **Current branch** is displayed just below the menu bar at the top of the GitHub Desktop window.
    <img src="images/GH-Desktop-menu-bar.png">
