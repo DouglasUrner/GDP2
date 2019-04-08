@@ -24,7 +24,7 @@
   
 ## Everybody in the group
 
-1. Accept your invitation to collaborate - if you have a verified e-mail address associateed with your GitHub account your can accept by clicking on the link in your e-mail. If you don't, you can go to the URL:
+1. Before you can contribute to the project, you need to accept your invitation to collaborate - so do that now. If you have a verified e-mail address associateed with your GitHub account you will have an e-mail invite and can accept by clicking on the link in your e-mail. If you don't, you can go to the URL:
 
    ```https://github.com/<GitHub User Name>/<Repository Name>/invitations```
    
