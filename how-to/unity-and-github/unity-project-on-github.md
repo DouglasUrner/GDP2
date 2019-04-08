@@ -15,6 +15,7 @@
     - Use the **Show in Explorer** button in GitHub Desktop to go to the folder you just cloned.
     - Type **Control-N** to open a new Explorer window, then go to the folder holding the Unity project that you just created.
     - Drag the folders to your cloned repository.
+    <img src="images/Unity-project-folders-in-Explorer.png">
   - In GitHub Desktop, add a summary and commit the changes.
   - Push the changes back to GitHub.
   
