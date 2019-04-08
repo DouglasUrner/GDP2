@@ -28,7 +28,7 @@
 1. Search for and clone your project repository (the clone will be your working copy).
 1. Create a branch for your work.
    - The **Current branch** is displayed just below the menu bar at the top of the GitHub Desktop window.
-   <img src="images/GH-Desktop-menu-bar.png">
+   <img src="images/GH-Desktop-menu-bar.png" width="600px">
 1. Commit something useful to the branch and push it. Ideas:
    - A list of sprites (or create the Sprites folder and add some placeholders - or even final sprites).
    - Update the work breakdown.
