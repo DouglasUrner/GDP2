@@ -12,6 +12,8 @@
     - Tick the **Initialize the repository with a README** checkbox.
     - Add a .gitignore for Unity.
     - If you skip these steps you will not be able to clone the repository until some content has been added to it.
+    
+  <img src="images/GH-Desktop-new-repository.png" width="600px">
 
 ### Create a new Unity project and push it to GitHub.
 
