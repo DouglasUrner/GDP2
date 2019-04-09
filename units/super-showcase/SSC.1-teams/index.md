@@ -5,8 +5,11 @@
 
 ## Setting Up Teams
 
-For the **Game Design Super Showcase Competition** your team may have up to five people.
+For the **Game Design Super Showcase Competition** your team may have up to five people. Your first task is to pick your collaborators and set up a repository on GitHub to hold your team's work on the game. Then we'll create a new Unity project and practice working collaboratively with a body of code.
 
+The process that we're using is described on the [Unity and GitHub][how-to-github] page in the class Resources module on Canvas.
+
+[how-to-github]: https://douglasurner.github.io/GDP2/how-to/unity-and-github/
 [slides]: #
 [template]: https://docs.google.com/document/d/1_l7tWjuuPGBmixNNH1JdJMCW_iilT8C9cmBVg2x9IsQ/edit?usp=sharing
 
@@ -14,6 +17,9 @@ For the **Game Design Super Showcase Competition** your team may have up to five
 
 * I can accept an invitation to collaborate on a project on GitHub.
 * Do simple edits to a [Markdown][] document.
+* I can **clone** a repository from GitHub using GitHub Desktop.
+* I can **commit** changes in GitHub Desktop.
+* I can **push** changes using GitHub Desktop.
 
 [markdown]: https://guides.github.com/features/mastering-markdown/
 
