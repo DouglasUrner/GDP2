@@ -1,3 +1,6 @@
+---
+---
+
 # Troubleshooting
 
 ## LanSchool is blocking private browsing
