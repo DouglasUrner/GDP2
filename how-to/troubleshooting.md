@@ -18,3 +18,5 @@
 ```bash
 git config --global SSLVerify false
 ```
+
+The result should be a blank line followd by Git Bash's colorful status line followed by the dollar sign ($) prompt.
