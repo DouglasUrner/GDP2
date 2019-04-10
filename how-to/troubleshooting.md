@@ -3,6 +3,8 @@
 
 # Troubleshooting
 
+This is a list of common problems that we've encountered working with Unity, C#, Rider, and Git/GitHub. Look here for solutions before asking... If the solution doesn't work for you or you encounter a problem that is not here let me know so that we can add it if it is a common problem.
+
 ## LanSchool is blocking private browsing
 
 **Cause:** This seems to happen when you are running the Edge or Internet Explorer (IE) browsers. It may also happen if you either of those are set as your default browser.
