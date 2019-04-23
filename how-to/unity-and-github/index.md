@@ -71,3 +71,7 @@
    - Make a note about naming conventions and rename the SampleScene.
 1. Fetch the origin (check for changes contributed by your collaborators).
    - Pull if necessary.
+   
+## Learning More
+
+* [Git Immersion](http://gitimmersion.com) - "a guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it."
