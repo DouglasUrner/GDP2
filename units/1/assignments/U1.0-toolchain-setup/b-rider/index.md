@@ -11,7 +11,7 @@ Rider is the *text editor* that we will be using to edit the C# *scripts* that g
 
 The *IDE (Integrated Development Environment)* that we use for writing Unity *scripts* in the C# programming language is called Rider. It is a professional tool and SKSD has licensed it for use in our class. When you launch Rider for the first time you will need to configure it to use our license server. To do this:
 1. Under **Activate new license with:** choose the License server option, then
-1. In the **License server address:** text box enter the server URL: http://HS034888.skitsap.wednet.edu
+1. In the **License server address:** text box enter the server URL: http://HS034888 (copy the URL, you will need it for each of the licencses).
 1. Click the **Activate** button and you're done.
 
 The first time you launch Rider you will be asked to accept the license agreement and you will also be able to make some decisions about Rider's appearance and options. Here are my recommendations:
