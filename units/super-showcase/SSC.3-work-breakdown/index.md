@@ -11,14 +11,17 @@
 
 ### Learning Targets:
 
-* I can break a project into a set of smaller tasks.
+* I can identify milestones that mark progress towards completing a project.
+* I can list the tasks (accomplishments) that go into achieving a milestone.
+* I can break a task into a set of smaller steps.
 
 ## Instructions
 
-1. Make a copy of the [submission template][template] and fill it out.
+1. Have one person in your team make a copy of the [submission template][template] and add it to the project README on GitHub.
+1. Also share it with the members of your team.
+1. With your team fill in the milestones and start assigning the tasks that are necessary to reach them.
 1. Once you've completed the template, submit it.
 
 ## Submission
 
 After completing your [template][], submit a PDF through Canvas - **do not** submit by sharing the document.
-
