@@ -54,7 +54,7 @@ Introduce:
     - Change to prefab changes all instances
     - Change to an instance of a prefab effects only that instance
 
-### Rider - Text Editor (and debugger) for C#
+### Rider - Text Editor (and debugger) for C&#35;
 
 Tasks:
 * First launch and connect to license server and select options
