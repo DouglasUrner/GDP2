@@ -39,6 +39,15 @@ The tentative date for the state contest is Sunday the 12th of May at the Highli
 
 ### [2017 Awards Ceremony and Winning Games][2017]
 
+## 2016
+
+### Prompt
+
+All classes were given the same prompt and eight weeks to complete a game based on **Retro Mash-Up** where they had to combine game-play elements from at least two “retro” games into a modern interpretation.
+
+### [2016 Awards Ceremony and Winning Games][2016]
+
+[2016]: http://capitalcomtech.info/2016/05/23/2016-state-game-design-contest/
 [2017]: http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/
 [2018]: http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/
 [2019]: http://capitalcomtech.info/2019/05/13/2019-state-game-design-super-showcase-contest/
