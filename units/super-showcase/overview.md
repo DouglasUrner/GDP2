@@ -23,15 +23,13 @@ The tentative date for the state contest is Sunday the 12th of May at the Highli
 
 ### [2019 Awards Ceremony and Game Presentations][2019]
 
-[2019]: http://capitalcomtech.info/2019/05/13/2019-state-game-design-super-showcase-contest/
-
 ## 2018
 
 ### Prompt
 
 **Your game must take place within one single room:** _Think Keep Talking and No One Explodes, to The Room, to Toy Story._
 
-### [2018 Awards Ceremony and Winning Games](http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/)
+### [2018 Awards Ceremony and Winning Games][2018]
 
 ## 2017
 
@@ -39,6 +37,12 @@ The tentative date for the state contest is Sunday the 12th of May at the Highli
 
 **TIME TRAVEL:** _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns._
 
-### [2017 Awards Ceremony and Winning Games](http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/)
+### [2017 Awards Ceremony and Winning Games][2017]
+
+[2017]: http://capitalcomtech.info/2017/05/22/2017-state-game-design-super-showcase-contest/
+[2018]: http://capitalcomtech.info/2018/05/21/2018-state-game-design-super-showcase-contest/
+[2019]: http://capitalcomtech.info/2019/05/13/2019-state-game-design-super-showcase-contest/
+
+
 
 
