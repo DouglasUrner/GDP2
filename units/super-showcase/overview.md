@@ -35,7 +35,7 @@ The tentative date for the state contest is Sunday the 12th of May at the Highli
 
 ### Prompt
 
-**TIME TRAVEL:** _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns._
+**TIME TRAVEL:** _The game should take place before the year 1900, however, that is the only guideline. Games can vary anywhere from “Cross the Delaware” to “Build as many pyramids as you can before the mothership returns."_
 
 ### [2017 Awards Ceremony and Winning Games][2017]
 
