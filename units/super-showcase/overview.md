@@ -21,6 +21,10 @@ The tentative date for the state contest is Sunday the 12th of May at the Highli
 
 **Primary Protagonist must be either an Infant or Elderly person.**
 
+### [The Videos][2019[
+
+[2019]: http://capitalcomtech.info/2019/05/13/2019-state-game-design-super-showcase-contest/
+
 ## 2018
 
 ### Prompt
