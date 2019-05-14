@@ -5,7 +5,7 @@
 
 ## In Brief
 
-Teams, of up to five people, work with the same prompt and have (about) eight weeks to complete the challenge. Local winners go on to the state-wide competition is (or near) Seattle.
+Teams, of up to five people, work with the same prompt and have (about) eight weeks to complete the challenge. Local winners go on to the state-wide competition in (or near) Seattle.
 
 There are two categories:
 * Skill Centers (540 hours per year)
