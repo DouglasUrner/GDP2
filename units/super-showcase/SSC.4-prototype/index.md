@@ -7,6 +7,11 @@
 
 Your prototype should demonstrate a **testable** portion of your game - **and** a milestone on your work breakdown. In other words, you should be able to demonstrate that you are working your plan and that you have some progress to show for your work. The reality of developing a substantial software project often means that plans have to be adjusted - that's to be expected - but it also means that your milestones, work breakdown, and individual tasks must be adjusted to reflect the adjustments.
 
+A reasonable benchmark for your first prototype would be to have:
+* A player character that moves.
+* An environment in which the game takes place.
+* An object of interest that the player can interact with.
+
 [slides]: #
 [template]: <https://docs.google.com/document/d/1AzVB-j6xPWUQdh4XCkXIobFUrSgPnXPNldLilIujru4/edit?usp=sharing>
 
