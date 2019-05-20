@@ -6,7 +6,7 @@
 # Beta Release
 
 [slides]: #
-[template]: <https://docs.google.com/document/d/1AzVB-j6xPWUQdh4XCkXIobFUrSgPnXPNldLilIujru4/edit?usp=sharing>
+[template]: <https://docs.google.com/document/d/16W-PT8t8KqZC8IV52OgroBG3W65gts5mQ9yKROutdD0/edit?usp=sharing>
 
 ### Learning Targets:
 
