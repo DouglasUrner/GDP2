@@ -27,4 +27,6 @@ You can find more detail in the [slides][].
 1. Fork the class page.
 1. Add a link to your game and add your questions.
 1. Create a pull request for me to merge in your changes (which will make your game and questions visible).
-1. Submit - template with the feedback that you got on your contributions from your testers.
+1. Submit the template and go on to the [playtest][].
+
+[playtest]: <>
