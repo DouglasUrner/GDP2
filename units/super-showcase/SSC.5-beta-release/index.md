@@ -23,4 +23,5 @@
 1. Fork
 1. Add link
 1. Pull request
+1. Make a copy of the [template][].
 1. Submit - feedback you want from testers on your contribution to the game.
