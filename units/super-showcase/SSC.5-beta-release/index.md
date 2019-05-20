@@ -10,9 +10,9 @@
 
 ### Learning Targets:
 
-* I can 
-* I can 
-* I can 
+* I can build a web deployable version of a Unity game.
+* I can fork a GitHub repository.
+* I can create a pull request on GitHub.
 
 ## Instructions
 
