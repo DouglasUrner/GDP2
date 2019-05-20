@@ -5,7 +5,7 @@
 
 # Beta Release
 
-[slides]: #
+[slides]: <https://docs.google.com/presentation/d/1VyPAxRbLP90H9IzFjSeHNPmrEqqRmdrdk_j4Y7v7chc/edit?usp=sharing>
 [template]: <https://docs.google.com/document/d/16W-PT8t8KqZC8IV52OgroBG3W65gts5mQ9yKROutdD0/edit?usp=sharing>
 
 ### Learning Targets:
@@ -16,12 +16,15 @@
 
 ## Instructions
 
-1. Build for web
+You can find more detail in the [slides][].
+
+1. Build a WebGL version of your game.
+1. Test it in your browser.
+1. After resolving any problems, push the game to GitHub.
+1. Configure GitHub Pages for the game repository.
 1. Test
-1. Deploy
-1. Configure GitHub Pages
-1. Fork
-1. Add link
-1. Pull request
-1. Make a copy of the [template][].
-1. Submit - feedback you want from testers on your contribution to the game.
+1. Make a copy of the [template][] and list the feedback that you would like from the playtest.
+1. Fork the class page.
+1. Add a link to your game and add your questions.
+1. Create a pull request for me to merge in your changes (which will make your game and questions visible).
+1. Submit - template with the feedback that you got on your contributions from your testers.
