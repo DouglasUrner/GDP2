@@ -4,9 +4,9 @@
 * [SSC.1][]
 * [SSC.2][]
 * [SSC.3][]
-* [SSC.4][]
-* [SSC.5: Beta Release][]
-* [SSC.6: Playtest][]
+* [SSC.4][ssc.4]
+* [SSC.5: Beta Release][ssc.5]
+* [SSC.6: Playtest][ssc.6]
 
 
 [overview]: <overview>
