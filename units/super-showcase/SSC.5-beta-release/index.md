@@ -19,7 +19,7 @@
 You can find more detail in the [slides][].
 
 1. Build a WebGL version of your game.
-1. Test it in your browser.
+1. Test the build in your browser.
 1. After resolving any problems, push the changes to GitHub.
 1. Go to the [GDP-Playtest][gdp-playtest] repository on GitHub and make a fork of it.
 1. Clone the fork to your computer.
