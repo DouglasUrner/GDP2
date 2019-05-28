@@ -34,4 +34,4 @@ You can find more detail in the [slides][].
 1. Submit the template and go on to the [playtest][].
 
 [gdp-playtest]: <https://github.com/DouglasUrner/GDP-Playtest>
-[playtest]: <>
+[playtest]: <https://canvas.instructure.com/courses/1405044/assignments/11404484>
