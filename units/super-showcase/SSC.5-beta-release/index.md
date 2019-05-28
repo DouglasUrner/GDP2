@@ -20,7 +20,7 @@ You can find more detail in the [slides][].
 
 1. Build a WebGL version of your game.
 1. Test it in your browser.
-1. After resolving any problems, push the game to GitHub.
+1. After resolving any problems, push the changes to GitHub.
 1. Configure GitHub Pages for the game repository.
 1. Test
 1. Make a copy of the [template][] and list the feedback that you would like from the playtest.
