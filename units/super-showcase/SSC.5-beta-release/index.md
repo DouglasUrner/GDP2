@@ -21,7 +21,7 @@ You can find more detail in the [slides][].
 1. Build a WebGL version of your game.
 1. Test it in your browser.
 1. After resolving any problems, push the changes to GitHub.
-1. Make a fork of the []() repository.
+1. Make a fork of the [GDP-Playtest][gdp-playtest] repository.
 1. Clone the fork to your computer.
 1. Copy the **Build** folder from your game to the **Games/2019** folder in the cloned Playtest repository.
 1. Add a link to your game and add your questions.
@@ -29,4 +29,5 @@ You can find more detail in the [slides][].
 1. Create a pull request for me to merge in your changes (which will make your game and questions visible).
 1. Submit the template and go on to the [playtest][].
 
+[gdp-playtest]: <https://github.com/DouglasUrner/GDP-Playtest>
 [playtest]: <>
