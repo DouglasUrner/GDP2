@@ -21,11 +21,11 @@ You can find more detail in the [slides][].
 1. Build a WebGL version of your game.
 1. Test it in your browser.
 1. After resolving any problems, push the changes to GitHub.
-1. Configure GitHub Pages for the game repository.
-1. Test
-1. Make a copy of the [template][] and list the feedback that you would like from the playtest.
-1. Fork the class page.
+1. Make a fork of the []() repository.
+1. Clone the fork to your computer.
+1. Copy the **Build** folder from your game to the **Games/2019** folder in the cloned Playtest repository.
 1. Add a link to your game and add your questions.
+1. Make a copy of the [template][] and list the feedback that **you** would like from the playtest.
 1. Create a pull request for me to merge in your changes (which will make your game and questions visible).
 1. Submit the template and go on to the [playtest][].
 
