@@ -26,7 +26,8 @@ You can find more detail in the [slides][].
 1. Experiment with the repository in your browser (especially **index.md**) to see how it works, you can also look at the [live site](https://douglasurner.github.io/GDP-Playtest/) - it should be close to identical what you see on GitHub.
 1. Copy the **Build** folder from your game to the **Games/2018-2019** folder in the cloned GDP-Playtest repository.
 1. Rename the folder - name it after your game.
-1. Edit the **index.md** to add a link to your game and add your questions.
+1. Push your changes back to GitHub.
+1. On GitHub, edit the **index.md** to add a link to your game and add your questions.
 1. Make a copy of the [template][] and list the feedback that **you** would like from the playtest.
 1. Create a pull request for me to merge in your changes (which will make your game and questions visible).
 1. Submit the template and go on to the [playtest][].
