@@ -38,11 +38,12 @@ With your milestones in place, breakdown them down into tasks that need to be ac
 
 ## Instructions
 
-1. Have one person in your team make a copy of the [workbreakdown template][template] and add a lint to it in the project README on GitHub. If you don't remember how to add a link in a [Markdown][] document, go back to the SSC.1 assignmnent and look a how you created the link to the Game Design Document.
+1. Have one person in your team make a copy of the [workbreakdown template][template] and add a link to it in the project README on GitHub. If you don't remember how to add a link in a [Markdown][] document, go back to the SSC.1 assignmnent and look a how you created the link to the Game Design Document.
 1. Also share it with the members of your team.
 1. With your team fill in the milestones and start assigning the tasks that are necessary to reach them.
+1. For the task(s) assigned to you, begin breaking them down into a detailed todo list - you should have goals for the next few classes. Items further out can be more general, but you should be adding detail as you go. At a minimum the work breakdown should tell you (and anyone else refering to it) what you are planning to work on in today's class and in the next class - it should be updated regularly.
 1. Once you've completed the template, submit it.
 
 ## Submission
 
-After completing your [template][], submit a PDF through Canvas - **do not** submit by sharing the document.
+After completing your edits to the  [work breakdown template][template], submit a PDF through Canvas - **do not** submit by sharing the document.
