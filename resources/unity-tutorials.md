@@ -35,6 +35,9 @@
 [Unity Tutorial: Quiz Game 1](https://learn.unity.com/tutorial/live-session-quiz-game-1)  
 [Unity Tutorial: Quiz Game 2](https://learn.unity.com/tutorial/live-session-quiz-game-2)
 
+[Recorded Video Session: Text Adventure Game Part 1](https://learn.unity.com/tutorial/recorded-video-session-text-adventure-game-part-1)  
+[Recorded Video Session: Text Adventure Game Part 2](https://learn.unity.com/tutorial/recorded-video-session-text-adventure-game-part-2)
+
 
 ## 3D
 
