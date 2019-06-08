@@ -4,6 +4,7 @@
 
 [Coding in Unity for the Absolute Beginner](https://learn.unity.com/tutorial/coding-in-unity-for-the-absolute-beginner)  
 [Beginner Gameplay Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)  
+[Communicating Between Scripts and GameObjects](https://learn.unity.com/tutorial/communicating-between-scripts-and-gameobjects)  
 
 ## 2D
 
