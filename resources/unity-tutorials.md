@@ -2,7 +2,8 @@
 
 ## Programming - Writing C# Scripts
 
-[Beginner Gameplay Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)
+[Coding in Unity for the Absolute Beginner](https://learn.unity.com/tutorial/coding-in-unity-for-the-absolute-beginner)  
+[Beginner Gameplay Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)  
 
 ## 2D
 
