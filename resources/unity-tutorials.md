@@ -24,6 +24,12 @@
 
 [Unity Tutorial: Platform|Scroller](https://www.youtube.com/playlist?list=PLFt_AvWsXl0e-g21S-MiPArfEhlv9pUgC)
 
+### Other
+
+[Unity Tutorial: Quiz Game 1](https://learn.unity.com/tutorial/live-session-quiz-game-1)  
+[Unity Tutorial: Quiz Game 2](https://learn.unity.com/tutorial/live-session-quiz-game-2)
+
+
 ## 3D
 
 ## Techniques
