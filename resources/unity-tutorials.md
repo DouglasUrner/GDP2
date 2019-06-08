@@ -1,5 +1,9 @@
 # Unity Tutorials
 
+## Programming - Writing C# Scripts
+
+[Beginner Gameplay Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)
+
 ## 2D
 
 ### Classics
