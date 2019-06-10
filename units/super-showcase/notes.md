@@ -1,6 +1,7 @@
 # Major Project Notes
 
 <details><summary>
+  
   ## Deliverables
   </summary>
   
