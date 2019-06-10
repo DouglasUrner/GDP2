@@ -17,3 +17,15 @@
   
 * 
 </details>
+
+<details><summary><strong>Roles</strong></summary>
+  
+* Team Lead
+  - Schedule & planning
+  - Pull requests
+  - Team spokesperson
+* Designer
+* Programmer
+* Artist
+* Documentation
+</details>
