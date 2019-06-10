@@ -2,7 +2,7 @@
 
 <details><summary>
   
-  ## Deliverables
+  **Deliverables**
   </summary>
   
 * Design documents
