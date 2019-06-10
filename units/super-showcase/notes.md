@@ -1,6 +1,7 @@
 # Major Project Notes
 
 <details><summary>## Deliverables</summary>
+  
 * Design documents
 * A game, per the prompt, in playable form (built to WebGL):
   - Opening screen
