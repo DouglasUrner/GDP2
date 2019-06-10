@@ -1,5 +1,7 @@
 # Major Project Notes
 
+Timeframe 6 - 8 weeks.
+
 <details><summary><strong>Deliverables</strong></summary>
   
 * Design documents
