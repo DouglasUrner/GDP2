@@ -13,4 +13,7 @@
 * Repository
 </details>
 
-## Essential Tasks
+<details><summary><strong>Essential Tasks</strong></summary>
+  
+* 
+</details>
