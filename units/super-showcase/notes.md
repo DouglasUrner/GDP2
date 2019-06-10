@@ -1,7 +1,6 @@
 # Major Project Notes
 
-## Deliverables
-
+<details><summary>## Deliverables</summary>
 * Design documents
 * A game, per the prompt, in playable form (built to WebGL):
   - Opening screen
@@ -11,5 +10,6 @@
 * Presentation
 * Team evaluation
 * Repository
+</details>
 
 ## Essential Tasks
