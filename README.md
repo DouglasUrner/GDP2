@@ -1,5 +1,5 @@
 # GDP2
-Game Design &amp; Programming 2
 
-* [Unit 0: Getting Started](https://github.com/DouglasUrner/GDP2/tree/master/units/0)
-* [Unit 1: Introduction to Unity and C#](https://github.com/DouglasUrner/GDP2/tree/master/units/1)
+**Game Design & Programming 2**
+
+Based on the Unity [*Create With Code*](https://learn.unity.com/course/create-with-code) curriculum.
