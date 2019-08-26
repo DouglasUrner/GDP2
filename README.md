@@ -2,4 +2,4 @@
 
 **Game Design & Programming 2**
 
-Using the Unity *Create With Code* curriculum.
+Based on the Unity [*Create With Code*](https://learn.unity.com/course/create-with-code) curriculum.
