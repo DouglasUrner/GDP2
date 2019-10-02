@@ -1,6 +1,9 @@
 * The simple little game of life
 * The World Peace Game (TED Talk)
 * Jane McGonagal's experiments
+  -
+  -
+  -
 * "Walk in my shoes" trans game
 * Mario (teaching how to play)
 * Minecraft
